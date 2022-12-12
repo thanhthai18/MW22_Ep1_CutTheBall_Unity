@@ -5,7 +5,7 @@ using UnityEngine;
 public class MouseTrail : MonoBehaviour
 {
     [SerializeField] private Camera mainCamera;
-    private TrailRenderer trail;
+    public TrailRenderer trail;
 
     private bool isHoldMouse;
 
