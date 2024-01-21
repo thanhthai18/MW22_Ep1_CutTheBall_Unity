@@ -1,0 +1,491 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Enemy_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: f7c0e61f7eda15a48a8291ccfdda88fc, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 1093204209664
+    m_Localized: Wild Mushroom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093233569792
+    m_Localized: Toxic Mushroom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764096
+    m_Localized: BlueBerry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764097
+    m_Localized: Peach
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764098
+    m_Localized: Brown Bunny Jelly
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764099
+    m_Localized: Explode Dog
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764100
+    m_Localized: Pomergranate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764101
+    m_Localized: Beetroot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764102
+    m_Localized: Grape
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764103
+    m_Localized: Bell Pepper
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764104
+    m_Localized: Yellow Treant Guard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764105
+    m_Localized: Yellow Treant Mushroom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764106
+    m_Localized: Yellow Treant Poop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764107
+    m_Localized: Man Eater Tree
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764108
+    m_Localized: Cactus tree
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764109
+    m_Localized: Red Scorpion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764110
+    m_Localized: Yellow Sand Monster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764111
+    m_Localized: 'Golden Spear Anubis '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764112
+    m_Localized: Anubis Warrior
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764113
+    m_Localized: Anubis Mage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764114
+    m_Localized: Brown Sky Wing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764115
+    m_Localized: White Little Ghost
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764116
+    m_Localized: Brown Pumpkin Ghost
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764117
+    m_Localized: Skeleton Fighter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764118
+    m_Localized: Skeleton Commander
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764119
+    m_Localized: Skeleton Archer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764120
+    m_Localized: Skeleton Mage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764121
+    m_Localized: Green Wild Boar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764122
+    m_Localized: Minotaur Red Axe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764123
+    m_Localized: Minotaur Red Spear
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764124
+    m_Localized: Minotaur Cannon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764125
+    m_Localized: Black Imp Trident
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764126
+    m_Localized: Black Imp Spear
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764127
+    m_Localized: Black Imp Caster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764128
+    m_Localized: Grey Mimic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764129
+    m_Localized: Hungry Bat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764130
+    m_Localized: Armoured Guard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764131
+    m_Localized: Armoured Archer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764132
+    m_Localized: Unknown Mage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764133
+    m_Localized: Yellow Bunny Jelly
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764134
+    m_Localized: Green Bunny Jelly
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764135
+    m_Localized: Durian Hedgehog
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764136
+    m_Localized: Watermelon Octopus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764137
+    m_Localized: Dark Octopus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764138
+    m_Localized: Swamp King
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764139
+    m_Localized: Chiwi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764140
+    m_Localized: N/A
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764141
+    m_Localized: N/A
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764142
+    m_Localized: Chimera
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764143
+    m_Localized: Giant Rock
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764144
+    m_Localized: Big Tiger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764145
+    m_Localized: Attack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764146
+    m_Localized: Defense
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764147
+    m_Localized: AttackSpeed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764148
+    m_Localized: CritDamage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764149
+    m_Localized: Defense Penetration
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764150
+    m_Localized: Crit Rate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764151
+    m_Localized: Fixed Damage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871010459648
+    m_Localized: Blue Bunny Jelly
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625472
+    m_Localized: Suicide Bug
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625473
+    m_Localized: Frost Boar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625474
+    m_Localized: Angry Snowman
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625475
+    m_Localized: Lava Suicide Bug
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625476
+    m_Localized: Red Treant Guard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625477
+    m_Localized: Red Treant Mushroom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625478
+    m_Localized: Red Treant Poop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625479
+    m_Localized: Cannibal Tree
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625480
+    m_Localized: Red Sky Wing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625481
+    m_Localized: Skeleton Sword
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625482
+    m_Localized: Skeleton Elite
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625483
+    m_Localized: Deadly Skeleton Archer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625484
+    m_Localized: Sinister Skeleton Mage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625485
+    m_Localized: Red Eye Hungry Bat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625486
+    m_Localized: Golden Mimic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625487
+    m_Localized: Fade Skeleton Fighter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625488
+    m_Localized: Fade Skeleton Leader
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625489
+    m_Localized: Fade Skeleton Archer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625490
+    m_Localized: Fade Skeleton Mage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625491
+    m_Localized: Green Treant Melee
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625492
+    m_Localized: Green Treant Mushroom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625493
+    m_Localized: Green Treant Poop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625494
+    m_Localized: Yellow Scorpion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625495
+    m_Localized: Red Sand Monster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625496
+    m_Localized: Red Imp Trident
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625497
+    m_Localized: Red Imp Spear
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625498
+    m_Localized: Red Imp Caster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625499
+    m_Localized: Black Sky Wing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625500
+    m_Localized: Green Little Ghost
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625501
+    m_Localized: Angry Little Ghost
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625502
+    m_Localized: Brown Mimic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625503
+    m_Localized: Cannibalistic Plant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625504
+    m_Localized: Blue Sand Monster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625505
+    m_Localized: Black Pumpkin Ghost
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625506
+    m_Localized: Red Pumpkin Ghost
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625507
+    m_Localized: Brown Scorpion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625508
+    m_Localized: Poisonous Hungry Bat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625509
+    m_Localized: Yellow Imp Trident
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625510
+    m_Localized: Yellow Imp Spear
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625511
+    m_Localized: Yellow Imp Caster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625512
+    m_Localized: Brown Wild Boar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625513
+    m_Localized: Red Mane Wild Boar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625514
+    m_Localized: Mad Minotaur Axe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625515
+    m_Localized: Mad Minotaur Spear
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625516
+    m_Localized: Mad Minotaur Canon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625517
+    m_Localized: Ice Minotaur Axe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625518
+    m_Localized: Ice Minotaur Spear
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871039819776
+    m_Localized: Ice Minotaur Cannon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15647856237989888
+    m_Localized: Saber Tooth
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15647856263155712
+    m_Localized: Yeti
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15647856263155713
+    m_Localized: Lava Dragon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15647856263155714
+    m_Localized: Lucifer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15647856263155715
+    m_Localized: King Golden Mimic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30396376169828352
+    m_Localized: King Golden Mimic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30396376186605568
+    m_Localized: Durian Hedgehog
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30396376186605569
+    m_Localized: Big Tiger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30396376190799872
+    m_Localized: Giant Rock
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871039819780
+    m_Localized: Brown Mimic
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

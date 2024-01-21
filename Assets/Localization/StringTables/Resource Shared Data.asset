@@ -1,0 +1,304 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Resource Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Resource
+  m_TableCollectionNameGuidString: ae9f4babf875f2243aae7fb67f727c8e
+  m_Entries:
+  - m_Id: 173762441219
+    m_Key: gold
+    m_Metadata:
+      m_Items: []
+  - m_Id: 173749858304
+    m_Key: gem
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5446568481116160
+    m_Key: wood
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5446568514670592
+    m_Key: food
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5446568514670593
+    m_Key: green_crystal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5446568514670594
+    m_Key: red_crystal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5446568514670595
+    m_Key: violet_crystal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5446568514670596
+    m_Key: battle_pass_exp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5446568514670597
+    m_Key: daily_quest_exp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14904013007867904
+    m_Key: ticket_refresh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36587427240067072
+    m_Key: weekly_quest_exp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36587427256844288
+    m_Key: hero_fragment
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36587427256844289
+    m_Key: lava_lake_scroll
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36587427256844290
+    m_Key: glacier_cave_scroll
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36587427256844291
+    m_Key: lost_city_scroll
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36587427256844292
+    m_Key: illusion_desert_scroll
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36587427256844293
+    m_Key: dark_castle_scroll
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40944996258402304
+    m_Key: equipment
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46214546105290752
+    m_Key: lava_lake_scroll_rare
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46214546105290753
+    m_Key: lava_lake_scroll_epic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46214546105290754
+    m_Key: lava_lake_scroll_legend
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46214546105290755
+    m_Key: glacier_cave_scroll_rare
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46214546105290756
+    m_Key: glacier_cave_scroll_epic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46214546105290757
+    m_Key: glacier_cave_scroll_legend
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46214546105290758
+    m_Key: lost_city_scroll_rare
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46214546105290759
+    m_Key: lost_city_scroll_epic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46214546105290760
+    m_Key: lost_city_scroll_legend
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46214546109485056
+    m_Key: illusion_desert_scroll_rare
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46214546109485057
+    m_Key: illusion_desert_scroll_epic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46214546109485058
+    m_Key: illusion_desert_scroll_legend
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46214546109485059
+    m_Key: dark_castle_scroll_rare
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46214546109485060
+    m_Key: dark_castle_scroll_epic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46214546109485061
+    m_Key: dark_castle_scroll_legend
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45612592042020864
+    m_Key: gold_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45612592071380992
+    m_Key: gem_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45612592071380993
+    m_Key: wood_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45612592071380994
+    m_Key: food_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45612592071380995
+    m_Key: green_crystal_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45612592071380996
+    m_Key: red_crystal_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45612592071380997
+    m_Key: violet_crystal_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45612592071380998
+    m_Key: battle_pass_exp_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45612592071380999
+    m_Key: daily_quest_exp_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45612592071381000
+    m_Key: ticket_refresh_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45612592071381001
+    m_Key: weekly_quest_exp_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45612592071381002
+    m_Key: hero_fragment_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46212445673345024
+    m_Key: lava_lake_scroll_rare_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46212445694316544
+    m_Key: lava_lake_scroll_epic_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46212445694316545
+    m_Key: lava_lake_scroll_legend_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46212445694316546
+    m_Key: glacier_cave_scroll_rare_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46212445694316547
+    m_Key: glacier_cave_scroll_epic_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46212445694316548
+    m_Key: glacier_cave_scroll_legend_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46212445694316549
+    m_Key: lost_city_scroll_rare_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46212445694316550
+    m_Key: lost_city_scroll_epic_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46212445694316551
+    m_Key: lost_city_scroll_legend_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46212445694316552
+    m_Key: illusion_desert_scroll_rare_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46212445694316553
+    m_Key: illusion_desert_scroll_epic_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46212445694316554
+    m_Key: illusion_desert_scroll_legend_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46212445694316555
+    m_Key: dark_castle_scroll_rare_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46212445694316556
+    m_Key: dark_castle_scroll_epic_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46212445694316557
+    m_Key: dark_castle_scroll_legend_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45612592071381008
+    m_Key: equipment_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46212445694316558
+    m_Key: dungeon_skip_ads
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46212445694316559
+    m_Key: treasure_chest_skip_ads
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46212445694316560
+    m_Key: no_ads_skip_ads
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46212445694316561
+    m_Key: gold_skip_ads
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46212445694316562
+    m_Key: dungeon_skip_ads_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46212445698510848
+    m_Key: treasure_chest_skip_ads_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46212445698510849
+    m_Key: no_ads_skip_ads_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46212445698510850
+    m_Key: gold_skip_ads_description
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 6610968095691636785
+  references:
+    version: 2
+    RefIds:
+    - rid: 6610968095691636785
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1692688436094

@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Stats_id
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: id
+  m_SharedData: {fileID: 11400000, guid: 42f1db742472e9d449ab1c62202a9532, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 141610332160
+    m_Localized: Buka kunci
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141916516352
+    m_Localized: Terkunci
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141916516354
+    m_Localized: Serang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141920710656
+    m_Localized: Poin Kesehatan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141920710670
+    m_Localized: Portal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141920710671
+    m_Localized: Maks. Anggota
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141920710672
+    m_Localized: Kemah
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141920710673
+    m_Localized: Tingkat CRIT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141920710674
+    m_Localized: Evasi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141920710675
+    m_Localized: Serang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141920710676
+    m_Localized: Poin Kesehatan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141920710677
+    m_Localized: Buka Portal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141920710678
+    m_Localized: Batas Anggota {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141920710679
+    m_Localized: Buka Trampil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141920710680
+    m_Localized: Tingkat CRIT Pahlawan {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141920710681
+    m_Localized: Tingkat Evasi Pahlawan {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141920710682
+    m_Localized: Kerusakan Pahlawan {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141920710683
+    m_Localized: HP Pahlawan {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4311359660478464
+    m_Localized: Poin Kesehatan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4311359660478465
+    m_Localized: Serang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4311359660478471
+    m_Localized: Evasi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4311359635312640
+    m_Localized: Kekuatan Tempur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4311359660478466
+    m_Localized: Kecepatan Gerak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4311359660478467
+    m_Localized: Peluang Kritis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4311359660478468
+    m_Localized: Kerusakan Kritis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4311359660478469
+    m_Localized: Jarak Serangan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4311359660478472
+    m_Localized: Reduksi Kerusakan Tetap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4311359660478473
+    m_Localized: Reduksi Kerusakan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4311359660478474
+    m_Localized: Penyerapan Hidup
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4311359660478475
+    m_Localized: Kecepatan Serangan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4311359660478477
+    m_Localized: Pengurangan Cooldown
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4311359660478478
+    m_Localized: Kerusakan Potong
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4311359660478479
+    m_Localized: Kerusakan Pertambangan
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

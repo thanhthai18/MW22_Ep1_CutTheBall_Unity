@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Tutorial_fil
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: fil
+  m_SharedData: {fileID: 11400000, guid: 571de98d4fb466646aee9ab68b147357, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 393292312577
+    m_Localized: Kailangan kita ng tulong upang sirain ang mga monsters at makuha
+      ang susi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 393292312578
+    m_Localized: Wala kaming maraming oras, ang mundong ito ay gumuho
+    m_Metadata:
+      m_Items: []
+  - m_Id: 393296506880
+    m_Localized: Ang halimaw ay may hawak na susi, nai -save ako!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17789159763968
+    m_Localized: Kailangan mong sirain ang mga monsters at ibigay ang daan sa usok!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17789189124096
+    m_Localized: Lumabas sa harap ko, mga daga at insekto!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17789189124097
+    m_Localized: Gaano ka kaawa-awa!!!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17789189124098
+    m_Localized: 
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17789189124099
+    m_Localized: Hanapin ang iyong daan patungo sa nayon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17789189124100
+    m_Localized: Dalhin ko ang ikalawang pagkakataon sa iyo !!!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17789189124101
+    m_Localized: Wala kang laban sa aking amo!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2552779069599744
+    m_Localized: Ang madilim na Panginoon ay marahil narito, kailangan kong magmadali
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3855673513357312
+    m_Localized: Hindi tayo puwedeng magtapos nang ganito!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3855673580466176
+    m_Localized: Tutulungan kita!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7921627686531072
+    m_Localized: Salamat sa iyong tulong
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7921627699113984
+    m_Localized: Tara, patayin ang mga halimaw na ito!!!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7921627699113985
+    m_Localized: Salamat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7961588762701824
+    m_Localized: Dumating ako upang tulungan ka
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7961588771090432
+    m_Localized: Hayaan mo akong makatulong sa iyo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18773562454994944
+    m_Localized: Pwedeng gamitin ang Berdeng Kristal para mapabuti ang lakas ng iyong
+      team
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18773562467577856
+    m_Localized: Pwede rin gamitin ang Pula Kristal para sa pag-upgrade ng Special
+      Power. Una, alamin muna kung paano gamitin ang portal para bumalik sa bahay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19124917208338432
+    m_Localized: Maaari kang mag-recruit ng mas maraming mga bayani upang mapabuti
+      ang lakas ng koponan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21716024011505664
+    m_Localized: "Sa taon 16xx, ang panahon ng kapayapaan, mula sa mga kalaliman
+      ng kadiliman, ang Dark Lord ay bumalik \u2014 isang tauhan na noon ay nagmanipula
+      ng mga tali upang likhain ang mga digmaan sa pagitan ng mga sibilisasyon. Sa
+      pagkakataong ito, siya at ang kanyang makapangyarihang hukbo ay direkta ng
+      gumagamit ng lakas upang pigilan ang mga mundo na hindi sumusunod sa mga utos,
+      binabalot ang lahat sa nakakalasong ulap at kadiliman. Sa pagpapansin sa kanyang
+      pag-iral, si Arthur at ang mga mandirigma ng panahon ay agad na nagtungo upang
+      hanapin ang paraan upang pigilan ang kanyang mga plano. Natuklasan niya ang
+      nakatagong pook ng Dark Lord at handang sumalakay upang lipulin ang kaaway."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31874488116715520
+    m_Localized: Ngayon, mag-click dito para simulan ang pagpili ng mapa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31874488120909824
+    m_Localized: Maaari kang pumili ng mapa na nais mong pasukin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31874488120909825
+    m_Localized: Pumasok sa Shadow Tower, kung saan itinatayo ng dark lord ang kanyang
+      sariling hukbo ng dark hero
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31874488120909826
+    m_Localized: Piliin ang iyong paboritong lineup para makipaglaban
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33704331686432768
+    m_Localized: Nahanap ko ang daan patungo sa kaban ng Dark lord. Tara, tuklasin
+      natin ito!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33704331707404288
+    m_Localized: Kailangan mong patayin ang mimic na nagbabantay sa yaman bago magtapos
+      ang oras, mayroon lang tayong 60 segundo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33704331707404289
+    m_Localized: Mag-ekipa ng sandata at armas upang gawing mas malakas ang iyong
+      mga bayani!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33704331707404290
+    m_Localized: Nasa punto tayo ng pagharap sa hukbo ng Dark Lord. Handa na tayo!
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

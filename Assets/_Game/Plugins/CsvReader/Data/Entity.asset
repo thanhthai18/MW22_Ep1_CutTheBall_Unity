@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f48964f8dfc931343af9c4058de12db4, type: 3}
+  m_Name: Entity
+  m_EditorClassIdentifier: 
+  classInfomations:
+  - className: Runtime.Config.HeroConfig
+    csvInformations:
+    - className: Runtime.Config.HeroConfig
+      csvFile: {fileID: 0}
+      csvPath: 
+      usingFolder: 1
+      csvFolderPath: Assets/Csv/Entity/Character/Hero
+      separateScriptableObject: 1
+      fileStartWith: Hero_
+      fieldSetValue: items
+      isConvert: 0
+      convertMethod: 
+  - className: Runtime.Config.BossConfig
+    csvInformations:
+    - className: Runtime.Config.BossConfig
+      csvFile: {fileID: 0}
+      csvPath: 
+      usingFolder: 1
+      csvFolderPath: Assets/Csv/Entity/Character/Boss
+      separateScriptableObject: 1
+      fileStartWith: Boss_
+      fieldSetValue: items
+      isConvert: 0
+      convertMethod: 
+  - className: Runtime.Config.EnemyConfig
+    csvInformations:
+    - className: Runtime.Config.EnemyConfig
+      csvFile: {fileID: 4900000, guid: 6cf9903b53752d741aff6b3cec2f49a0, type: 3}
+      csvPath: Assets/Csv/Entity/Character/Enemy/Enemy.csv
+      usingFolder: 1
+      csvFolderPath: Assets/Csv/Entity/Character/Enemy
+      separateScriptableObject: 1
+      fileStartWith: Enemy_
+      fieldSetValue: items
+      isConvert: 0
+      convertMethod: 
+  - className: Runtime.Config.ObjectConfig
+    csvInformations:
+    - className: Runtime.Config.ObjectConfig
+      csvFile: {fileID: 4900000, guid: 1a4a0c3cb0943ba4bb69ff936b8693e5, type: 3}
+      csvPath: Assets/Csv/Entity/Object/Object.csv
+      usingFolder: 0
+      csvFolderPath: 
+      separateScriptableObject: 0
+      fileStartWith: 
+      fieldSetValue: items
+      isConvert: 0
+      convertMethod: 

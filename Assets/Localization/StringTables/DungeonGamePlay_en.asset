@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: DungeonGamePlay_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: afa303ff4924b9349a18e42da1cdb509, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 1239900213248
+    m_Localized: REWARDS OBTAINED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1239912796160
+    m_Localized: bonus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1239912796161
+    m_Localized: Touch to return the home
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1239912796162
+    m_Localized: Give up
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1239916990464
+    m_Localized: Revive
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1239916990465
+    m_Localized: Explore a dungeon to obtain rewards
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1239916990466
+    m_Localized: No rewards have been obtained
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9309468479488
+    m_Localized: You're almost there
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9988475965440
+    m_Localized: Return the home
+    m_Metadata:
+      m_Items: []
+  - m_Id: 695966509289472
+    m_Localized: Kill Streak Bonus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5345051744915456
+    m_Localized: KILL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6894207739129856
+    m_Localized: Next Floor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24983679974494208
+    m_Localized: Are you sure you want to stop here?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24983679995465728
+    m_Localized: Stay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32633247696408576
+    m_Localized: Easy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32633247725768704
+    m_Localized: Normal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32633247725768705
+    m_Localized: Hard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32633247725768706
+    m_Localized: Very Hard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32633247725768707
+    m_Localized: Lava Lake
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32633247725768708
+    m_Localized: Glacier Cave
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32633247725768709
+    m_Localized: Lost City
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32633247725768710
+    m_Localized: Illusion Desert
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32633247725768711
+    m_Localized: Dark Castle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32633951525785600
+    m_Localized: Select a map.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32639383757639680
+    m_Localized: entry available
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32639383766028288
+    m_Localized: Hell
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32639383766028289
+    m_Localized: Heroes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32639383766028290
+    m_Localized: Recommended
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33630354319589376
+    m_Localized: You don't have any entry materials.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

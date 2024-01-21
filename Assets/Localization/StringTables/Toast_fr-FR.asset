@@ -1,0 +1,166 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Toast_fr-FR
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: fr-FR
+  m_SharedData: {fileID: 11400000, guid: a685d6e34661fa54d86bd3b5dc806f6c, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 211898478592
+    m_Localized: Pas assez de {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 212158525440
+    m_Localized: Ressources insuffisantes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 374848674058240
+    m_Localized: En cours de traitement, veuillez patienter un peu !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2254071500099584
+    m_Localized: "Actuellement, aucune publicit\xE9 n'est disponible. Veuillez r\xE9essayer
+      plus tard"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6600933556121600
+    m_Localized: Village de Caerleon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8029296376180736
+    m_Localized: "D\xE9verrouillez le Portail Apocalyptique, s'il vous pla\xEEt"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19162182673641472
+    m_Localized: "D\xE9faites tous les monstres \xE0 proximit\xE9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20052610368131072
+    m_Localized: "Chercher un arbre \xE0 proximit\xE9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20052610376519680
+    m_Localized: "Chasser les monstres \xE0 proximit\xE9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21456667240448000
+    m_Localized: "Veuillez d\xE9verrouiller la Gestion des h\xE9ros"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23262593587073024
+    m_Localized: "La publicit\xE9 a \xE9t\xE9 ignor\xE9e"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25770030927736832
+    m_Localized: "Vous devez vous connecter \xE0 votre compte Google avant d'effectuer
+      cette op\xE9ration"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25885165751136256
+    m_Localized: "\xC9chec de la connexion \xE0 Google."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25885165793079296
+    m_Localized: "Connexion \xE0 Google r\xE9ussie."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26125790922027008
+    m_Localized: "Enregistrement des donn\xE9es r\xE9ussi"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26125790947192832
+    m_Localized: " \xC9chec de l'enregistrement des donn\xE9es"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26178484651044864
+    m_Localized: Pas de connexion Internet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27621715388387328
+    m_Localized: Impossible d'ouvrir le portail dans le village
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27910530799529984
+    m_Localized: Entrer le code cadeau
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27910530833084416
+    m_Localized: Code invalide
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27910530833084417
+    m_Localized: Code cadeau vide
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29563001912426496
+    m_Localized: "Cette fonctionnalit\xE9 n'est pas disponible!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30429974251728896
+    m_Localized: "Traitement en cours, ne pas \xE9teindre le jeu !"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32699202736738304
+    m_Localized: Acheter un objet avec des gemmes ?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35615961835884544
+    m_Localized: "Connexion \xE0 Apple r\xE9ussie"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35615961844273152
+    m_Localized: "Connexion en tant qu'invit\xE9 r\xE9ussie"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35615961844273153
+    m_Localized: "Connexion r\xE9ussie"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38295733040828416
+    m_Localized: "La capacit\xE9 maximale de {0} est de {1}."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39542384359907328
+    m_Localized: "Atteignez le niveau d'\xE9quipage {0}."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39542384368295936
+    m_Localized: Montez de niveau
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40199049937690624
+    m_Localized: "Nouvelle version arriv\xE9e ! Veuillez vous rendre sur le magasin
+      et mettre \xE0 jour !"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40199049946079232
+    m_Localized: "Tr\xE9sor manquant r\xE9clam\xE9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40736855579152384
+    m_Localized: "\xC9tape pr\xE9c\xE9dente requise"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40987604695916544
+    m_Localized: "Construire un portail de t\xE9l\xE9portation"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42451156770234368
+    m_Localized: Impossible de revenir cette fois-ci
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

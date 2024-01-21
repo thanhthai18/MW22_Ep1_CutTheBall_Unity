@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Shop_vi
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: vi
+  m_SharedData: {fileID: 11400000, guid: 2738cb4aa74a48043a3cd4164bbe4009, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 5097325052547072
+    m_Localized: "L\u1EE3i nhu\u1EADn"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5097325073518594
+    m_Localized: "N\u1EA1p l\u1EA7n \u0111\u1EA7u"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5097325073518595
+    m_Localized: "T\xE0i nguy\xEAn"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5104539309953025
+    m_Localized: "G\xF3i b\xE1n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5104539309953026
+    m_Localized: "Khuy\u1EBFn m\xE3i"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5104539309953027
+    m_Localized: "Mi\u1EC5n ph\xED"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5104539309953028
+    m_Localized: "Ch\u1EC9 1 l\u1EA7n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5428552666173440
+    m_Localized: "Kh\xF4ng \u0111\u1EE7 Kim c\u01B0\u01A1ng"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5428552687144960
+    m_Localized: "Mua th\xEAm Kim c\u01B0\u01A1ng?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7549362184900608
+    m_Localized: "H\xE0nh tr\xECnh c\u1EE7a b\u1EA1n s\u1EBD tr\u1EDF n\xEAn d\u1EC5
+      d\xE0ng h\u01A1n v\u1EDBi {0}!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8017466660737024
+    m_Localized: "V\u0129nh vi\u1EC5n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36599306331078656
+    m_Localized: "Battle Pass cao c\u1EA5p"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36599306352050176
+    m_Localized: "K\xEDch ho\u1EA1t battle pass"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36599306352050178
+    m_Localized: 'Battle Pass '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36599306352050179
+    m_Localized: "Battle Pass c\u1EA5p 25"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36599306352050180
+    m_Localized: "\u2022 K\xEDch ho\u1EA1t Battle Pass cao c\u1EA5p"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36599306352050181
+    m_Localized: "\u2022 K\xEDch ho\u1EA1t Battle Pass cao c\u1EA5p<br>\u2022 T\u0103ng
+      ti\u1EBFn \u0111\u1ED9 hi\u1EC7n t\u1EA1i t\u1EDBi c\u1EA5p 25"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37648801632907264
+    m_Localized: Battle Pass
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38097432089710592
+    m_Localized: "\u0110\u1ED9i h\xECnh c\u1EE7a b\u1EA1n \u0111\xE3 \u0111\u1EA1t
+      c\u1EA5p {0}"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38097432114876416
+    m_Localized: "B\u1EA1n m\u1EDBi nh\u1EADn m\u1ED9t anh h\xF9ng huy\u1EC1n tho\u1EA1i"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38097432114876417
+    m_Localized: "Hu\u1EA5n luy\u1EC7n anh h\xF9ng \u0111\u1EC3 khi\u1EBFn h\u1ECD
+      m\u1EA1nh h\u01A1n n\u1EEFa!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38097432114876418
+    m_Localized: "N\xE2ng c\u1EA5p anh h\xF9ng c\u1EE7a b\u1EA1n!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39094838605627392
+    m_Localized: "Cao c\u1EA5p"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46264090285297664
+    m_Localized: "G\xF3i kh\u1EDFi \u0111\u1EA7u"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46264090306269184
+    m_Localized: "G\xF3i b\u1ECF qua Qu\u1EA3ng c\xE1o"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46264090310463488
+    m_Localized: "G\xF3i h\u1ED3i m\xE1u"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46264090310463489
+    m_Localized: "G\xF3i t\u01B0\u1EDBng huy\u1EC1n tho\u1EA1i"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46564999577980928
+    m_Localized: "G\xF3i ti\u1EBFn tr\xECnh"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46564999603146752
+    m_Localized: "M\u1ED9t g\xF3i kh\xE1c s\u1EBD \u0111\u01B0\u1EE3c ti\u1EBFt l\u1ED9
+      m\u1ED7i khi g\xF3i \u0111\u01B0\u1EE3c m\u1EDF kh\xF3a"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

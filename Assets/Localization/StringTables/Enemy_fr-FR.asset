@@ -1,0 +1,463 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Enemy_fr-FR
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: fr-FR
+  m_SharedData: {fileID: 11400000, guid: f7c0e61f7eda15a48a8291ccfdda88fc, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 1093204209664
+    m_Localized: Champignon sauvage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093233569792
+    m_Localized: Champignon toxique
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764096
+    m_Localized: Myrtille
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764097
+    m_Localized: "P\xEAche"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764098
+    m_Localized: "Gel\xE9e de lapin brun"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764099
+    m_Localized: Chien explosif
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764100
+    m_Localized: Grenade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764101
+    m_Localized: Betterave
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764102
+    m_Localized: Raisin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764103
+    m_Localized: Poivron rouge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764104
+    m_Localized: Garde Treant jaune
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764105
+    m_Localized: Champignon Treant jaune
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764106
+    m_Localized: Crotte de Treant jaune
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764107
+    m_Localized: Arbre mangeur d'homme
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764108
+    m_Localized: Arbre de cactus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764109
+    m_Localized: Scorpion rouge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764110
+    m_Localized: Monstre de sable jaune
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764111
+    m_Localized: "Anubis lance dor\xE9e"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764112
+    m_Localized: Guerrier Anubis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764113
+    m_Localized: Mage Anubis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764114
+    m_Localized: "Aile c\xE9leste brune"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764115
+    m_Localized: "Petit fant\xF4me blanc"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764116
+    m_Localized: "Fant\xF4me citrouille brun"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764117
+    m_Localized: Combattant squelette
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764118
+    m_Localized: Commandant squelette
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764119
+    m_Localized: Archer squelette
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764120
+    m_Localized: Mage squelette
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764121
+    m_Localized: Sanglier sauvage vert
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764122
+    m_Localized: Minotaure hache rouge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764123
+    m_Localized: Minotaure lance rouge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764124
+    m_Localized: Minotaure canon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764125
+    m_Localized: Trident Imp noir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764126
+    m_Localized: Lance Imp noir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764127
+    m_Localized: Lanceur Imp noir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764128
+    m_Localized: Mimique grise
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764129
+    m_Localized: "Chauve-souris affam\xE9e"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764130
+    m_Localized: "Garde blind\xE9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764131
+    m_Localized: "Archer blind\xE9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764132
+    m_Localized: Mage inconnu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764133
+    m_Localized: "Gel\xE9e de lapin jaune"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764134
+    m_Localized: "Gel\xE9e de lapin verte"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764135
+    m_Localized: "H\xE9risson de durian"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764136
+    m_Localized: "M\xE9lon de poulpe"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764137
+    m_Localized: Pieuvre nocturne
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764138
+    m_Localized: Roi des marais
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764139
+    m_Localized: Chiwi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764140
+    m_Localized: 
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764141
+    m_Localized: 
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764142
+    m_Localized: Chima
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764143
+    m_Localized: "Pierre \xE9norme"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764144
+    m_Localized: Gros tigre
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871010459648
+    m_Localized: "Gel\xE9e de lapin bleue"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625472
+    m_Localized: Insecte suicidaire
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625473
+    m_Localized: Sanglier de givre
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625474
+    m_Localized: "Bonhomme de neige en col\xE8re"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625475
+    m_Localized: Insecte suicidaire de lave
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625476
+    m_Localized: Garde Treant rouge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625477
+    m_Localized: Champignon Treant rouge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625478
+    m_Localized: Crotte de Treant rouge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625479
+    m_Localized: Arbre cannibale
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625480
+    m_Localized: "Aile c\xE9leste rouge"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625481
+    m_Localized: "\xC9p\xE9e squelette"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625482
+    m_Localized: "\xC9lite squelette"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625483
+    m_Localized: Archer squelette redoutable
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625484
+    m_Localized: Mage squelette sinistre
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625485
+    m_Localized: "Chauve-souris affam\xE9e aux yeux rouges"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625486
+    m_Localized: "Mimique dor\xE9e"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625487
+    m_Localized: Combattant squelette qui s'efface
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625488
+    m_Localized: Leader squelette qui s'efface
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625489
+    m_Localized: Archer squelette qui s'efface
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625490
+    m_Localized: Mage squelette qui s'efface
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625491
+    m_Localized: "Treant vert en m\xEAl\xE9e"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625492
+    m_Localized: Champignon Treant vert
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625493
+    m_Localized: Crotte de Treant vert
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625494
+    m_Localized: Scorpion jaune
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625495
+    m_Localized: Monstre de sable rouge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625496
+    m_Localized: Trident Imp rouge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625497
+    m_Localized: Lance Imp rouge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625498
+    m_Localized: Lanceur Imp rouge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625499
+    m_Localized: "Aile c\xE9leste noire"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625500
+    m_Localized: "Petit fant\xF4me vert"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625501
+    m_Localized: "Petit fant\xF4me en col\xE8re"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625502
+    m_Localized: Mimique brune
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625503
+    m_Localized: Plante cannibale
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625504
+    m_Localized: Monstre de sable bleu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625505
+    m_Localized: "Fant\xF4me citrouille noir"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625506
+    m_Localized: "Fant\xF4me citrouille rouge"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625507
+    m_Localized: Scorpion brun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625508
+    m_Localized: "Chauve-souris affam\xE9e empoisonn\xE9e"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625509
+    m_Localized: Trident Imp jaune
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625510
+    m_Localized: Lance Imp jaune
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625511
+    m_Localized: Lanceur Imp jaune
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625512
+    m_Localized: Sanglier sauvage brun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625513
+    m_Localized: "Sanglier sauvage \xE0 crini\xE8re rouge"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625514
+    m_Localized: Minotaure folle hache
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625515
+    m_Localized: Minotaure folle lance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625516
+    m_Localized: Minotaure canon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625517
+    m_Localized: Minotaure de glace hache
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625518
+    m_Localized: Minotaure de glace lance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871039819776
+    m_Localized: Minotaure de glace canon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15647856237989888
+    m_Localized: Crocs de tigre
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15647856263155712
+    m_Localized: "Y\xE9ti"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15647856263155713
+    m_Localized: Dragon de feu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15647856263155714
+    m_Localized: Lucifer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15647856263155715
+    m_Localized: "Roi de d\xE9mon dor\xE9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30396376169828352
+    m_Localized: "Roi de d\xE9mon dor\xE9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30396376186605568
+    m_Localized: "H\xE9risson de durian"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30396376186605569
+    m_Localized: Gros tigre
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30396376190799872
+    m_Localized: "Pierre \xE9norme"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871039819780
+    m_Localized: Mimique brune
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

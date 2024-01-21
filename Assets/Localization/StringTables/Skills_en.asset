@@ -1,0 +1,1078 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Skills_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 62c6ecc3f585e74408f2978e938a4b62, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 589854396423
+    m_Localized: Attack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 590034751488
+    m_Localized: Defense
+    m_Metadata:
+      m_Items: []
+  - m_Id: 590034751489
+    m_Localized: AttackSpeed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 590034751490
+    m_Localized: CritDamage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 590034751491
+    m_Localized: Defense Penetration
+    m_Metadata:
+      m_Items: []
+  - m_Id: 590034751492
+    m_Localized: Crit Rate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 590034751493
+    m_Localized: Fixed Damage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 589820841984
+    m_Localized: Heavy Strike
+    m_Metadata:
+      m_Items: []
+  - m_Id: 589850202112
+    m_Localized: Encourage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 589850202113
+    m_Localized: Carpenter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 589850202114
+    m_Localized: Axe Strike
+    m_Metadata:
+      m_Items: []
+  - m_Id: 589854396417
+    m_Localized: Treasure Hunter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 589854396418
+    m_Localized: Strong Body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 589854396419
+    m_Localized: Healing Hand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 589854396420
+    m_Localized: Shared Knowledge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 589854396421
+    m_Localized: Whirl Strike
+    m_Metadata:
+      m_Items: []
+  - m_Id: 589854396422
+    m_Localized: Wind Step
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740952244224
+    m_Localized: Gather strength and unleash a powerful strike on a target
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740960632832
+    m_Localized: Increase damage dealt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827136
+    m_Localized: Increase damage dealt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827137
+    m_Localized: Boost morale for yourself and the 3 nearest allies, increasing attack
+      speed and movement speed for 5 seconds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827138
+    m_Localized: Increase skill effectiveness
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827139
+    m_Localized: Add 2 allies to receive the skill
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827140
+    m_Localized: Increase damage to trees
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827141
+    m_Localized: Increase damage to trees
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827142
+    m_Localized: Increase damage to trees
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827143
+    m_Localized: Gather strength and deliver a powerful strike to a target
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827144
+    m_Localized: Increase damage dealt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827145
+    m_Localized: Increase damage dealt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827149
+    m_Localized: Increase damage to minerals
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827150
+    m_Localized: Increase damage to minerals
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827151
+    m_Localized: Increase damage to minerals
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827152
+    m_Localized: Increase HP for all own heroes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827153
+    m_Localized: Increase additional health
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827154
+    m_Localized: Increase additional health
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827155
+    m_Localized: Heal a ally
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827156
+    m_Localized: Increase recoverable health
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827157
+    m_Localized: Increase recoverable health
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827158
+    m_Localized: Increase damage for all intellect-based allies
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827159
+    m_Localized: Increase bonus damage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827160
+    m_Localized: Increase bonus damage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827161
+    m_Localized: Gather strength, wield the sword from within the sheath, and create
+      a whirlwind to sweep through enemies and push them back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827162
+    m_Localized: Increase damage dealt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827163
+    m_Localized: Increase damage dealt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827164
+    m_Localized: Dash towards the enemy, dealing damage to all enemies in your path.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827165
+    m_Localized: Increase damage dealt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827166
+    m_Localized: Reduce 1 attack in the condition to recover skill
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11109245547171840
+    m_Localized: Multi Shot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11535539598512128
+    m_Localized: Steady Aim
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11535539619483648
+    m_Localized: '#Enrage'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11535539619483649
+    m_Localized: '#Call Of The Moon'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11109245559754752
+    m_Localized: Shoot 2 arrows at 2 enemies
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11109245559754753
+    m_Localized: Add poison effect to skill
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11109245559754754
+    m_Localized: Increase damage dealt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11535539619483650
+    m_Localized: Increase damage for all agile allies
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11535539619483651
+    m_Localized: Increase bonus damage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11535539619483652
+    m_Localized: Increase bonus damage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11535539619483653
+    m_Localized: Heal teammates instead of attacking
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11535539619483654
+    m_Localized: Increase recoverable health
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11535539619483655
+    m_Localized: 25% chance to heal 2 allies
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11535539619483656
+    m_Localized: Utilize the power of nature, heal all allies
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11535539619483657
+    m_Localized: Increase recoverable health
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11535539619483658
+    m_Localized: Reduce cooldown time
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11535539619483659
+    m_Localized: Fire 4 continuous shots at the enemy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11535539619483660
+    m_Localized: Increase damage dealt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11535539619483661
+    m_Localized: Reduce 1 attack in the condition to recover skill
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11535539619483662
+    m_Localized: Utilize a precision sniper rifle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11535539619483663
+    m_Localized: Increase damage dealt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11535539619483664
+    m_Localized: Add a stunning effect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11458394163277824
+    m_Localized: Steady Aim
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297098420224
+    m_Localized: Enrage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297131974656
+    m_Localized: Call Of The Moon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11458394192637952
+    m_Localized: Increase damage for all agility-based allies
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11458394192637953
+    m_Localized: Increase bonus damage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11458394192637954
+    m_Localized: Increase bonus damage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168960
+    m_Localized: Heal teammates instead of attacking
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168961
+    m_Localized: Increase recoverable health
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168962
+    m_Localized: 25% chance to heal 2 allies
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168963
+    m_Localized: Utilize the power of nature, heal all allies
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168964
+    m_Localized: Increase recoverable health
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168965
+    m_Localized: Reduce cooldown time
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168966
+    m_Localized: Fire 4 continuous shots at the enemy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168967
+    m_Localized: Increase damage dealt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168968
+    m_Localized: Reduce 1 attack in the condition to recover skill
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168969
+    m_Localized: Utilize a precision sniper rifle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168970
+    m_Localized: Increase damage dealt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168971
+    m_Localized: Add a stunning effect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168972
+    m_Localized: Jump up and slam the ground, dealing area damage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168973
+    m_Localized: Increase damage dealt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168974
+    m_Localized: Instantly refreshes skill upon using it as a critical hit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168975
+    m_Localized: Harness the power of the moon, increasing critical hit rate for
+      yourself and the two nearest allies
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168976
+    m_Localized: Increase duration
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297140363264
+    m_Localized: Increase skill effectiveness
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11543291708076032
+    m_Localized: Healing Orb
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11543291733241856
+    m_Localized: Nature Blessing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11543291733241857
+    m_Localized: Fire Burst
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11543291733241858
+    m_Localized: Head Shot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12130097853247488
+    m_Localized: Fire Blast
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12130097878413312
+    m_Localized: Scorched Earth
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12130097878413313
+    m_Localized: Throw a fireball at the target and deal damage to the surrounding
+      area
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12130097878413314
+    m_Localized: Stun the target hit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12130097878413315
+    m_Localized: Increase damage dealt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12130097878413316
+    m_Localized: Create a fiery ring, dealing damage to hit enemies
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12130097878413317
+    m_Localized: Add a burning effect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12130097878413318
+    m_Localized: Increase damage dealt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048828907520
+    m_Localized: Spear Throw
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048841490432
+    m_Localized: Brave Heart
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048841490433
+    m_Localized: Shuriken Throw
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048841490434
+    m_Localized: Smoke Bomb
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14047010697801728
+    m_Localized: Dark Barrage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14047010727161856
+    m_Localized: Dark Ball
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14359255491530752
+    m_Localized: Power Shot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14359255520890880
+    m_Localized: Rain Of Arrow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048841490435
+    m_Localized: Throw a fast-flying spear that pierces through targets
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048841490436
+    m_Localized: Increase damage dealt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048841490437
+    m_Localized: Increase damage dealt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048841490438
+    m_Localized: Show battlefield valor, increase pure damage for self and the 3
+      nearest allies
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048841490439
+    m_Localized: Increase bonus damage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048845684737
+    m_Localized: Increase damage dealt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14047010727161858
+    m_Localized: Add a burning effect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14047010727161859
+    m_Localized: Increase damage dealt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14047010727161861
+    m_Localized: Increase damage dealt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048841490440
+    m_Localized: Grant 2 allies the skill
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048845684736
+    m_Localized: Throw a shuriken at the enemy, causing bleeding
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048845684738
+    m_Localized: Increase damage to bleeding enemies
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048845684739
+    m_Localized: Throw a smoke bomb to disorient the enemy and increase your evasiveness
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048845684740
+    m_Localized: Increase additional evasion rate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048845684741
+    m_Localized: Grant 3 allies the skill
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14047010727161857
+    m_Localized: Shoot 3 fireballs at the opponent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14047010727161860
+    m_Localized: Gather energy to create a massive fireball dealing area damage around
+      the target
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14047010727161862
+    m_Localized: Always critical hit on a burning target
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14820142371295232
+    m_Localized: Lightning Bolt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14820142392266752
+    m_Localized: Thunder Huge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14359255525085184
+    m_Localized: Draw the bowstring to the maximum and shoot an extremely powerful
+      and penetrating arrow at all enemies
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14359255525085185
+    m_Localized: Add a Chill effect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14359255529279488
+    m_Localized: Increase damage dealt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14359255529279489
+    m_Localized: Shoot a magical arrow into the sky, creating 3 arrow showers in
+      an area and chilling the struck targets
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14359255529279490
+    m_Localized: Increase damage dealt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14359255529279491
+    m_Localized: Reduce 1 attack in the condition to recover skill
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14820142396461056
+    m_Localized: Jolt 2 lightning bolts into 2 targets, dealing damage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14820142396461057
+    m_Localized: Add 1 more target
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14820142396461058
+    m_Localized: Add 1 more target
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14825842170384384
+    m_Localized: Use the power of the staff to call down thunder upon a large area
+      around the target
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14825842174578688
+    m_Localized: Reduce cooldown time
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14825842178772992
+    m_Localized: Stun the target hit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15799034032672768
+    m_Localized: Swipe Kick
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15799034036867072
+    m_Localized: Slam
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482014908416
+    m_Localized: Burning Cut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482023297024
+    m_Localized: Focus Defense
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482023297025
+    m_Localized: Love Blessing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482023297026
+    m_Localized: Reincarnation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482027491332
+    m_Localized: Buff gain 50 Fixed damage reduction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15799034041061376
+    m_Localized: Build momentum and throw a projectile, dealing cone-shaped damage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15799034041061377
+    m_Localized: Increase ability damage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15799034041061378
+    m_Localized: Instantly reduce cooldown to 0 on critical hit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15799034041061379
+    m_Localized: Raise your hand to the sky to gather power and then slam your hand
+      down, dealing damage in a crescent angle in front
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15799034041061380
+    m_Localized: Increase ability damage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15799034041061381
+    m_Localized: Reduce cooldown time
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482027491328
+    m_Localized: Imbue your weapon with fire and attack, causing a burning effect
+      on the target
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482027491329
+    m_Localized: Increase damage dealt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482027491330
+    m_Localized: Increase damage dealt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482027491331
+    m_Localized: Assume a defensive stance, increasing damage resistance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482027491333
+    m_Localized: Increase the duration by an additional 2 seconds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482027491334
+    m_Localized: Hero's attack simultaneously heals another hero
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482027491335
+    m_Localized: Remove all negative effects on the healing hero
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482027491336
+    m_Localized: Increase the number of targets receiving the skill by 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482027491337
+    m_Localized: Utilize the power of a kitsune, resurrecting one teammate with 50%
+      health
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482027491338
+    m_Localized: Increase the health of the resurrected hero
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482027491339
+    m_Localized: Increase an additional target receiving the spell
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16228956651900928
+    m_Localized: Army Training
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16228956672872448
+    m_Localized: Strong Thrust
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16228956677066752
+    m_Localized: Increase damage for all strength-based allies
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16228956677066753
+    m_Localized: Increase bonus damage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16228956681261056
+    m_Localized: Increase bonus damage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16228956681261057
+    m_Localized: Use strength to charge forcefully towards the enemy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16228956681261058
+    m_Localized: Add bleeding effect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16228956681261059
+    m_Localized: Increase ability damage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16550110805389312
+    m_Localized: Poisonous Flask
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16550110817972224
+    m_Localized: Pandemic End
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347146457088
+    m_Localized: Bat Swarm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347159040000
+    m_Localized: Bloody Nightmare
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347159040001
+    m_Localized: Healing Magic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347159040002
+    m_Localized: Mystic Spell
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347159040003
+    m_Localized: Ground Slam
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347159040004
+    m_Localized: Battle Endure
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347159040005
+    m_Localized: Hammer Slam
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347159040006
+    m_Localized: Provoke
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16550110822166528
+    m_Localized: Throw 3 potions at 3 enemies, causing a poison effect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16550110822166529
+    m_Localized: Increase an additional target receiving the spell
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16550110822166530
+    m_Localized: Increase ability damage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16550110822166531
+    m_Localized: Throw a large poison vial to deal area damage and apply a poison
+      effect to all enemies in the area
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16550110822166532
+    m_Localized: Add an extra 2 seconds to poison effect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16550110822166533
+    m_Localized: Slow down enemy running speed by 20% for 5 seconds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234304
+    m_Localized: Release a swarm of bloodthirsty bats in a cone shape, attacking
+      the enemies they pass through
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234305
+    m_Localized: Instantly reduce skill cooldown to 0 if the main target is bleeding
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234306
+    m_Localized: Increase ability damage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234307
+    m_Localized: Accompanying bat becomes corporeal. Bites in an area, healing Merlyn
+      based on the total damage dealt and causing bleeding to enemies
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234308
+    m_Localized: Increase the area of the skill
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234309
+    m_Localized: Increase ability damage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234310
+    m_Localized: Use magic to heal wounds for allies within 5 seconds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234311
+    m_Localized: Increase an additional target receiving the spell
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234312
+    m_Localized: Reduce 2 attacks under the condition to recover skills
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234313
+    m_Localized: Use mystical magic to increase movement speed and attack speed for
+      all allies in the team for 10 seconds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234314
+    m_Localized: Reduce cooldown time
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234315
+    m_Localized: Reduce cooldown time
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234316
+    m_Localized: Utilize exceptional strength and a large hammer to strike the ground
+      forcefully, dealing area damage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234317
+    m_Localized: Stun enemies hit by the skill for 2 seconds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234318
+    m_Localized: Increase ability damage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234319
+    m_Localized: Defend against weapon strikes, dealing area damage. Share your own
+      resistance with allies through the radiant aura around you
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234320
+    m_Localized: Increase duration
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234321
+    m_Localized: Increase additional damage reduction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234322
+    m_Localized: Build momentum and slam the hammer into the ground, dealing area
+      damage and stunning the enemy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234323
+    m_Localized: Reduce one attack under the condition for a skill recharge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234324
+    m_Localized: Increase ability damage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234325
+    m_Localized: Taunt nearby enemies to attack you
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234326
+    m_Localized: Receive an additional 10% damage reduction during the duration
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234327
+    m_Localized: Increase the area of the skill
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19171766245814272
+    m_Localized: Pray
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19171766254202880
+    m_Localized: Purification
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19171766254202881
+    m_Localized: Weakness Strike
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19171766262591488
+    m_Localized: Pray for the target, receive blessings, heal the target, and allies
+      around the target
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19171766262591489
+    m_Localized: Increase duration
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19171766262591490
+    m_Localized: Reduce cooldown time
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19171766262591491
+    m_Localized: Bring the light of the Lord, gradually heal nearby allies
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19171766262591492
+    m_Localized: Increase recoverable health
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19171766262591493
+    m_Localized: Reduce cooldown time
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19171766262591494
+    m_Localized: Attack the opponent with a strike at a weak point, with a chance
+      to cause a bleeding effect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19171766262591495
+    m_Localized: Increase ability damage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19171766262591496
+    m_Localized: Increase the chance of causing a bleeding effect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20141917577441280
+    m_Localized: Flurry of Knives
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20141917598412800
+    m_Localized: Throw a dagger storm around yourself, dealing damage to enemies
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20141917598412801
+    m_Localized: Increase ability damage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20141917598412802
+    m_Localized: Always critical against bleeding targets
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668605874176
+    m_Localized: Punishment Light
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668740091904
+    m_Localized: Goddess Aura
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668740091905
+    m_Localized: Cleave
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668740091906
+    m_Localized: Cyclone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668748480512
+    m_Localized: Summon a powerful light that deal damage to the enemy while heal
+      your self by percent amount of damage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668748480513
+    m_Localized: Stun Enemies hit by the skill for 3 seconds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668748480514
+    m_Localized: Increase ability damage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668748480515
+    m_Localized: Create a purify ground, dealing damage to enemies and healing allies
+      inside every second
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668748480516
+    m_Localized: Increase ability duration
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668748480517
+    m_Localized: Add fixed damage reduction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668748480518
+    m_Localized: Slice enemies with fish sword in 120 degree
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668748480519
+    m_Localized: Add lifesteal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668748480520
+    m_Localized: Increase ability damage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668748480521
+    m_Localized: Spin attack, dealing damage to nearby enemies. Also taunt nearby
+      enemies to attack him
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668748480522
+    m_Localized: Add damage reduction during spin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668748480523
+    m_Localized: Reduced cooldown
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37171343205605376
+    m_Localized: Madness
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37171343213993984
+    m_Localized: Frenzy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37171343218188288
+    m_Localized: Leap on the target, deal AOE damage and reapeatly attack 4 times
+      in 120 degree infront, inflict bleed to enemy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37171343218188289
+    m_Localized: increase slash attack damage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37171343218188290
+    m_Localized: increase slash attack damage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37171343218188291
+    m_Localized: Hunger for battle, release a barbaric roar that increase his attack
+      speed and attack damage for 4 second. If he attack on the bleeding enemy, the
+      duration is refreshed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37171343218188292
+    m_Localized: Life steal during frenzy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37171343218188293
+    m_Localized: Increase ability duration
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

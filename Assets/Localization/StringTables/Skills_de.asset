@@ -1,0 +1,1060 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Skills_de
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: de
+  m_SharedData: {fileID: 11400000, guid: 62c6ecc3f585e74408f2978e938a4b62, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 589820841984
+    m_Localized: Kritischer Treffer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 589850202112
+    m_Localized: Ermutigung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 589850202113
+    m_Localized: Holz hacken
+    m_Metadata:
+      m_Items: []
+  - m_Id: 589850202114
+    m_Localized: Axtschlag
+    m_Metadata:
+      m_Items: []
+  - m_Id: 589854396417
+    m_Localized: Schatzsucher
+    m_Metadata:
+      m_Items: []
+  - m_Id: 589854396418
+    m_Localized: "Starker K\xF6rper"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 589854396419
+    m_Localized: Heilende Hand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 589854396420
+    m_Localized: Geteiltes Wissen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 589854396421
+    m_Localized: Sturm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 589854396422
+    m_Localized: Wind-Schritt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740952244224
+    m_Localized: "Sammle deine St\xE4rke und f\xFChre einen kraftvollen Angriff auf
+      ein Ziel aus"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740960632832
+    m_Localized: "Erh\xF6he den verursachten Schaden"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827136
+    m_Localized: "Erh\xF6he den verursachten Schaden"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827137
+    m_Localized: "Steigert die Moral f\xFCr sich selbst und die n\xE4chsten 3 Teamkollegen,
+      erh\xF6ht die Angriffsgeschwindigkeit und die Bewegungsgeschwindigkeit f\xFCr
+      5 Sekunden."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827138
+    m_Localized: "Steigere die Effektivit\xE4t der F\xE4higkeit"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827139
+    m_Localized: "F\xFCge 2 Verb\xFCndete hinzu, um die F\xE4higkeit zu erhalten"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827140
+    m_Localized: "Erh\xF6he den Schaden an B\xE4umen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827141
+    m_Localized: "Erh\xF6he den Schaden an B\xE4umen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827142
+    m_Localized: "Erh\xF6he den Schaden an B\xE4umen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827143
+    m_Localized: "Sammle deine St\xE4rke und f\xFChre einen kraftvollen Schlag gegen
+      ein Ziel aus"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827144
+    m_Localized: "Erh\xF6he den verursachten Schaden"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827145
+    m_Localized: "Erh\xF6he den verursachten Schaden"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827149
+    m_Localized: "Erh\xF6he den Schaden gegen\xFCber Mineralien"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827150
+    m_Localized: "Erh\xF6he den Schaden gegen\xFCber Mineralien"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827151
+    m_Localized: "Erh\xF6he den Schaden gegen\xFCber Mineralien"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827152
+    m_Localized: "Erh\xF6he die HP f\xFCr alle eigenen Helden"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827153
+    m_Localized: "Zus\xE4tzliche Gesundheit erh\xF6hen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827154
+    m_Localized: "Zus\xE4tzliche Gesundheit erh\xF6hen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827155
+    m_Localized: "Heile einen Verb\xFCndeten"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827156
+    m_Localized: "Erh\xF6he die wiederherstellbare Gesundheit"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827157
+    m_Localized: "Erh\xF6he die wiederherstellbare Gesundheit"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827158
+    m_Localized: "Erh\xF6he den Schaden f\xFCr alle Intelligenzbasierten Verb\xFCndeten"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827159
+    m_Localized: "Erh\xF6he den zus\xE4tzlichen Schaden"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827160
+    m_Localized: "Erh\xF6he den zus\xE4tzlichen Schaden"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827161
+    m_Localized: "Sammle deine Kraft, ziehe das Schwert aus der Scheide und erzeuge
+      einen Wirbelsturm, um Feinde zu fegen und zur\xFCckzudr\xE4ngen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827162
+    m_Localized: "Erh\xF6he den verursachten Schaden"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827163
+    m_Localized: "Erh\xF6he den verursachten Schaden"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827164
+    m_Localized: "St\xFCrze dich auf den Feind und f\xFCge allen Feinden auf deinem
+      Weg Schaden zu."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827165
+    m_Localized: "Erh\xF6he den verursachten Schaden"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827166
+    m_Localized: "Reduziere 1 Angriff unter der Bedingung, die F\xE4higkeit wiederherzustellen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11109245547171840
+    m_Localized: "Mehrere Sch\xFCsse"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11535539598512128
+    m_Localized: Stabiles Zielen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11109245559754752
+    m_Localized: "Schie\xDFe 2 Pfeile auf 2 Feinde"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11109245559754753
+    m_Localized: "Gift-Effekt zur F\xE4higkeit hinzuf\xFCgen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11109245559754754
+    m_Localized: "Erh\xF6he den verursachten Schaden"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11535539619483650
+    m_Localized: "Erh\xF6he den Schaden f\xFCr alle agilen Verb\xFCndeten"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11535539619483651
+    m_Localized: "Erh\xF6he den zus\xE4tzlichen Schaden"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11535539619483652
+    m_Localized: "Erh\xF6he den zus\xE4tzlichen Schaden"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11535539619483653
+    m_Localized: Teammitglieder heilen anstatt anzugreifen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11535539619483654
+    m_Localized: "Erh\xF6he die wiederherstellbare Gesundheit"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11535539619483655
+    m_Localized: "25% Heilungschance f\xFCr 2 Verb\xFCndete"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11535539619483656
+    m_Localized: "Nutzen Sie die Kraft der Natur, heilen Sie alle Verb\xFCndeten"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11535539619483657
+    m_Localized: "Erh\xF6he die wiederherstellbare Gesundheit"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11535539619483658
+    m_Localized: Verringere die Fertigkeiten-Abklingzeit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11535539619483659
+    m_Localized: "Feuern Sie kontinuierlich 4 Sch\xFCsse auf den Feind ab"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11535539619483660
+    m_Localized: "Erh\xF6he den verursachten Schaden"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11535539619483661
+    m_Localized: "Reduziere 1 Angriff unter der Bedingung, die F\xE4higkeit wiederherzustellen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11535539619483662
+    m_Localized: "Verwenden Sie ein Pr\xE4zisionsscharfsch\xFCtzengewehr"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11535539619483663
+    m_Localized: "Erh\xF6he den verursachten Schaden"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11535539619483664
+    m_Localized: "Einen atemberaubenden Effekt hinzuf\xFCgen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11458394163277824
+    m_Localized: Stabiles Zielen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297098420224
+    m_Localized: "W\xFCtend"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297131974656
+    m_Localized: Der Ruf des Mondes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11458394192637952
+    m_Localized: "Erh\xF6he den Schaden f\xFCr alle agilen Verb\xFCndeten"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11458394192637953
+    m_Localized: "Erh\xF6he den zus\xE4tzlichen Schaden"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11458394192637954
+    m_Localized: "Erh\xF6he den zus\xE4tzlichen Schaden"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168960
+    m_Localized: Teammitglieder heilen anstatt anzugreifen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168961
+    m_Localized: "Erh\xF6he die wiederherstellbare Gesundheit"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168962
+    m_Localized: "25% Heilungschance f\xFCr 2 Verb\xFCndete"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168963
+    m_Localized: "Nutzen Sie die Kraft der Natur, heilen Sie alle Verb\xFCndeten"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168964
+    m_Localized: "Erh\xF6he die wiederherstellbare Gesundheit"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168965
+    m_Localized: Verringere die Fertigkeiten-Abklingzeit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168966
+    m_Localized: "Feuern Sie kontinuierlich 4 Sch\xFCsse auf den Feind ab"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168967
+    m_Localized: "Erh\xF6he den verursachten Schaden"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168968
+    m_Localized: "Reduziere 1 Angriff unter der Bedingung, die F\xE4higkeit wiederherzustellen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168969
+    m_Localized: "Verwenden Sie ein Pr\xE4zisionsscharfsch\xFCtzengewehr"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168970
+    m_Localized: "Erh\xF6he den verursachten Schaden"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168971
+    m_Localized: "Einen atemberaubenden Effekt hinzuf\xFCgen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168972
+    m_Localized: "Springen und auf den Boden schlagen, Fl\xE4chenschaden verursachen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168973
+    m_Localized: "Erh\xF6he den verursachten Schaden"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168974
+    m_Localized: "Aktualisiert die F\xE4higkeit sofort bei Verwendung als kritischer
+      Treffer"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168975
+    m_Localized: "Nutzen Sie die Kraft des Mondes, um die kritische Trefferquote
+      f\xFCr sich selbst und die beiden n\xE4chsten Verb\xFCndeten zu erh\xF6hen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168976
+    m_Localized: "Erh\xF6he die Dauer"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297140363264
+    m_Localized: "Steigere die Effektivit\xE4t der F\xE4higkeit"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11543291708076032
+    m_Localized: Heilungsorbe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11543291733241856
+    m_Localized: Natursegen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11543291733241857
+    m_Localized: "Feuersto\xDF"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11543291733241858
+    m_Localized: Kopfschuss
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12130097853247488
+    m_Localized: Feuerexplosion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12130097878413312
+    m_Localized: Verbrannte Erde
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12130097878413313
+    m_Localized: "Wirf einen Feuerball auf das Ziel und f\xFCge Schaden in der Umgebung
+      zu"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12130097878413314
+    m_Localized: "Bet\xE4ube das getroffene Ziel"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12130097878413315
+    m_Localized: "Erh\xF6he den verursachten Schaden"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12130097878413316
+    m_Localized: "Erzeuge einen Feuerring und f\xFCge den getroffenen Feinden Schaden
+      zu"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12130097878413317
+    m_Localized: "F\xFCge einen Brenneffekt hinzu"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12130097878413318
+    m_Localized: "Erh\xF6he den verursachten Schaden"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048841490435
+    m_Localized: Werfen Sie einen schnell fliegenden Speer, der durch Ziele dringt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048841490436
+    m_Localized: "Erh\xF6he den verursachten Schaden"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048841490437
+    m_Localized: "Erh\xF6he den verursachten Schaden"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048841490438
+    m_Localized: "Zeigen Sie Ihre Schlachtfeld-Tapferkeit, erh\xF6hen Sie den reinen
+      Schaden f\xFCr sich selbst und die 3 n\xE4chsten Verb\xFCndeten"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048841490439
+    m_Localized: "Erh\xF6he den zus\xE4tzlichen Schaden"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048845684737
+    m_Localized: "Erh\xF6he den verursachten Schaden"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14047010727161858
+    m_Localized: "F\xFCge einen Brenneffekt hinzu"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14047010727161859
+    m_Localized: "Erh\xF6he den verursachten Schaden"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14047010727161861
+    m_Localized: "Erh\xF6he den verursachten Schaden"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048841490440
+    m_Localized: "2 Verb\xFCndeten die F\xE4higkeit gew\xE4hren"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048845684736
+    m_Localized: Wirf einen Shuriken auf den Feind und verursache Blutungen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048845684738
+    m_Localized: "Erh\xF6he den Schaden gegen blutende Feinde"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048845684739
+    m_Localized: "Werfen Sie eine Rauchbombe, um den Feind zu desorientieren und
+      Ihre Ausweichf\xE4higkeit zu erh\xF6hen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048845684740
+    m_Localized: "Erh\xF6he die zus\xE4tzliche Ausweichrate"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048845684741
+    m_Localized: "3 Verb\xFCndeten die F\xE4higkeit gew\xE4hren"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14047010727161857
+    m_Localized: "Schie\xDFe 3 Feuerb\xE4lle auf den Gegner"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14047010727161860
+    m_Localized: "Sammle Energie, um einen massiven Feuerball zu erzeugen, der Fl\xE4chenschaden
+      um das Ziel verursacht"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14047010727161862
+    m_Localized: Immer kritischer Treffer auf ein brennendes Ziel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048828907520
+    m_Localized: Werfen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048841490432
+    m_Localized: Tapferes Herz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048841490433
+    m_Localized: Start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048841490434
+    m_Localized: Rauchbombe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14047010697801728
+    m_Localized: Feuerkugel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14047010727161856
+    m_Localized: Energiebedarf
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14359255491530752
+    m_Localized: Kraftvoll
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14359255520890880
+    m_Localized: Regenname
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14820142371295232
+    m_Localized: Blitz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14820142392266752
+    m_Localized: Riesenlitz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14359255525085184
+    m_Localized: "Spannen Sie die Sehne bis zum Maximum und schie\xDFen Sie einen
+      extrem starken und durchschlagenden Pfeil auf alle Feinde"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14359255525085185
+    m_Localized: "F\xFCgen Sie einen eisigen Effekt hinzu"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14359255529279488
+    m_Localized: "Erh\xF6he den verursachten Schaden"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14359255529279489
+    m_Localized: "Schie\xDFe einen magischen Pfeil in den Himmel, erzeuge 3 Pfeilregen
+      in einem Gebiet und k\xFChle die getroffenen Ziele ab"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14359255529279490
+    m_Localized: "Erh\xF6he den verursachten Schaden"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14359255529279491
+    m_Localized: "Reduziere 1 Angriff unter der Bedingung, die F\xE4higkeit wiederherzustellen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14820142396461056
+    m_Localized: 2 Blitze auf 2 Ziele schleudern und Schaden verursachen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14820142396461057
+    m_Localized: "1 weiteres Ziel hinzuf\xFCgen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14820142396461058
+    m_Localized: "1 weiteres Ziel hinzuf\xFCgen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14825842170384384
+    m_Localized: "Verwende die Kraft des Stabes, um Blitz in einem gro\xDFen Bereich
+      um das Ziel herum herabzurufen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14825842174578688
+    m_Localized: Verringere die Fertigkeiten-Abklingzeit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14825842178772992
+    m_Localized: "Bet\xE4ube das getroffene Ziel"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15799034032672768
+    m_Localized: Wipe Kick
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15799034036867072
+    m_Localized: Zuschlagen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482014908416
+    m_Localized: Brennen geschnitten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482023297024
+    m_Localized: Fokusverteidigung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482023297025
+    m_Localized: Liebe Segen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482023297026
+    m_Localized: Reinkarnation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15799034041061376
+    m_Localized: "Baue Schwung auf und wirf ein Projektil, das kegelf\xF6rmigen Schaden
+      verursacht"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15799034041061377
+    m_Localized: "Erh\xF6he den F\xE4higkeitsschaden"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15799034041061378
+    m_Localized: Sofortige Reduzierung der Abklingzeit auf 0 bei einem kritischen
+      Treffer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15799034041061379
+    m_Localized: "Hebe deine Hand zum Himmel, um Kraft zu sammeln, und schlage dann
+      deine Hand nach unten, um Schaden in einem Halbkreiswinkel vor dir zuzuf\xFCgen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15799034041061380
+    m_Localized: "Erh\xF6he den F\xE4higkeitsschaden"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15799034041061381
+    m_Localized: Verringere die Fertigkeiten-Abklingzeit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482027491328
+    m_Localized: "Befl\xFCgle deine Waffe mit Feuer und greife an, wodurch ein Brenneffekt
+      auf das Ziel \xFCbertragen wird"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482027491329
+    m_Localized: "Erh\xF6he den verursachten Schaden"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482027491330
+    m_Localized: "Erh\xF6he den verursachten Schaden"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482027491331
+    m_Localized: "Nehmen Sie eine defensive Haltung ein und erh\xF6hen Sie den Schadenswiderstand"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482027491332
+    m_Localized: "Erhalten Sie zus\xE4tzlich 50 Endschadensreduktion"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482027491333
+    m_Localized: "Erh\xF6hen Sie die Dauer um zus\xE4tzliche 2 Sekunden"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482027491334
+    m_Localized: Der Angriff des Helden heilt gleichzeitig einen anderen Helden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482027491335
+    m_Localized: Entferne alle negativen Effekte auf den heilenden Helden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482027491336
+    m_Localized: "Erh\xF6he die Anzahl der Ziele, die die F\xE4higkeit um 1 empfangen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482027491337
+    m_Localized: Nutzen Sie die Kraft eines Kitsune, um einen Teamkollegen mit 50%
+      Gesundheit wiederzubeleben
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482027491338
+    m_Localized: "Erh\xF6hen Sie die Gesundheit des wiederbelebten Helden"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482027491339
+    m_Localized: "Eine zus\xE4tzliche Zielperson, die den Zauber empf\xE4ngt, erh\xF6hen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16228956651900928
+    m_Localized: Armeeausbildung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16228956672872448
+    m_Localized: Starker Schub
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16228956677066752
+    m_Localized: "Erh\xF6he den Schaden f\xFCr alle St\xE4rke-basierten Verb\xFCndeten"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16228956677066753
+    m_Localized: "Erh\xF6he den zus\xE4tzlichen Schaden"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16228956681261056
+    m_Localized: "Erh\xF6he den zus\xE4tzlichen Schaden"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16228956681261057
+    m_Localized: "Benutze die St\xE4rke, um kraftvoll auf den Feind zuzust\xFCrmen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16228956681261058
+    m_Localized: "Bluteffekt hinzuf\xFCgen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16228956681261059
+    m_Localized: "Erh\xF6he den F\xE4higkeitsschaden"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16550110805389312
+    m_Localized: Giftiger Kolben
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16550110817972224
+    m_Localized: Pandemisches Ende
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347146457088
+    m_Localized: Fledermausschwarm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347159040000
+    m_Localized: Blutiger Albtraum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347159040001
+    m_Localized: Heilmagie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347159040002
+    m_Localized: Mystischer Zauber
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347159040003
+    m_Localized: Masse Slam
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347159040004
+    m_Localized: Kampfdauer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347159040005
+    m_Localized: Hammer Slam
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347159040006
+    m_Localized: Provozieren
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16550110822166528
+    m_Localized: "Wirf 3 Tr\xE4nke auf 3 Feinde, was eine Giftwirkung verursacht"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16550110822166529
+    m_Localized: "Eine zus\xE4tzliche Zielperson, die den Zauber empf\xE4ngt, erh\xF6hen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16550110822166530
+    m_Localized: "Erh\xF6he den F\xE4higkeitsschaden"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16550110822166531
+    m_Localized: "Wirf ein gro\xDFes Giftgef\xE4\xDF, um Fl\xE4chenschaden zu verursachen
+      und allen Feinden in der Umgebung einen Gifteffekt zu verleihen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16550110822166532
+    m_Localized: "2 Sekunden zus\xE4tzliche Giftwirkung hinzuf\xFCgen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16550110822166533
+    m_Localized: "Verlangsamen Sie die Laufgeschwindigkeit des Feindes um 20% f\xFCr
+      5 Sekunden"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234304
+    m_Localized: "Lassen Sie einen Schwarm blutr\xFCnstiger Flederm\xE4use in Form
+      eines Kegels frei, der die Feinde angreift, die sie durchqueren"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234305
+    m_Localized: Reduzieren Sie sofort die Fertigkeitsabklingzeit auf 0, wenn das
+      Hauptziel blutet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234306
+    m_Localized: "Erh\xF6he den F\xE4higkeitsschaden"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234307
+    m_Localized: Die begleitende Fledermaus wird greifbar. Biss in einem Bereich,
+      heilt Merlyn auf der Grundlage des insgesamt verursachten Schadens und verursacht
+      Blutungen bei den Feinden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234308
+    m_Localized: "Erh\xF6he den Bereich der F\xE4higkeit"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234309
+    m_Localized: "Erh\xF6he den F\xE4higkeitsschaden"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234310
+    m_Localized: "Verwende Magie, um Wunden bei Verb\xFCndeten innerhalb von 5 Sekunden
+      zu heilen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234311
+    m_Localized: "Eine zus\xE4tzliche Zielperson, die den Zauber empf\xE4ngt, erh\xF6hen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234312
+    m_Localized: "Reduziere 2 Angriffe unter der Bedingung, die F\xE4higkeiten wiederherzustellen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234313
+    m_Localized: "Verwende mystische Magie, um die Bewegungsgeschwindigkeit und Angriffsgeschwindigkeit
+      aller Verb\xFCndeten im Team f\xFCr 10 Sekunden zu erh\xF6hen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234314
+    m_Localized: Verringere die Fertigkeiten-Abklingzeit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234315
+    m_Localized: Verringere die Fertigkeiten-Abklingzeit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234316
+    m_Localized: "Nutzen Sie au\xDFergew\xF6hnliche St\xE4rke und einen gro\xDFen
+      Hammer, um den Boden kr\xE4ftig zu schlagen und Fl\xE4chenschaden zuzuf\xFCgen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234317
+    m_Localized: "Bet\xE4ubt Feinde, die von der F\xE4higkeit getroffen wurden, f\xFCr
+      2 Sekunden"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234318
+    m_Localized: "Erh\xF6he den F\xE4higkeitsschaden"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234319
+    m_Localized: "Verteidige dich gegen Waffenangriffe und verursache Fl\xE4chenschaden.
+      Teile deine eigene Resistenz mit Verb\xFCndeten durch den strahlenden Schimmer
+      um dich herum"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234320
+    m_Localized: "Erh\xF6he die Dauer"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234321
+    m_Localized: "Erh\xF6he zus\xE4tzliche Schadensreduktion."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234322
+    m_Localized: "Schwung aufbauen und den Hammer kr\xE4ftig auf den Boden schlagen,
+      um Fl\xE4chenschaden zu verursachen und den Feind zu bet\xE4uben"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234323
+    m_Localized: "Verringere einen Angriff unter der Bedingung f\xFCr eine F\xE4higkeitswiederaufladung"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234324
+    m_Localized: "Erh\xF6he den F\xE4higkeitsschaden"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234325
+    m_Localized: Provozieren Sie nahe Feinde, um Sie anzugreifen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234326
+    m_Localized: "Erhalte zus\xE4tzliche 10% Schadensreduktion w\xE4hrend der Dauer"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234327
+    m_Localized: "Erh\xF6he den Bereich der F\xE4higkeit"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19171766245814272
+    m_Localized: Beten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19171766254202880
+    m_Localized: Reinigung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19171766254202881
+    m_Localized: "Schw\xE4che Streik"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19171766262591488
+    m_Localized: "F\xFCr das Ziel beten, Segen empfangen, das Ziel heilen und die
+      Verb\xFCndeten um das Ziel herum"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19171766262591489
+    m_Localized: "Erh\xF6he die Dauer"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19171766262591490
+    m_Localized: Verringere die Fertigkeiten-Abklingzeit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19171766262591491
+    m_Localized: "Bringe das Licht des Herrn, heile allm\xE4hlich nahegelegene Verb\xFCndete"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19171766262591492
+    m_Localized: "Erh\xF6he die wiederherstellbare Gesundheit"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19171766262591493
+    m_Localized: Verringere die Fertigkeiten-Abklingzeit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19171766262591494
+    m_Localized: "Greifen Sie den Gegner an einer Schwachstelle an, mit der Chance,
+      einen Bluteffekt auszul\xF6sen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19171766262591495
+    m_Localized: "Erh\xF6he den F\xE4higkeitsschaden"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19171766262591496
+    m_Localized: "Erh\xF6hen Sie die Wahrscheinlichkeit, einen Bluteffekt auszul\xF6sen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20141917577441280
+    m_Localized: Flut von Messern
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20141917598412800
+    m_Localized: "Wirf ein Dolchsturm um dich herum und f\xFCge den Feinden Schaden
+      zu"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20141917598412801
+    m_Localized: "Erh\xF6he den F\xE4higkeitsschaden"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20141917598412802
+    m_Localized: Immer kritisch gegen blutende Ziele
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668748480512
+    m_Localized: "Beschw\xF6rt ein m\xE4chtiges Licht, das dem Feind Schaden zuf\xFCgt,
+      w\xE4hrend du dich selbst um einen prozentualen Betrag des Schadens heilst."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668748480513
+    m_Localized: "Bet\xE4ubt Feinde, die von der F\xE4higkeit getroffen wurden, f\xFCr
+      3 Sekunden."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668748480514
+    m_Localized: "Erh\xF6ht den F\xE4higkeitsschaden."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668748480515
+    m_Localized: "Erzeugt einen reinigenden Boden, der Feinden Schaden zuf\xFCgt
+      und Verb\xFCndete innerhalb jeder Sekunde heilt."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668748480516
+    m_Localized: "Erh\xF6ht die Dauer der F\xE4higkeit."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668748480517
+    m_Localized: "F\xFCgt eine feste Schadensreduktion hinzu."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668748480518
+    m_Localized: Schneidet Feinde mit einem Fischschwert in 120 Grad.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668748480519
+    m_Localized: "F\xFCgt Lebensraub hinzu."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668748480520
+    m_Localized: "Erh\xF6ht den F\xE4higkeitsschaden."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668748480521
+    m_Localized: "Dreht sich und f\xFCgt nahegelegenen Feinden Schaden zu. Provokiert
+      auch nahegelegene Feinde, um ihn anzugreifen."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668748480522
+    m_Localized: "F\xFCgt eine Schadensreduktion w\xE4hrend der Drehung hinzu."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668748480523
+    m_Localized: Verringert die Abklingzeit.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668605874176
+    m_Localized: Bestrafungslicht
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668740091904
+    m_Localized: "G\xF6ttlicher Glanz"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668740091905
+    m_Localized: Spalten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668740091906
+    m_Localized: Zyklon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37171343205605376
+    m_Localized: "Verr\xFCcktheit"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37171343213993984
+    m_Localized: Raserei
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37171343218188288
+    m_Localized: "Auf das Ziel springen, Fl\xE4chenschaden verursachen und 4-mal
+      wiederholt in einem Winkel von 120 Grad vorne angreifen, um dem Feind Blutungen
+      zuzuf\xFCgen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37171343218188289
+    m_Localized: "Schadensbonus f\xFCr Hieb-Angriffe erh\xF6hen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37171343218188290
+    m_Localized: "Schadensbonus f\xFCr Hieb-Angriffe erh\xF6hen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37171343218188291
+    m_Localized: "Hunger nach Schlacht, gibt einen barbarischen Schrei ab, der seine
+      Angriffsgeschwindigkeit und Angriffsschaden f\xFCr 4 Sekunden erh\xF6ht. Wenn
+      er den blutenden Feind angreift, wird die Dauer erneuert"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37171343218188292
+    m_Localized: "Lebensraub w\xE4hrend der Raserei"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37171343218188293
+    m_Localized: "F\xE4higkeitsdauer erh\xF6hen"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

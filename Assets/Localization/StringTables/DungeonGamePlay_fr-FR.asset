@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: DungeonGamePlay_fr-FR
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: fr-FR
+  m_SharedData: {fileID: 11400000, guid: afa303ff4924b9349a18e42da1cdb509, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 1239900213248
+    m_Localized: "R\xC9COMPENSES OBTENUES"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1239912796160
+    m_Localized: Bonus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1239912796161
+    m_Localized: Touchez pour retourner chez vous
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1239912796162
+    m_Localized: Abandonner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1239916990464
+    m_Localized: "R\xE9animer"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1239916990465
+    m_Localized: "Explorez un donjon pour obtenir des r\xE9compenses"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1239916990466
+    m_Localized: "Aucune r\xE9compense n'a \xE9t\xE9 obtenue"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9309468479488
+    m_Localized: "Vous y \xEAtes presque"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9988475965440
+    m_Localized: "Retourner \xE0 la maison"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 695966509289472
+    m_Localized: "Cha\xEEne de meurtres"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5345051744915456
+    m_Localized: "\xC9liminer"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6894207739129856
+    m_Localized: "\xC9tage suivant"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24983679974494208
+    m_Localized: "\xCAtes-vous s\xFBr de vouloir vous arr\xEAter ici ?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24983679995465728
+    m_Localized: Rester
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32633247696408576
+    m_Localized: Facile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32633247725768704
+    m_Localized: Normal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32633247725768705
+    m_Localized: Difficile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32633247725768706
+    m_Localized: "Tr\xE8s difficile"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32633247725768707
+    m_Localized: Lac de lave
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32633247725768708
+    m_Localized: "Caverne glaci\xE8re"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32633247725768709
+    m_Localized: "Cit\xE9 perdue"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32633247725768710
+    m_Localized: "D\xE9sert illusion"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32633247725768711
+    m_Localized: "Ch\xE2teau sombre"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32633951525785600
+    m_Localized: "S\xE9lectionnez une carte."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32639383757639680
+    m_Localized: "Entr\xE9e disponible"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32639383766028288
+    m_Localized: Enfer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32639383766028289
+    m_Localized: "H\xE9ros"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32639383766028290
+    m_Localized: "Recommand\xE9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33630354319589376
+    m_Localized: "Vous n'avez aucun mat\xE9riau d'entr\xE9e."
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

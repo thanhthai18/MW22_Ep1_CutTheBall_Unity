@@ -1,0 +1,161 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Tutorial_de
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: de
+  m_SharedData: {fileID: 11400000, guid: 571de98d4fb466646aee9ab68b147357, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 393292312577
+    m_Localized: "Ich brauche dich, um die Monster zu zerst\xF6ren und den Schl\xFCssel
+      zu bekommen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 393292312578
+    m_Localized: Wir haben nicht viel Zeit, diese Welt bricht zusammen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 393296506880
+    m_Localized: "Das Monster h\xE4lt den Schl\xFCssel und rettet mich!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17789159763968
+    m_Localized: "Du musst die Monster zerst\xF6ren und den Weg durch den Rauch ebnen!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17789189124096
+    m_Localized: "Verschwinde aus meinem Blickfeld, ihr Ratten und K\xE4fer!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17789189124097
+    m_Localized: Wie armselig!!!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17789189124098
+    m_Localized: 
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17789189124099
+    m_Localized: Finde deinen Weg zum Dorf
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17789189124100
+    m_Localized: Ich werde dir eine zweite Chance bringen !!!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17789189124101
+    m_Localized: "Du warst kein Gegner f\xFCr meinen Meister!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2552779069599744
+    m_Localized: Der dunkle Lord ist wahrscheinlich hier, ich muss mich beeilen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3855673513357312
+    m_Localized: "So k\xF6nnen wir nicht enden!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3855673580466176
+    m_Localized: Ich werde dir helfen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7921627686531072
+    m_Localized: "Danke f\xFCr deine Hilfe"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7921627699113984
+    m_Localized: "Los geht's, t\xF6tet diese Monster!!!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7921627699113985
+    m_Localized: Dank
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7961588762701824
+    m_Localized: Ich kam, um dir zu helfen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7961588771090432
+    m_Localized: Lass mich dir helfen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18773562454994944
+    m_Localized: "Du kannst den Gr\xFCnen Kristall verwenden, um die Kraft deines
+      Teams zu verbessern."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18773562467577856
+    m_Localized: "Au\xDFerdem kannst du den Roten Kristall verwenden, um die spezielle
+      Kraft zu verbessern. Lass uns zuerst lernen, wie man das Portal benutzt, um
+      nach Hause zur\xFCckzukehren."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19124917208338432
+    m_Localized: "Sie k\xF6nnen mehr Helden rekrutieren, um die Teamleistung zu steigern."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21716024011505664
+    m_Localized: "Im Jahr 16xx, dem Zeitalter des Friedens, kehrte aus den Tiefen
+      der Dunkelheit der Dunkle Lord zur\xFCck - eine Figur, die zuvor die F\xE4den
+      gezogen hatte, um Kriege zwischen den Zivilisationen zu sch\xFCren. Dieses
+      Mal setzt er und seine m\xE4chtige Armee direkt Gewalt ein, um Welten, die
+      sich den Befehlen widersetzen, zu unterdr\xFCcken und alles in giftigen Nebel
+      und Dunkelheit zu h\xFCllen. Bei der Feststellung seiner Anwesenheit machen
+      sich Arthur und die Krieger der \xC4ra sofort auf den Weg, um einen Weg zu
+      finden, seine Pl\xE4ne zu durchkreuzen. Er entdeckt die verborgene Festung
+      des Dunklen Lords und ist bereit, einen Angriff zu starten, um den Feind zu
+      vernichten."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31874488116715520
+    m_Localized: "Klicken Sie jetzt hier, um die Karte auszuw\xE4hlen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31874488120909824
+    m_Localized: "Sie k\xF6nnen die Karte ausw\xE4hlen, die Sie betreten m\xF6chten"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31874488120909825
+    m_Localized: Treten Sie in den Schattenturm ein, wo der dunkle Herr seine eigene
+      Armee aus dunklen Helden aufbaut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31874488120909826
+    m_Localized: "W\xE4hlen Sie Ihr Lieblings-Line-up, um zu k\xE4mpfen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33704331686432768
+    m_Localized: Ich habe den Weg zur Schatzkammer des Dunklen Lords gefunden. Lass
+      es uns erkunden!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33704331707404288
+    m_Localized: "Du musst das Mimic t\xF6ten, das den Schatz bewacht, bevor die
+      Zeit abl\xE4uft, wir haben nur 60 Sekunden."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33704331707404289
+    m_Localized: "R\xFCste Waffen und R\xFCstungen aus, um deine Helden st\xE4rker
+      zu machen!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33704331707404290
+    m_Localized: Wir stehen kurz davor, die Armee des Dunklen Lords herauszufordern.
+      Bereit zum Loslegen!
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -1,0 +1,463 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Enemy_de
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: de
+  m_SharedData: {fileID: 11400000, guid: f7c0e61f7eda15a48a8291ccfdda88fc, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 1093204209664
+    m_Localized: Wildpilz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093233569792
+    m_Localized: Giftiger Pilz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764096
+    m_Localized: Heidelbeere
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764097
+    m_Localized: Pfirsich
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764098
+    m_Localized: Braune Hasenmarmelade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764099
+    m_Localized: Explodierender Hund
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764100
+    m_Localized: Granatapfel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764101
+    m_Localized: Rote Beete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764102
+    m_Localized: Traube
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764103
+    m_Localized: Paprika
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764104
+    m_Localized: "Gelber Treant-W\xE4chter"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764105
+    m_Localized: Gelber Treant-Pilz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764106
+    m_Localized: Gelber Treant-Kot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764107
+    m_Localized: Menschenfresserbaum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764108
+    m_Localized: Kaktusbaum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764109
+    m_Localized: Roter Skorpion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764110
+    m_Localized: Gelbes Sandmonster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764111
+    m_Localized: Goldener Speer Anubis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764112
+    m_Localized: Anubis Krieger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764113
+    m_Localized: Anubis Magier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764114
+    m_Localized: "Braune Himmelsfl\xFCgel"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764115
+    m_Localized: "Wei\xDFer kleiner Geist"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764116
+    m_Localized: "Brauner K\xFCrbisgeist"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764117
+    m_Localized: "Skelettk\xE4mpfer"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764118
+    m_Localized: Skelett-Kommandant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764119
+    m_Localized: "Skelett-Sch\xFCtze"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764120
+    m_Localized: Skelett-Magier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764121
+    m_Localized: "Gr\xFCnes Wildschwein"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764122
+    m_Localized: Minotaurus Rote Axt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764123
+    m_Localized: Minotaurus Roter Speer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764124
+    m_Localized: Minotaurus Kanone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764125
+    m_Localized: Schwarze Imp-Dreizack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764126
+    m_Localized: Schwarze Imp-Lanze
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764127
+    m_Localized: Schwarze Imp-Zauberer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764128
+    m_Localized: Grauer Mimic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764129
+    m_Localized: Hungrige Fledermaus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764130
+    m_Localized: "Gepanzerter W\xE4chter"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764131
+    m_Localized: "Gepanzerter Bogensch\xFCtze"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764132
+    m_Localized: Unbekannter Magier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764133
+    m_Localized: Gelbe Hasenmarmelade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764134
+    m_Localized: "Gr\xFCne Hasenmarmelade"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764135
+    m_Localized: Durian Hedgehog
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764136
+    m_Localized: Oktopus Melon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764137
+    m_Localized: Nacht Oktopus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764138
+    m_Localized: "Sumpfk\xF6nig"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764139
+    m_Localized: Chiwi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764140
+    m_Localized: 
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764141
+    m_Localized: 
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764142
+    m_Localized: Chima
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764143
+    m_Localized: Riesiger Stein
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1093237764144
+    m_Localized: Big Tiger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871010459648
+    m_Localized: Blaue Hasenmarmelade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625472
+    m_Localized: "Selbstmordk\xE4fer"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625473
+    m_Localized: Frostkeiler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625474
+    m_Localized: "W\xFCtender Schneemann"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625475
+    m_Localized: "Lava-Selbstmordk\xE4fer"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625476
+    m_Localized: "Roter Treant-W\xE4chter"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625477
+    m_Localized: Roter Treant-Pilz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625478
+    m_Localized: Roter Treant-Kot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625479
+    m_Localized: Kannibalischer Baum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625480
+    m_Localized: "Rote Himmelsfl\xFCgel"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625481
+    m_Localized: Skelettschwert
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625482
+    m_Localized: Elite-Skelett
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625483
+    m_Localized: "T\xF6dlicher Skelett-Sch\xFCtze"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625484
+    m_Localized: Unheimlicher Skelett-Magier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625485
+    m_Localized: Rote Augen hungrige Fledermaus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625486
+    m_Localized: Goldener Mimic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625487
+    m_Localized: "Verblasster Skelettk\xE4mpfer"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625488
+    m_Localized: Verblasster Skelett-Leader
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625489
+    m_Localized: "Verblasster Skelett-Sch\xFCtze"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625490
+    m_Localized: Verblasster Skelett-Magier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625491
+    m_Localized: "Gr\xFCner Treant-Nahkampf"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625492
+    m_Localized: "Gr\xFCner Treant-Pilz"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625493
+    m_Localized: "Gr\xFCner Treant-Kot"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625494
+    m_Localized: Gelber Skorpion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625495
+    m_Localized: Rotes Sandmonster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625496
+    m_Localized: Roter Imp-Dreizack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625497
+    m_Localized: Roter Imp-Lanze
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625498
+    m_Localized: Roter Imp-Zauberer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625499
+    m_Localized: "Schwarzer Himmelsfl\xFCgel"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625500
+    m_Localized: "Gr\xFCner kleiner Geist"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625501
+    m_Localized: "W\xFCtender kleiner Geist"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625502
+    m_Localized: Brauner Mimic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625503
+    m_Localized: Kannibalische Pflanze
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625504
+    m_Localized: Blaues Sandmonster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625505
+    m_Localized: "Schwarzer K\xFCrbisgeist"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625506
+    m_Localized: "Roter K\xFCrbisgeist"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625507
+    m_Localized: Brauner Skorpion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625508
+    m_Localized: Giftige hungrige Fledermaus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625509
+    m_Localized: Gelber Imp-Dreizack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625510
+    m_Localized: Gelbe Imp-Lanze
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625511
+    m_Localized: Gelber Imp-Zauberer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625512
+    m_Localized: Braunes Wildschwein
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625513
+    m_Localized: "Rotes M\xE4hnen-Wildschwein"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625514
+    m_Localized: "Verr\xFCckte Minotaurus-Axt"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625515
+    m_Localized: "Verr\xFCckte Minotaurus-Lanze"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625516
+    m_Localized: "Verr\xFCckte Minotaurus-Kanone"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625517
+    m_Localized: Eis-Minotaurus-Axt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871035625518
+    m_Localized: Eis-Minotaurus-Lanze
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871039819776
+    m_Localized: Eis-Minotaurus-Kanone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15647856237989888
+    m_Localized: "Tigerz\xE4hne"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15647856263155712
+    m_Localized: Yeti
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15647856263155713
+    m_Localized: Feuerdrache
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15647856263155714
+    m_Localized: Luzifer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15647856263155715
+    m_Localized: "Goldener D\xE4monenk\xF6nig"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30396376169828352
+    m_Localized: "Goldener D\xE4monenk\xF6nig"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30396376186605568
+    m_Localized: Durian Hedgehog
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30396376186605569
+    m_Localized: Big Tiger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30396376190799872
+    m_Localized: Riesiger Stein
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14079871039819780
+    m_Localized: Brauner Mimic
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

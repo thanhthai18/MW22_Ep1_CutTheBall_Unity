@@ -1,0 +1,164 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Toast_fil
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: fil
+  m_SharedData: {fileID: 11400000, guid: a685d6e34661fa54d86bd3b5dc806f6c, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 211898478592
+    m_Localized: Hindi sapat ang {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 212158525440
+    m_Localized: Hindi sapat ang mga yaman
+    m_Metadata:
+      m_Items: []
+  - m_Id: 374848674058240
+    m_Localized: Nasa proseso, maghintay lamang ng sandali!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2254071500099584
+    m_Localized: Wala pang ads sa kasalukuyan, subukan ulit mamaya
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6600933556121600
+    m_Localized: Pook Caerleon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8029296376180736
+    m_Localized: Pakipalaya ang Apocalyptic Portal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19162182673641472
+    m_Localized: Sugurin ang lahat ng mga halimaw sa paligid
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20052610368131072
+    m_Localized: Maghanap ng puno sa malapit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20052610376519680
+    m_Localized: Magsaliksik ng mga halimaw malapit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21456667240448000
+    m_Localized: Pakilabas ang Pamamahala ng mga Bayani
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23262593587073024
+    m_Localized: Ang advertisement ay naipasa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25770030927736832
+    m_Localized: Kailangan mong mag-sign in sa iyong Google account bago gawin ang
+      operasyong ito
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25885165751136256
+    m_Localized: Hindi nakapag-login sa Google.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25885165793079296
+    m_Localized: Matagumpay na nakapag-login sa Google.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26125790922027008
+    m_Localized: Tagumpay ang pag-save ng data
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26125790947192832
+    m_Localized: Nabigo ang pag-save ng data
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26178484651044864
+    m_Localized: Walang internet connection
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27621715388387328
+    m_Localized: Hindi makabukas ng portal sa nayon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27910530799529984
+    m_Localized: Ilagay ang code ng regalo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27910530833084416
+    m_Localized: Hindi valid na code
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27910530833084417
+    m_Localized: Walang laman ang gift code
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29563001912426496
+    m_Localized: Ang feature na ito ay hindi magagamit!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30429974251728896
+    m_Localized: Nakaproseso, huwag patayin ang laro!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32699202736738304
+    m_Localized: Bibilhin ang item gamit ang mga Gems?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35615961835884544
+    m_Localized: Matagumpay na Pag-login sa Apple
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35615961844273152
+    m_Localized: Matagumpay na Pag-login bilang Bisita
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35615961844273153
+    m_Localized: Matagumpay na Pag-login
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38295733040828416
+    m_Localized: Ang maximum na kapasidad ng {0} ay {1}.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39542384359907328
+    m_Localized: Maabot ang antas ng grupo {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39542384368295936
+    m_Localized: Mag-level up
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40199049937690624
+    m_Localized: Bagong bersyon ang dumating! Mangyaring pumunta sa tindahan at mag-update!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40199049946079232
+    m_Localized: Nakuhang muli ang nawawalang yaman
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40736855579152384
+    m_Localized: Kailangang Step Bago
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40987604695916544
+    m_Localized: Itayo ang isang portal ng teleportasyon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42451156770234368
+    m_Localized: Hindi makakabalik ngayong pagkakataon
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

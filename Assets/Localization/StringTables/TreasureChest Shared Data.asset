@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: TreasureChest Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: TreasureChest
+  m_TableCollectionNameGuidString: dca406a091b175042b0cd0464923b110
+  m_Entries:
+  - m_Id: 3204634685460480
+    m_Key: treasure_discovered
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3204634693849088
+    m_Key: no_more_treasure_for_today
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3204634693849089
+    m_Key: remaining
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3204634693849091
+    m_Key: permanently_remove_ads
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3204634693849092
+    m_Key: failed_to_find_treasure
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3204634693849093
+    m_Key: tap_to_exit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40510853196816384
+    m_Key: missed_treasure
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 9009726070771941404
+  references:
+    version: 2
+    RefIds:
+    - rid: 9009726070771941404
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1693986981910

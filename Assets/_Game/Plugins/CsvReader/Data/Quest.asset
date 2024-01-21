@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f48964f8dfc931343af9c4058de12db4, type: 3}
+  m_Name: Quest
+  m_EditorClassIdentifier: 
+  classInfomations:
+  - className: Runtime.Config.DailyQuestConfig
+    csvInformations:
+    - className: Runtime.Config.DailyQuestConfig
+      csvFile: {fileID: 4900000, guid: 600ac67dc5c23fd4c9c385c3f5c78c2e, type: 3}
+      csvPath: Assets/Csv/Quest/DailyQuest.csv
+      usingFolder: 0
+      csvFolderPath: 
+      separateScriptableObject: 0
+      fileStartWith: 
+      fieldSetValue: items
+      isConvert: 0
+      convertMethod: 
+  - className: Runtime.Config.DailyQuestMilestoneConfig
+    csvInformations:
+    - className: Runtime.Config.DailyQuestMilestoneConfig
+      csvFile: {fileID: 4900000, guid: ec8048fd944721948aec93af6de515d2, type: 3}
+      csvPath: Assets/Csv/Quest/DailyQuestMilestone.csv
+      usingFolder: 0
+      csvFolderPath: 
+      separateScriptableObject: 0
+      fileStartWith: 
+      fieldSetValue: items
+      isConvert: 0
+      convertMethod: 
+  - className: Runtime.Config.StoryQuestConfig
+    csvInformations:
+    - className: Runtime.Config.StoryQuestConfig
+      csvFile: {fileID: 4900000, guid: 2e26fb68951b05348934b4b9e0b83e3c, type: 3}
+      csvPath: Assets/Csv/Quest/StoryQuest.csv
+      usingFolder: 0
+      csvFolderPath: 
+      separateScriptableObject: 0
+      fileStartWith: 
+      fieldSetValue: items
+      isConvert: 0
+      convertMethod: 
+  - className: Runtime.Config.WeeklyQuestConfig
+    csvInformations:
+    - className: Runtime.Config.WeeklyQuestConfig
+      csvFile: {fileID: 4900000, guid: ae1c0c79a100cb44096c2092aa7af87c, type: 3}
+      csvPath: Assets/Csv/Quest/WeeklyQuest.csv
+      usingFolder: 0
+      csvFolderPath: 
+      separateScriptableObject: 0
+      fileStartWith: 
+      fieldSetValue: items
+      isConvert: 0
+      convertMethod: 
+  - className: Runtime.Config.WeeklyQuestMilestoneConfig
+    csvInformations:
+    - className: Runtime.Config.WeeklyQuestMilestoneConfig
+      csvFile: {fileID: 4900000, guid: 5a4c23941cba6174a823dd249b043706, type: 3}
+      csvPath: Assets/Csv/Quest/WeeklyQuestMilestone.csv
+      usingFolder: 0
+      csvFolderPath: 
+      separateScriptableObject: 0
+      fileStartWith: 
+      fieldSetValue: items
+      isConvert: 0
+      convertMethod: 

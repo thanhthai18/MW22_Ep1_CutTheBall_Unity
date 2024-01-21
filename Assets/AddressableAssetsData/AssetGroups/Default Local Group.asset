@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 1098c5deadaeec34a84c8c13858b8fba
+  m_SerializeEntries:
+  - m_GUID: 57d24aea1248dd740971e0c73fa71cfb
+    m_Address: SpriteCommonAtlas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ee8d997a6c8cff947846be4980b2f2dc
+    m_Address: Runtime.Config.HitObjectConfig
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2cda990e2423bbf4892e6590ba056729
+    m_Address: CutTheBall
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 22b32d159e8a2ac4a94e01b4b226a99f
+    m_Address: LocalizationSettings
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 01ec9dd64acabdf4cb088bb4c51ff0f0, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: a94834797ab3ecd4aa03125f0b2b14a4, type: 2}
+    - {fileID: 11400000, guid: f4d395495140f264f8fe308b30a7c970, type: 2}

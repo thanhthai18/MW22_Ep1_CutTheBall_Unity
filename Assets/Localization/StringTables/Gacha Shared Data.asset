@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Gacha Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Gacha
+  m_TableCollectionNameGuidString: 2445c1419f011be478d40ece9415a0b1
+  m_Entries:
+  - m_Id: 523752165376
+    m_Key: obtain_one_of_the_available_heroes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 523781525504
+    m_Key: you_can_recruit_an_additional_hero
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1334111642832896
+    m_Key: higher_tier_heroes_after_recruits
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1334111663804416
+    m_Key: gacha
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1334111663804417
+    m_Key: hero_switch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1334111663804418
+    m_Key: one_more_time
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1334111663804419
+    m_Key: close
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1334111663804420
+    m_Key: recruit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1334111663804421
+    m_Key: new
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1334111663804422
+    m_Key: max
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1334111663804423
+    m_Key: instant_refresh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1334111663804424
+    m_Key: meet_new_heroes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1334111663804425
+    m_Key: give_up
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1342819647082496
+    m_Key: level_gacha
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 9009726591555862530
+  references:
+    version: 2
+    RefIds:
+    - rid: 9009726591555862530
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1695985775046

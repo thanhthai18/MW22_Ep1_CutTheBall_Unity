@@ -1,0 +1,168 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Stats Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Stats
+  m_TableCollectionNameGuidString: 42f1db742472e9d449ab1c62202a9532
+  m_Entries:
+  - m_Id: 141610332160
+    m_Key: skill_tree_unlock
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141916516352
+    m_Key: skill_tree_locked
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141916516354
+    m_Key: stat_attack_damage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141920710656
+    m_Key: stat_health_point
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141920710670
+    m_Key: skill_name_unlock_portal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141920710671
+    m_Key: skill_name_maximum_member
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141920710672
+    m_Key: skill_name_unlock_camp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141920710673
+    m_Key: skill_name_hero_critical_rate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141920710674
+    m_Key: skill_name_hero_evasion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141920710675
+    m_Key: skill_name_hero_damage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141920710676
+    m_Key: skill_name_hero_hp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141920710677
+    m_Key: skill_des_unlock_portal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141920710678
+    m_Key: skill_des_maximum_member
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141920710679
+    m_Key: skill_des_unlock_camp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141920710680
+    m_Key: skill_des_hero_critical_rate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141920710681
+    m_Key: skill_des_hero_evasion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141920710682
+    m_Key: skill_des_hero_damage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141920710683
+    m_Key: skill_des_hero_hp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4311359635312640
+    m_Key: cp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4311359660478464
+    m_Key: health_point
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4311359660478465
+    m_Key: attack_damage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4311359660478466
+    m_Key: move_speed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4311359660478467
+    m_Key: crit_chance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4311359660478468
+    m_Key: crit_damage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4311359660478469
+    m_Key: attack_range
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4311359660478470
+    m_Key: engagement_range
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4311359660478471
+    m_Key: evasion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4311359660478472
+    m_Key: fixed_damage_reduction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4311359660478473
+    m_Key: damage_reduction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4311359660478474
+    m_Key: life_steal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4311359660478475
+    m_Key: attack_speed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4311359660478476
+    m_Key: activate_range
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4311359660478477
+    m_Key: cooldown_reduction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4311359660478478
+    m_Key: chop_damage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4311359660478479
+    m_Key: mining_damage
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 7661827088638803986
+  references:
+    version: 2
+    RefIds:
+    - rid: 7661827088638803986
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1694062793572

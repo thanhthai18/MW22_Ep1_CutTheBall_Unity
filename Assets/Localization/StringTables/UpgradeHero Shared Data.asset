@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: UpgradeHero Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: UpgradeHero
+  m_TableCollectionNameGuidString: b826a096e3c08864f85d2be904b600d1
+  m_Entries:
+  - m_Id: 1313720923586560
+    m_Key: strength_hero
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1313721082970112
+    m_Key: intellect_hero
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1313721082970113
+    m_Key: agility_hero
+    m_Metadata:
+      m_Items: []
+  - m_Id: 886140031003
+    m_Key: insufficient_required_lv
+    m_Metadata:
+      m_Items: []
+  - m_Id: 886140031005
+    m_Key: insufficient_fragments
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1313721087164416
+    m_Key: owned_effects
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1313721087164417
+    m_Key: self_hero
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1313721087164418
+    m_Key: all_hero
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1447639775170560
+    m_Key: unlocked_at_level
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16280485376438272
+    m_Key: strength
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16280485397409792
+    m_Key: intellect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16280485401604096
+    m_Key: agility
+    m_Metadata:
+      m_Items: []
+  - m_Id: 886140031006
+    m_Key: stat_attack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 886140031007
+    m_Key: stat_defense
+    m_Metadata:
+      m_Items: []
+  - m_Id: 886140031008
+    m_Key: stat_attack_speed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 886140031009
+    m_Key: stat_crit_damage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 886140031010
+    m_Key: stat_defense_penetration
+    m_Metadata:
+      m_Items: []
+  - m_Id: 886140031011
+    m_Key: stat_crit_rate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 886140031012
+    m_Key: stat_fixed_damage
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 9009726274333310981
+  references:
+    version: 2
+    RefIds:
+    - rid: 9009726274333310981
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1694750772179

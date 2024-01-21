@@ -1,0 +1,984 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Skills_pt
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: pt-br
+  m_SharedData: {fileID: 11400000, guid: 62c6ecc3f585e74408f2978e938a4b62, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 15799034032672768
+    m_Localized: "Chute R\xE1pido"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 589820841984
+    m_Localized: Ataque Pesado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 589850202112
+    m_Localized: Incentivar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 589850202113
+    m_Localized: Carpinteiro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 589850202114
+    m_Localized: Ataque de Machado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 589854396417
+    m_Localized: "Ca\xE7ador de Tesouros"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 589854396418
+    m_Localized: Corpo Forte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 589854396419
+    m_Localized: "M\xE3o Curadora"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 589854396420
+    m_Localized: Conhecimento Compartilhado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 589854396421
+    m_Localized: "Ataque Girat\xF3rio"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 589854396422
+    m_Localized: Passo do Vento
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11109245547171840
+    m_Localized: "Tiro M\xFAltiplo"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11458394163277824
+    m_Localized: Mira Firme
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297098420224
+    m_Localized: Enfurecer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297131974656
+    m_Localized: Chamado da Lua
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11543291708076032
+    m_Localized: Orbe Curativo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11543291733241856
+    m_Localized: "B\xEAn\xE7\xE3o da Natureza"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11543291733241857
+    m_Localized: "Explos\xE3o de Fogo"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11543291733241858
+    m_Localized: "Tiro na Cabe\xE7a"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12130097853247488
+    m_Localized: "Explos\xE3o de Fogo"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12130097878413312
+    m_Localized: Terra Chamuscada
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048828907520
+    m_Localized: "Lan\xE7amento de Lan\xE7a"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048841490432
+    m_Localized: "Cora\xE7\xE3o Valente"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048841490433
+    m_Localized: "Lan\xE7amento de Shuriken"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048841490434
+    m_Localized: "Bomba de Fuma\xE7a"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14047010697801728
+    m_Localized: Barragem Sombria
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14047010727161856
+    m_Localized: Bola Sombria
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14359255491530752
+    m_Localized: Tiro Poderoso
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14359255520890880
+    m_Localized: Chuva de Flechas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14820142371295232
+    m_Localized: Raio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14820142392266752
+    m_Localized: Trovoada Gigante
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15799034036867072
+    m_Localized: Pancada
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482014908416
+    m_Localized: Corte Ardente
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482023297024
+    m_Localized: Defesa Focada
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482023297025
+    m_Localized: "B\xEAn\xE7\xE3o do Amor"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482023297026
+    m_Localized: "Reencarna\xE7\xE3o"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16228956651900928
+    m_Localized: Treinamento Militar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16228956672872448
+    m_Localized: Investida Forte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16550110805389312
+    m_Localized: Frasco Venenoso
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16550110817972224
+    m_Localized: "Fim Pand\xEAmico"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347146457088
+    m_Localized: Enxame de Morcegos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347159040000
+    m_Localized: Pesadelo Sangrento
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347159040001
+    m_Localized: Magia Curativa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347159040002
+    m_Localized: "Encanto M\xEDstico"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347159040003
+    m_Localized: Pancada no Solo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347159040004
+    m_Localized: "Resist\xEAncia \xE0 Batalha"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347159040005
+    m_Localized: Pancada de Martelo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347159040006
+    m_Localized: Provocar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19171766245814272
+    m_Localized: Rezar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19171766254202880
+    m_Localized: "Purifica\xE7\xE3o"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19171766254202881
+    m_Localized: Ataque Fraco
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20141917577441280
+    m_Localized: Saraivada de Facas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740952244224
+    m_Localized: "Re\xFAna for\xE7as e desferia um golpe poderoso em um alvo"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740960632832
+    m_Localized: Aumenta o dano causado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827136
+    m_Localized: Aumenta o dano causado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827137
+    m_Localized: "Aumenta a moral para si mesmo e os 3 aliados mais pr\xF3ximos,
+      aumentando a velocidade de ataque e movimenta\xE7\xE3o por 5 segundos"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827138
+    m_Localized: "Aumenta a efic\xE1cia da habilidade"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827139
+    m_Localized: Adiciona 2 aliados para receber a habilidade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827140
+    m_Localized: "Aumenta o dano \xE0s \xE1rvores"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827141
+    m_Localized: "Aumenta o dano \xE0s \xE1rvores"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827142
+    m_Localized: "Aumenta o dano \xE0s \xE1rvores"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827143
+    m_Localized: "Re\xFAna for\xE7as e desfira um golpe poderoso em um alvo"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827144
+    m_Localized: Aumenta o dano causado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827145
+    m_Localized: Aumenta o dano causado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827149
+    m_Localized: Aumenta o dano aos minerais
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827150
+    m_Localized: Aumenta o dano aos minerais
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827151
+    m_Localized: Aumenta o dano aos minerais
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827152
+    m_Localized: "Aumenta o HP de todos os seus her\xF3is"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827153
+    m_Localized: "Aumenta a sa\xFAde adicional"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827154
+    m_Localized: "Aumenta a sa\xFAde adicional"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827155
+    m_Localized: Cura um aliado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827156
+    m_Localized: "Aumenta a sa\xFAde recuper\xE1vel"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827157
+    m_Localized: "Aumenta a sa\xFAde recuper\xE1vel"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827158
+    m_Localized: Aumenta o dano para todos os aliados baseados em intelecto
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827159
+    m_Localized: Aumenta o dano adicional
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827160
+    m_Localized: Aumenta o dano adicional
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827161
+    m_Localized: "Re\xFAna for\xE7as, empunhe a espada de dentro da bainha e crie
+      um redemoinho para varrer os inimigos e empurr\xE1-los para tr\xE1s"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827162
+    m_Localized: Aumenta o dano causado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827163
+    m_Localized: Aumenta o dano causado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827164
+    m_Localized: "Dash em dire\xE7\xE3o ao inimigo, causando dano a todos os inimigos
+      em seu caminho."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827165
+    m_Localized: Aumenta o dano causado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827166
+    m_Localized: "Reduz 1 ataque na condi\xE7\xE3o de recuperar habilidade"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11109245559754752
+    m_Localized: Dispara 2 flechas em 2 inimigos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11109245559754753
+    m_Localized: "Adiciona efeito de veneno \xE0 habilidade"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11109245559754754
+    m_Localized: Aumenta o dano causado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11458394192637952
+    m_Localized: Aumenta o dano para todos os aliados baseados em agilidade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11458394192637953
+    m_Localized: Aumenta o dano adicional
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11458394192637954
+    m_Localized: Aumenta o dano adicional
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168960
+    m_Localized: Cura os companheiros de equipe em vez de atacar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168961
+    m_Localized: "Aumenta a sa\xFAde recuper\xE1vel"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168962
+    m_Localized: 25% de chance de curar 2 aliados
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168963
+    m_Localized: Utilize o poder da natureza, cure todos os aliados
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168964
+    m_Localized: "Aumenta a sa\xFAde recuper\xE1vel"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168965
+    m_Localized: Reduz o tempo de recarga
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168966
+    m_Localized: "Atire 4 tiros cont\xEDnuos no inimigo"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168967
+    m_Localized: Aumenta o dano causado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168968
+    m_Localized: "Reduz 1 ataque na condi\xE7\xE3o de recuperar habilidade"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168969
+    m_Localized: "Utilize um rifle de sniper de precis\xE3o"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168970
+    m_Localized: Aumenta o dano causado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168971
+    m_Localized: Adiciona um efeito de atordoamento
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168972
+    m_Localized: "Pule e bata no ch\xE3o, causando dano em \xE1rea"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168973
+    m_Localized: Aumenta o dano causado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168974
+    m_Localized: "Atualiza instantaneamente a habilidade ao us\xE1-la como um acerto
+      cr\xEDtico"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168975
+    m_Localized: "Aproveite o poder da lua, aumentando a taxa de acerto cr\xEDtico
+      para si mesmo e os dois aliados mais pr\xF3ximos"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168976
+    m_Localized: "Aumenta a dura\xE7\xE3o"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297140363264
+    m_Localized: "Aumenta a efic\xE1cia da habilidade"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12130097878413313
+    m_Localized: "Lance uma bola de fogo no alvo e cause dano \xE0 \xE1rea circundante"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12130097878413314
+    m_Localized: Atordoar o alvo atingido
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12130097878413315
+    m_Localized: Aumenta o dano causado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12130097878413316
+    m_Localized: Crie um anel de fogo, causando dano aos inimigos atingidos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12130097878413317
+    m_Localized: Adicione um efeito de queima
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12130097878413318
+    m_Localized: Aumenta o dano causado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048841490435
+    m_Localized: "Lance uma lan\xE7a voadora r\xE1pida que perfura os alvos"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048841490436
+    m_Localized: Aumenta o dano causado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048841490437
+    m_Localized: Aumenta o dano causado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048841490438
+    m_Localized: "Mostre a bravura no campo de batalha, aumente o dano puro para
+      si mesmo e os 3 aliados mais pr\xF3ximos"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048841490439
+    m_Localized: Aumenta o dano adicional
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048841490440
+    m_Localized: Concede a 2 aliados a habilidade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048845684736
+    m_Localized: Lance uma shuriken no inimigo, causando sangramento
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048845684737
+    m_Localized: Aumenta o dano causado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048845684738
+    m_Localized: Aumenta o dano a inimigos sangrando
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048845684739
+    m_Localized: "Lance uma bomba de fuma\xE7a para desorientar o inimigo e aumentar
+      sua evas\xE3o"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048845684740
+    m_Localized: "Aumenta a taxa de evas\xE3o adicional"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048845684741
+    m_Localized: Concede a 3 aliados a habilidade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14047010727161857
+    m_Localized: Atire 3 bolas de fogo no oponente
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14047010727161858
+    m_Localized: Adiciona um efeito de queima
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14047010727161859
+    m_Localized: Aumenta o dano causado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14047010727161860
+    m_Localized: "Re\xFAna energia para criar uma bola de fogo massiva causando dano
+      em \xE1rea ao redor do alvo"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14047010727161861
+    m_Localized: Aumenta o dano causado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14047010727161862
+    m_Localized: "Sempre acerte cr\xEDticos em um alvo queimando"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14359255525085184
+    m_Localized: "Puxe a corda do arco ao m\xE1ximo e atire uma flecha extremamente
+      poderosa e penetrante em todos os inimigos"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14359255525085185
+    m_Localized: Adiciona um efeito de Calafrio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14359255529279488
+    m_Localized: Aumenta o dano causado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14359255529279489
+    m_Localized: "Atire uma flecha m\xE1gica no c\xE9u, criando 3 chuveiros de flechas
+      em uma \xE1rea e congelando os alvos atingidos"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14359255529279490
+    m_Localized: Aumenta o dano causado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14359255529279491
+    m_Localized: "Reduz 1 ataque na condi\xE7\xE3o de recuperar habilidade"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14820142396461056
+    m_Localized: Despeje 2 raios em 2 alvos, causando dano
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14820142396461057
+    m_Localized: Adiciona mais 1 alvo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14820142396461058
+    m_Localized: Adiciona mais 1 alvo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14825842170384384
+    m_Localized: "Use o poder do cajado para invocar trov\xF5es em uma grande \xE1rea
+      ao redor do alvo"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14825842174578688
+    m_Localized: Reduz o tempo de recarga
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14825842178772992
+    m_Localized: Atordoar o alvo atingido
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15799034041061376
+    m_Localized: "Construa impulso e jogue um proj\xE9til, causando dano em forma
+      de cone"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15799034041061377
+    m_Localized: Aumenta o dano da habilidade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15799034041061378
+    m_Localized: "Reduz instantaneamente o tempo de recarga para 0 em caso de acerto
+      cr\xEDtico"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15799034041061379
+    m_Localized: "Levante a m\xE3o para o c\xE9u para reunir poder e, em seguida,
+      bata a m\xE3o no ch\xE3o, causando dano em um \xE2ngulo crescente \xE0 frente"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15799034041061380
+    m_Localized: Aumenta o dano da habilidade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15799034041061381
+    m_Localized: Reduz o tempo de recarga
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482027491328
+    m_Localized: Imbua sua arma com fogo e ataque, causando um efeito de queima no
+      alvo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482027491329
+    m_Localized: Aumenta o dano causado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482027491330
+    m_Localized: Aumenta o dano causado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482027491331
+    m_Localized: "Assuma uma postura defensiva, aumentando a resist\xEAncia ao dano"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482027491332
+    m_Localized: "B\xF4nus de 50 de redu\xE7\xE3o de dano fixo"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482027491333
+    m_Localized: "Aumenta a dura\xE7\xE3o em mais 2 segundos"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482027491334
+    m_Localized: "O ataque do her\xF3i cura simultaneamente outro her\xF3i"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482027491335
+    m_Localized: "Remova todos os efeitos negativos no her\xF3i curado"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482027491336
+    m_Localized: "Aumenta o n\xFAmero de alvos que recebem a habilidade em 1"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482027491337
+    m_Localized: "Utilize o poder de um kitsune, ressuscitando um colega de equipe
+      com 50% de sa\xFAde"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482027491338
+    m_Localized: "Aumenta a sa\xFAde do her\xF3i ressuscitado"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482027491339
+    m_Localized: "Aumenta um alvo adicional que recebe o feiti\xE7o"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16228956677066752
+    m_Localized: "Aumenta o dano para todos os aliados baseados em for\xE7a"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16228956677066753
+    m_Localized: Aumenta o dano adicional
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16228956681261056
+    m_Localized: Aumenta o dano adicional
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16228956681261057
+    m_Localized: "Use a for\xE7a para carregar com for\xE7a em dire\xE7\xE3o ao inimigo"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16228956681261058
+    m_Localized: Adiciona efeito de sangramento
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16228956681261059
+    m_Localized: Aumenta o dano da habilidade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16550110822166528
+    m_Localized: "Lance 3 po\xE7\xF5es em 3 inimigos, causando efeito de veneno"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16550110822166529
+    m_Localized: "Aumenta um alvo adicional que recebe o feiti\xE7o"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16550110822166530
+    m_Localized: Aumenta o dano da habilidade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16550110822166531
+    m_Localized: "Lance uma grande ampola de veneno para causar dano em \xE1rea e
+      aplicar efeito de veneno a todos os inimigos na \xE1rea"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16550110822166532
+    m_Localized: Adicione mais 2 segundos ao efeito de veneno
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16550110822166533
+    m_Localized: Reduza a velocidade de corrida do inimigo em 20% por 5 segundos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234304
+    m_Localized: Lance um enxame de morcegos sedentos de sangue em forma de cone,
+      atacando os inimigos que passam por eles
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234305
+    m_Localized: Reduz instantaneamente o tempo de recarga da habilidade para 0 se
+      o alvo principal estiver sangrando
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234306
+    m_Localized: Aumenta o dano da habilidade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234307
+    m_Localized: "O morcego acompanhante se torna corp\xF3reo. Morde em uma \xE1rea,
+      curando Merlyn com base no dano total causado e causando sangramento aos inimigos"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234308
+    m_Localized: "Aumenta a \xE1rea da habilidade"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234309
+    m_Localized: Aumenta o dano da habilidade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234310
+    m_Localized: Use a magia para curar feridas para aliados dentro de 5 segundos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234311
+    m_Localized: "Aumenta um alvo adicional que recebe o feiti\xE7o"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234312
+    m_Localized: "Reduz 2 ataques nas condi\xE7\xF5es de recuperar habilidades"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234313
+    m_Localized: "Use magia m\xEDstica para aumentar a velocidade de movimento e
+      a velocidade de ataque para todos os aliados na equipe por 10 segundos"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234314
+    m_Localized: Reduz o tempo de recarga
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234315
+    m_Localized: Reduz o tempo de recarga
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234316
+    m_Localized: "Utilize uma for\xE7a excepcional e um grande martelo para atingir
+      o ch\xE3o com for\xE7a, causando dano em \xE1rea"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234317
+    m_Localized: Atordoar os inimigos atingidos pela habilidade por 2 segundos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234318
+    m_Localized: Aumenta o dano da habilidade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234319
+    m_Localized: "Defenda contra ataques de armas, causando dano em \xE1rea. Compartilhe
+      sua pr\xF3pria resist\xEAncia com aliados atrav\xE9s da aura radiante ao seu
+      redor"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234320
+    m_Localized: "Aumenta a dura\xE7\xE3o"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234321
+    m_Localized: "Aumenta a redu\xE7\xE3o de dano adicional"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234322
+    m_Localized: "Construa impulso e bata o martelo no ch\xE3o, causando dano em
+      \xE1rea e atordoando o inimigo"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234323
+    m_Localized: "Reduz um ataque nas condi\xE7\xF5es para recarregar a habilidade"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234324
+    m_Localized: Aumenta o dano da habilidade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234325
+    m_Localized: "Provocar inimigos pr\xF3ximos a atacar voc\xEA"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234326
+    m_Localized: "Receba uma redu\xE7\xE3o adicional de 10% de dano durante a dura\xE7\xE3o"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234327
+    m_Localized: "Aumenta a \xE1rea da habilidade"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19171766262591488
+    m_Localized: "Reze pelo alvo, receba b\xEAn\xE7\xE3os, cure o alvo e aliados
+      ao redor do alvo"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19171766262591489
+    m_Localized: "Aumenta a dura\xE7\xE3o"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19171766262591490
+    m_Localized: Reduz o tempo de recarga
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19171766262591491
+    m_Localized: "Traga a luz do Senhor, cure gradualmente os aliados pr\xF3ximos"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19171766262591492
+    m_Localized: "Aumenta a sa\xFAde recuper\xE1vel"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19171766262591493
+    m_Localized: Reduz o tempo de recarga
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19171766262591494
+    m_Localized: Ataque o oponente com um golpe em um ponto fraco, com chance de
+      causar um efeito de sangramento
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19171766262591495
+    m_Localized: Aumenta o dano da habilidade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19171766262591496
+    m_Localized: Aumenta a chance de causar um efeito de sangramento
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20141917598412800
+    m_Localized: Lance uma tempestade de adagas ao seu redor, causando dano aos inimigos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20141917598412801
+    m_Localized: Aumenta o dano da habilidade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20141917598412802
+    m_Localized: "Sempre cr\xEDtico contra alvos sangrando"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668748480512
+    m_Localized: Invocar uma luz poderosa que causa dano ao inimigo enquanto se cura
+      por uma porcentagem do dano.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668748480513
+    m_Localized: Atordoar inimigos atingidos pela habilidade por 3 segundos.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668748480514
+    m_Localized: Aumentar o dano da habilidade.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668748480515
+    m_Localized: Criar um terreno purificado, causando dano aos inimigos e curando
+      aliados a cada segundo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668748480516
+    m_Localized: "Aumentar a dura\xE7\xE3o da habilidade."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668748480517
+    m_Localized: "Adicionar redu\xE7\xE3o de dano fixa."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668748480518
+    m_Localized: Fatia os inimigos com uma espada de peixe em 120 graus.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668748480519
+    m_Localized: Adicionar roubo de vida.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668748480520
+    m_Localized: Aumentar o dano da habilidade.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668748480521
+    m_Localized: "Ataque girat\xF3rio, causando dano aos inimigos pr\xF3ximos. Tamb\xE9m
+      provocar os inimigos pr\xF3ximos para atac\xE1-lo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668748480522
+    m_Localized: "Adicionar redu\xE7\xE3o de dano durante o giro."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668748480523
+    m_Localized: Reduzir o tempo de recarga.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668605874176
+    m_Localized: "Luz da Puni\xE7\xE3o"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668740091904
+    m_Localized: Aura da Deusa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668740091905
+    m_Localized: Cortar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668740091906
+    m_Localized: Ciclone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37171343205605376
+    m_Localized: Loucura
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37171343213993984
+    m_Localized: Frenesi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37171343218188288
+    m_Localized: "Pular no alvo, causar dano na \xE1rea e atacar repetidamente 4
+      vezes em 120 graus na frente, infligir sangramento no inimigo"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37171343218188289
+    m_Localized: Aumentar o dano de ataque cortante
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37171343218188290
+    m_Localized: Aumentar o dano de ataque cortante
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37171343218188291
+    m_Localized: "Fome de batalha, liberar um rugido b\xE1rbaro que aumenta sua velocidade
+      de ataque e dano de ataque por 4 segundos. Se ele atacar o inimigo sangrando,
+      a dura\xE7\xE3o \xE9 atualizada"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37171343218188292
+    m_Localized: Roubo de vida durante a frenesi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37171343218188293
+    m_Localized: "Aumentar a dura\xE7\xE3o da habilidade"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

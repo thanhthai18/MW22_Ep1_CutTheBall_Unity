@@ -1,0 +1,1048 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Skills_id
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: id
+  m_SharedData: {fileID: 11400000, guid: 62c6ecc3f585e74408f2978e938a4b62, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 589820841984
+    m_Localized: Pukulan Kritis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 589850202112
+    m_Localized: Semangat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 589850202113
+    m_Localized: Menebang kayu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 589850202114
+    m_Localized: Pukulan Kapak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 589854396417
+    m_Localized: Pencari Harta Karun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 589854396418
+    m_Localized: Tubuh Kuat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 589854396419
+    m_Localized: Tangan Penyembuh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 589854396420
+    m_Localized: Pengetahuan Bersama
+    m_Metadata:
+      m_Items: []
+  - m_Id: 589854396421
+    m_Localized: Badai
+    m_Metadata:
+      m_Items: []
+  - m_Id: 589854396422
+    m_Localized: Langkah Angin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740952244224
+    m_Localized: Kumpulkan kekuatanmu dan lepaskan serangan kuat ke target
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740960632832
+    m_Localized: Meningkatkan kerusakan yang diberikan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827136
+    m_Localized: Meningkatkan kerusakan yang diberikan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827137
+    m_Localized: Meningkatkan semangat untuk diri sendiri dan 3 rekan tim terdekat,
+      meningkatkan kecepatan serangan dan kecepatan pergerakan selama 5 detik
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827138
+    m_Localized: Meningkatkan efektivitas skill
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827139
+    m_Localized: Tambahkan 2 sekutu untuk menerima skill
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827140
+    m_Localized: Meningkatkan kerusakan pada pohon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827141
+    m_Localized: Meningkatkan kerusakan pada pohon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827142
+    m_Localized: Meningkatkan kerusakan pada pohon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827143
+    m_Localized: Kumpulkan kekuatanmu dan berikan pukulan kuat ke target
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827144
+    m_Localized: Meningkatkan kerusakan yang diberikan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827145
+    m_Localized: Meningkatkan kerusakan yang diberikan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827149
+    m_Localized: Meningkatkan kerusakan pada mineral
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827150
+    m_Localized: Meningkatkan kerusakan pada mineral
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827151
+    m_Localized: Meningkatkan kerusakan pada mineral
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827152
+    m_Localized: Meningkatkan HP untuk semua pahlawan milik sendiri
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827153
+    m_Localized: Meningkatkan kesehatan tambahan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827154
+    m_Localized: Meningkatkan kesehatan tambahan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827155
+    m_Localized: Mengobati seorang sekutu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827156
+    m_Localized: Meningkatkan kesehatan yang bisa dipulihkan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827157
+    m_Localized: Meningkatkan kesehatan yang bisa dipulihkan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827158
+    m_Localized: Meningkatkan kerusakan untuk semua sekutu berbasis kecerdasan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827159
+    m_Localized: Meningkatkan kerusakan tambahan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827160
+    m_Localized: Meningkatkan kerusakan tambahan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827161
+    m_Localized: Kumpulkan kekuatanmu, keluarkan pedang dari sarungnya, dan ciptakan
+      angin puting beliung untuk menyapu musuh dan mendorong mereka kembali
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827162
+    m_Localized: Meningkatkan kerusakan yang diberikan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827163
+    m_Localized: Meningkatkan kerusakan yang diberikan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827164
+    m_Localized: Meluncur ke arah musuh, memberikan kerusakan kepada semua musuh
+      di jalurmu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827165
+    m_Localized: Meningkatkan kerusakan yang diberikan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827166
+    m_Localized: Mengurangi 1 serangan dalam kondisi untuk memulihkan keterampilan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11109245547171840
+    m_Localized: Tembakan Ganda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11535539598512128
+    m_Localized: Aim Stabil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11109245559754752
+    m_Localized: Menembak 2 anak panah ke 2 musuh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11109245559754753
+    m_Localized: Tambahkan efek racun ke skill
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11109245559754754
+    m_Localized: Meningkatkan kerusakan yang diberikan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11535539619483650
+    m_Localized: Meningkatkan kerusakan untuk semua sekutu yang lincah
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11535539619483651
+    m_Localized: Meningkatkan kerusakan tambahan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11535539619483652
+    m_Localized: Meningkatkan kerusakan tambahan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11535539619483653
+    m_Localized: Menyembuhkan rekan satu tim daripada menyerang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11535539619483654
+    m_Localized: Meningkatkan kesehatan yang bisa dipulihkan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11535539619483655
+    m_Localized: 25% peluang menyembuhkan 2 sekutu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11535539619483656
+    m_Localized: Manfaatkan kekuatan alam, sembuhkan semua sekutu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11535539619483657
+    m_Localized: Meningkatkan kesehatan yang bisa dipulihkan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11535539619483658
+    m_Localized: Kurangi waktu jeda keterampilan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11535539619483659
+    m_Localized: Menembakkan 4 tembakan beruntun ke musuh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11535539619483660
+    m_Localized: Meningkatkan kerusakan yang diberikan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11535539619483661
+    m_Localized: Mengurangi 1 serangan dalam kondisi untuk memulihkan keterampilan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11535539619483662
+    m_Localized: Memanfaatkan senapan runduk presisi mutlak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11535539619483663
+    m_Localized: Meningkatkan kerusakan yang diberikan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11535539619483664
+    m_Localized: Tambahkan efek memukau
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11458394163277824
+    m_Localized: Aim Stabil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297098420224
+    m_Localized: Marah
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297131974656
+    m_Localized: Panggilan Bulan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11458394192637952
+    m_Localized: Meningkatkan kerusakan untuk semua sekutu yang lincah
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11458394192637953
+    m_Localized: Meningkatkan kerusakan tambahan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11458394192637954
+    m_Localized: Meningkatkan kerusakan tambahan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168960
+    m_Localized: Menyembuhkan rekan satu tim daripada menyerang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168961
+    m_Localized: Meningkatkan kesehatan yang bisa dipulihkan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168962
+    m_Localized: 25% peluang menyembuhkan 2 sekutu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168963
+    m_Localized: Manfaatkan kekuatan alam, sembuhkan semua sekutu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168964
+    m_Localized: Meningkatkan kesehatan yang bisa dipulihkan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168965
+    m_Localized: Kurangi waktu jeda keterampilan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168966
+    m_Localized: Menembakkan 4 tembakan beruntun ke musuh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168967
+    m_Localized: Meningkatkan kerusakan yang diberikan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168968
+    m_Localized: Mengurangi 1 serangan dalam kondisi untuk memulihkan keterampilan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168969
+    m_Localized: Memanfaatkan senapan runduk presisi mutlak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168970
+    m_Localized: Meningkatkan kerusakan yang diberikan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168971
+    m_Localized: Tambahkan efek memukau
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168972
+    m_Localized: Loncat ke atas dan membanting ke tanah, memberikan kerusakan area
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168973
+    m_Localized: Meningkatkan kerusakan yang diberikan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168974
+    m_Localized: Secara instan menyegarkan keterampilan saat menggunakannya sebagai
+      pukulan kritis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168975
+    m_Localized: Manfaatkan kekuatan bulan, meningkatkan tingkat hit kritis untuk
+      diri sendiri dan dua sekutu terdekat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168976
+    m_Localized: Meningkatkan durasi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297140363264
+    m_Localized: Meningkatkan efektivitas skill
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11543291708076032
+    m_Localized: Orbs Penyembuhan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11543291733241856
+    m_Localized: Berkat Alam
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11543291733241857
+    m_Localized: Ledakan Api
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11543291733241858
+    m_Localized: Tembakan Kepala
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12130097853247488
+    m_Localized: Ledakan Api
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12130097878413312
+    m_Localized: Bumi Terbakar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12130097878413313
+    m_Localized: Lontarkan bola api ke target dan berikan kerusakan pada sekitarnya
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12130097878413314
+    m_Localized: Membius target yang terkena
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12130097878413315
+    m_Localized: Meningkatkan kerusakan yang diberikan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12130097878413316
+    m_Localized: Buat cincin api, memberikan kerusakan kepada musuh yang terkena
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12130097878413317
+    m_Localized: Tambahkan efek terbakar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12130097878413318
+    m_Localized: Meningkatkan kerusakan yang diberikan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048841490435
+    m_Localized: Lempar lembing cepat yang menembus target
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048841490436
+    m_Localized: Meningkatkan kerusakan yang diberikan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048841490437
+    m_Localized: Meningkatkan kerusakan yang diberikan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048841490438
+    m_Localized: Tunjukkan keberanian medan perang, tingkatkan kerusakan murni untuk
+      diri sendiri dan 3 sekutu terdekat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048841490439
+    m_Localized: Meningkatkan kerusakan tambahan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048845684737
+    m_Localized: Meningkatkan kerusakan yang diberikan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14047010727161858
+    m_Localized: Tambahkan efek terbakar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14047010727161859
+    m_Localized: Meningkatkan kerusakan yang diberikan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14047010727161861
+    m_Localized: Meningkatkan kerusakan yang diberikan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048841490440
+    m_Localized: Memberikan kemampuan kepada 2 sekutu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048845684736
+    m_Localized: Melemparkan shuriken ke musuh, menyebabkan pendarahan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048845684738
+    m_Localized: Tingkatkan kerusakan pada musuh yang sedang berdarah
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048845684739
+    m_Localized: Lempar bom asap untuk membingungkan musuh dan meningkatkan kemampuan
+      menghindar Anda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048845684740
+    m_Localized: Meningkatkan tingkat penghindaran tambahan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048845684741
+    m_Localized: Memberikan kemampuan kepada 3 sekutu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14047010727161857
+    m_Localized: Menembakkan 3 bola api ke lawan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14047010727161860
+    m_Localized: Kumpulkan energi untuk menciptakan bola api raksasa yang memberikan
+      kerusakan area di sekitar target
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14047010727161862
+    m_Localized: Selalu pukulan kritis pada target yang terbakar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048828907520
+    m_Localized: Melemparkan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048841490432
+    m_Localized: Hati yang berani
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048841490433
+    m_Localized: Meluncurkan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048841490434
+    m_Localized: Bom asap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14047010697801728
+    m_Localized: Peluru api
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14047010727161856
+    m_Localized: Permintaan energi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14359255491530752
+    m_Localized: Kuat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14359255520890880
+    m_Localized: Nama hujan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14820142371295232
+    m_Localized: Petir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14820142392266752
+    m_Localized: Petir raksasa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14359255525085184
+    m_Localized: Tarik senar hingga maksimal dan tembakkan anak panah yang sangat
+      kuat dan tembus pada semua musuh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14359255525085185
+    m_Localized: Tambahkan efek kedinginan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14359255529279488
+    m_Localized: Meningkatkan kerusakan yang diberikan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14359255529279489
+    m_Localized: Luncurkan anak panah ajaib ke langit, menciptakan 3 hujan anak panah
+      dalam suatu area dan mendinginkan target yang terkena
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14359255529279490
+    m_Localized: Meningkatkan kerusakan yang diberikan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14359255529279491
+    m_Localized: Mengurangi 1 serangan dalam kondisi untuk memulihkan keterampilan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14820142396461056
+    m_Localized: Membuat 2 petir mengenai 2 target, memberikan kerusakan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14820142396461057
+    m_Localized: Tambahkan 1 target lagi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14820142396461058
+    m_Localized: Tambahkan 1 target lagi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14825842170384384
+    m_Localized: Gunakan kekuatan tongkat untuk memanggil petir di area besar di
+      sekitar target
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14825842174578688
+    m_Localized: Kurangi waktu jeda keterampilan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14825842178772992
+    m_Localized: Membius target yang terkena
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15799034032672768
+    m_Localized: Gesek tendangan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15799034036867072
+    m_Localized: membanting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482014908416
+    m_Localized: Potongan terbakar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482023297024
+    m_Localized: Fokus Pertahanan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482023297025
+    m_Localized: Cinta Berkat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482023297026
+    m_Localized: Reinkarnasi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15799034041061376
+    m_Localized: Kumpulkan momentum dan lemparkan proyektil, memberikan kerusakan
+      berbentuk kerucut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15799034041061377
+    m_Localized: Meningkatkan kerusakan kemampuan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15799034041061378
+    m_Localized: Secara instan mengurangi waktu jeda menjadi 0 saat serangan kritis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15799034041061379
+    m_Localized: Angkat tanganmu ke langit untuk mengumpulkan kekuatan, lalu tebaskan
+      tanganmu ke bawah, memberikan kerusakan dengan sudut sabit di depan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15799034041061380
+    m_Localized: Meningkatkan kerusakan kemampuan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15799034041061381
+    m_Localized: Kurangi waktu jeda keterampilan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482027491328
+    m_Localized: Mengisi senjata Anda dengan api dan menyerang, menyebabkan efek
+      terbakar pada target
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482027491329
+    m_Localized: Meningkatkan kerusakan yang diberikan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482027491330
+    m_Localized: Meningkatkan kerusakan yang diberikan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482027491331
+    m_Localized: Ambil posisi bertahan, meningkatkan ketahanan terhadap kerusakan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482027491332
+    m_Localized: Dapatkan tambahan pengurangan kerusakan akhir sebesar 50 poin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482027491333
+    m_Localized: Tambahkan durasinya sebanyak 2 detik
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482027491334
+    m_Localized: Serangan hero secara bersamaan menyembuhkan hero lain
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482027491335
+    m_Localized: Hilangkan semua efek negatif pada hero penyembuh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482027491336
+    m_Localized: Tingkatkan jumlah target yang menerima skill sebanyak 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482027491337
+    m_Localized: Manfaatkan kekuatan kitsune, menghidupkan kembali satu rekan tim
+      dengan 50% kesehatan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482027491338
+    m_Localized: Meningkatkan kesehatan pahlawan yang telah dihidupkan kembali
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482027491339
+    m_Localized: Menambahkan target tambahan yang menerima sihir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16228956651900928
+    m_Localized: Pelatihan Angkatan Darat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16228956672872448
+    m_Localized: Dorongan kuat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16228956677066752
+    m_Localized: Meningkatkan kerusakan untuk semua sekutu berbasis kekuatan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16228956677066753
+    m_Localized: Meningkatkan kerusakan tambahan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16228956681261056
+    m_Localized: Meningkatkan kerusakan tambahan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16228956681261057
+    m_Localized: Menggunakan kekuatan untuk menyerang dengan kuat ke arah musuh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16228956681261058
+    m_Localized: Tambahkan efek berdarah
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16228956681261059
+    m_Localized: Meningkatkan kerusakan kemampuan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16550110805389312
+    m_Localized: Labu beracun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16550110817972224
+    m_Localized: Akhir pandemi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347146457088
+    m_Localized: Kawanan kelelawar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347159040000
+    m_Localized: Mimpi buruk berdarah
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347159040001
+    m_Localized: Sihir penyembuhan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347159040002
+    m_Localized: Mantra mistik
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347159040003
+    m_Localized: Membanting tanah
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347159040004
+    m_Localized: Pertempuran bertahan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347159040005
+    m_Localized: Slam Hammer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347159040006
+    m_Localized: Memprovokasi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16550110822166528
+    m_Localized: Luncurkan 3 ramuan ke 3 musuh, menyebabkan efek racun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16550110822166529
+    m_Localized: Menambahkan target tambahan yang menerima sihir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16550110822166530
+    m_Localized: Meningkatkan kerusakan kemampuan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16550110822166531
+    m_Localized: Lempar botol racun besar untuk memberikan kerusakan area dan efek
+      racun ke semua musuh di area tersebut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16550110822166532
+    m_Localized: Tambahkan 2 detik ekstra ke efek racun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16550110822166533
+    m_Localized: Memperlambat kecepatan lari musuh sebesar 20% selama 5 detik
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234304
+    m_Localized: Lepaskan kawanan kelelawar haus darah dalam bentuk kerucut, menyerang
+      musuh yang mereka lewati
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234305
+    m_Localized: Secara instan mengurangi waktu jeda keterampilan menjadi 0 jika
+      target utama sedang berdarah
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234306
+    m_Localized: Meningkatkan kerusakan kemampuan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234307
+    m_Localized: Kelelawar pendamping menjadi nyata. Menggigit di area, menyembuhkan
+      Merlyn berdasarkan total kerusakan yang ditimbulkan dan menyebabkan pendarahan
+      pada musuh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234308
+    m_Localized: Tingkatkan area dari skill
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234309
+    m_Localized: Meningkatkan kerusakan kemampuan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234310
+    m_Localized: Gunakan sihir untuk menyembuhkan luka pada rekan-rekan dalam 5 detik
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234311
+    m_Localized: Menambahkan target tambahan yang menerima sihir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234312
+    m_Localized: Mengurangi 2 serangan dalam kondisi untuk memulihkan keterampilan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234313
+    m_Localized: Menggunakan sihir mistis untuk meningkatkan kecepatan gerakan dan
+      kecepatan serangan untuk semua sekutu dalam tim selama 10 detik
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234314
+    m_Localized: Kurangi waktu jeda keterampilan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234315
+    m_Localized: Kurangi waktu jeda keterampilan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234316
+    m_Localized: Manfaatkan kekuatan luar biasa dan palu besar untuk memukul tanah
+      dengan keras, menyebabkan kerusakan area
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234317
+    m_Localized: Membekukan musuh yang terkena skill selama 2 detik
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234318
+    m_Localized: Meningkatkan kerusakan kemampuan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234319
+    m_Localized: Bertahan terhadap serangan senjata, memberikan kerusakan area. Berbagi
+      ketahanan Anda dengan teman-teman melalui aura bercahaya di sekitar Anda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234320
+    m_Localized: Meningkatkan durasi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234321
+    m_Localized: Meningkatkan pengurangan kerusakan tambahan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234322
+    m_Localized: Kumpulkan momentum dan melayangkan palu ke tanah, memberikan kerusakan
+      area dan mematikan musuh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234323
+    m_Localized: Mengurangi satu serangan dalam kondisi untuk pengisian ulang keterampilan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234324
+    m_Localized: Meningkatkan kerusakan kemampuan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234325
+    m_Localized: Menggoda musuh di sekitar untuk menyerang Anda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234326
+    m_Localized: Menerima pengurangan 10% kerusakan tambahan selama durasi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234327
+    m_Localized: Tingkatkan area dari skill
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19171766245814272
+    m_Localized: Berdoa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19171766254202880
+    m_Localized: Pemurnian
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19171766254202881
+    m_Localized: Serangan kelemahan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19171766262591488
+    m_Localized: Berdoa untuk target, menerima berkah, menyembuhkan target, dan sekutu
+      di sekitar target
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19171766262591489
+    m_Localized: Meningkatkan durasi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19171766262591490
+    m_Localized: Kurangi waktu jeda keterampilan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19171766262591491
+    m_Localized: Bawa cahaya Tuhan, sembuhkan secara bertahap sekutu di sekitar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19171766262591492
+    m_Localized: Meningkatkan kesehatan yang bisa dipulihkan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19171766262591493
+    m_Localized: Kurangi waktu jeda keterampilan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19171766262591494
+    m_Localized: Menyerang lawan dengan pukulan pada titik lemah, dengan peluang
+      menyebabkan efek pendarahan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19171766262591495
+    m_Localized: Meningkatkan kerusakan kemampuan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19171766262591496
+    m_Localized: Meningkatkan peluang untuk menyebabkan efek pendarahan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20141917577441280
+    m_Localized: Kesibukan pisau
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20141917598412800
+    m_Localized: Luncurkan badai belati di sekitar dirimu, memberikan kerusakan kepada
+      musuh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20141917598412801
+    m_Localized: Meningkatkan kerusakan kemampuan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20141917598412802
+    m_Localized: Selalu kritis terhadap target yang berdarah
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668748480512
+    m_Localized: Manggil cahaya kuat yang memberi damage ke musuh sambil menyembuhkan
+      diri dengan persentase jumlah damage.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668748480513
+    m_Localized: Stun musuh yang kena skill selama 3 detik.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668748480514
+    m_Localized: Menambahkan damage kemampuan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668748480515
+    m_Localized: Menciptakan tanah bersih, memberi damage ke musuh dan menyembuhkan
+      teman-teman di dalam setiap detik.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668748480516
+    m_Localized: Meningkatkan durasi kemampuan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668748480517
+    m_Localized: Menambahkan pengurangan damage tetap.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668748480518
+    m_Localized: Mengiris musuh dengan pedang ikan dalam sudut 120 derajat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668748480519
+    m_Localized: Menambahkan lifesteal.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668748480520
+    m_Localized: Menambahkan damage kemampuan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668748480521
+    m_Localized: Serangan berputar, memberi damage ke musuh di sekitar. Juga menantang
+      musuh-musuh di sekitarnya untuk menyerangnya.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668748480522
+    m_Localized: Menambahkan pengurangan damage selama putaran.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668748480523
+    m_Localized: Meredakan waktu cooldown.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668605874176
+    m_Localized: Cahaya Hukuman
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668740091904
+    m_Localized: Aura Dewi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668740091905
+    m_Localized: Cleaver
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668740091906
+    m_Localized: Siklon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37171343205605376
+    m_Localized: Kegilaan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37171343213993984
+    m_Localized: Kegilaan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37171343218188288
+    m_Localized: Melompat ke target, memberikan kerusakan area dan menyerang secara
+      berulang 4 kali dalam 120 derajat di depan, menyebabkan pendarahan pada musuh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37171343218188289
+    m_Localized: Meningkatkan kerusakan serangan potong
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37171343218188290
+    m_Localized: Meningkatkan kerusakan serangan potong
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37171343218188291
+    m_Localized: Kelaparan akan pertempuran, melepaskan raungan barbar yang meningkatkan
+      kecepatan serang dan kerusakan serangannya selama 4 detik. Jika ia menyerang
+      musuh yang sedang berdarah, durasinya diperbarui
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37171343218188292
+    m_Localized: Pencurian nyawa selama kegilaan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37171343218188293
+    m_Localized: Meningkatkan durasi kemampuan
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Challenge_fil
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: fil
+  m_SharedData: {fileID: 11400000, guid: 629b4d4904f158e4b89de77d3003627b, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 392910852096
+    m_Localized: Hamon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 392969572352
+    m_Localized: Caerleon Defense
+    m_Metadata:
+      m_Items: []
+  - m_Id: 392969572353
+    m_Localized: Rift Dungeon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 392969572354
+    m_Localized: Wala
+    m_Metadata:
+      m_Items: []
+  - m_Id: 392969572355
+    m_Localized: Naghahanda ng bagong mga hamon...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 685673271296
+    m_Localized: Pasok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 268346172665856
+    m_Localized: Naratangan na ang iyong limitadong paglalaro para sa araw na ito
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1225373706354688
+    m_Localized: Talo ang Gintong Mimic upang kumita ng malalaking gantimpala!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1486560093523968
+    m_Localized: SIMULA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9106384156086272
+    m_Localized: Shadow Tower
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9106384181252096
+    m_Localized: Gintong Mimic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9106384181252097
+    m_Localized: Ancient Ruin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12456990950281216
+    m_Localized: Torre ng Anino
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12456990958669824
+    m_Localized: Torre ng Lakas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12456990958669825
+    m_Localized: Torre ng Lakasan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12456990958669826
+    m_Localized: Torre ng Intelihensya
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12456990958669827
+    m_Localized: Lunes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12456990958669828
+    m_Localized: Martes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12456990958669829
+    m_Localized: Miyerkules
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12456990958669830
+    m_Localized: Huwebes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12456990958669831
+    m_Localized: Biyernes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12456990958669832
+    m_Localized: Sabado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12456990958669833
+    m_Localized: Linggo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12457930805727232
+    m_Localized: LAMINAW
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12457930805727233
+    m_Localized: Burahin ang Nakaraang Palapag
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

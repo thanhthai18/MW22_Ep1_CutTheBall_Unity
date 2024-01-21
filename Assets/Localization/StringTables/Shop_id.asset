@@ -1,0 +1,140 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Shop_id
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: id
+  m_SharedData: {fileID: 11400000, guid: 2738cb4aa74a48043a3cd4164bbe4009, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 5097325052547072
+    m_Localized: Keuntungan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5097325073518594
+    m_Localized: Isi ulang pertama
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5097325073518595
+    m_Localized: Sumber daya
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5104539309953025
+    m_Localized: Penjualan paket
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5104539309953026
+    m_Localized: Diskon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5104539309953027
+    m_Localized: Gratis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5104539309953028
+    m_Localized: Sekali Saja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5428552666173440
+    m_Localized: Kurang Berlian
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5428552687144960
+    m_Localized: Beli lebih banyak Berlian?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7549362184900608
+    m_Localized: Mulai petualanganmu dengan {0}!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8017466660737024
+    m_Localized: Permanen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36599306331078656
+    m_Localized: Battle Pass Plus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36599306352050176
+    m_Localized: Battle Pass Aktif
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36599306352050178
+    m_Localized: Passe Dasar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36599306352050179
+    m_Localized: Passe Level 25
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36599306352050180
+    m_Localized: "\u2022 Aktivasi Passe Premium"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36599306352050181
+    m_Localized: "\u2022 Aktivasi Passe Premium <br>\u2022 Meningkatkan level Passe
+      menjadi 25"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37648801632907264
+    m_Localized: Battle Pass
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38097432089710592
+    m_Localized: Partai Anda telah mencapai level {0}.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38097432114876416
+    m_Localized: Anda telah mendapatkan pahlawan legendaris.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38097432114876417
+    m_Localized: Latih pahlawan-pahlawan Anda untuk membuat mereka lebih kuat!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38097432114876418
+    m_Localized: Tingkatkan pahlawan-pahlawan Anda!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39094838605627392
+    m_Localized: Premium
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46264090285297664
+    m_Localized: Paket Pemula
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46264090306269184
+    m_Localized: Paket Penghapusan Iklan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46264090310463488
+    m_Localized: Paket Penyembuh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46264090310463489
+    m_Localized: Paket Pahlawan Legendaris
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46564999577980928
+    m_Localized: Paket Pertumbuhan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46564999603146752
+    m_Localized: Paket lain akan diungkap setiap kali paket terbuka
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

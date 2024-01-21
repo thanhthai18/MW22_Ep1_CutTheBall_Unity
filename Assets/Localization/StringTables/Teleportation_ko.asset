@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Teleportation_ko
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: ko
+  m_SharedData: {fileID: 11400000, guid: e67a8d71e4ccf5b4fa8502457befd215, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 328922329088
+    m_Localized: "\uC21C\uAC04\uC774\uB3D9 \uD3EC\uD0C8"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328934912000
+    m_Localized: "\uD604\uC7AC \uC704\uCE58"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328934912001
+    m_Localized: "\uCF00\uC77C\uB9AC\uC628 \uB9C8\uC744"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328934912002
+    m_Localized: "\uCD08\uB85D \uACE0\uC6D0"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328934912003
+    m_Localized: "\uBB34\uC778 \uC9C0\uC5ED"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 258285418721280
+    m_Localized: "\uD604\uC7AC \uC704\uCE58\uB97C \uC774\uB3D9\uD560 \uC218 \uC5C6\uC2B5\uB2C8\uB2E4"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328934912004
+    m_Localized: "\uD658\uC0C1\uC758 \uC0AC\uB9C9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328934912005
+    m_Localized: "\uB3C5\uC218\uC9C0"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328934912006
+    m_Localized: "\uC8FD\uC74C\uC758 \uC232"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328934912007
+    m_Localized: "\uC5BC\uC5B4\uBD99\uC740 \uB545"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328934912008
+    m_Localized: "\uCD94\uC6B4 \uD3C9\uC57C"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328934912009
+    m_Localized: "\uC6A9\uC554\uC758 \uC7A5\uC18C"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328934912010
+    m_Localized: "\uC6A9\uC758 \uC871\uC1C4"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

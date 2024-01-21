@@ -1,0 +1,232 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Equipment_fr-FR
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: fr-FR
+  m_SharedData: {fileID: 11400000, guid: 7a989f58e8a2310449953c151e765706, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 394077972451338
+    m_Localized: Chaussures de combat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 394077972451337
+    m_Localized: Bataille
+    m_Metadata:
+      m_Items: []
+  - m_Id: 394077972451336
+    m_Localized: Chapeau de bataille
+    m_Metadata:
+      m_Items: []
+  - m_Id: 394077972451335
+    m_Localized: Charme
+    m_Metadata:
+      m_Items: []
+  - m_Id: 394077972451334
+    m_Localized: Bouclier de bataille
+    m_Metadata:
+      m_Items: []
+  - m_Id: 394077972451333
+    m_Localized: Hache de combat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 394077972451332
+    m_Localized: Porter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 394077972451331
+    m_Localized: Armure
+    m_Metadata:
+      m_Items: []
+  - m_Id: 394077972451330
+    m_Localized: Chapeau
+    m_Metadata:
+      m_Items: []
+  - m_Id: 394077972451329
+    m_Localized: Vieux charme
+    m_Metadata:
+      m_Items: []
+  - m_Id: 394077972451328
+    m_Localized: Vieille corne
+    m_Metadata:
+      m_Items: []
+  - m_Id: 394077947285504
+    m_Localized: "\xC9p\xE9e \xE9mouss\xE9e"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 394077972451339
+    m_Localized: "Chevalier de l'\xC9p\xE9e"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 394077972451340
+    m_Localized: Chevalier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 394077972451341
+    m_Localized: Charme de loup
+    m_Metadata:
+      m_Items: []
+  - m_Id: 394077972451342
+    m_Localized: Chapeau de chevalier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 394077972451343
+    m_Localized: Chevalier d'Armure
+    m_Metadata:
+      m_Items: []
+  - m_Id: 394077972451344
+    m_Localized: Chaussures de chevalier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 394077976645632
+    m_Localized: "B\xE2ton de Mage"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 394077976645633
+    m_Localized: Grimoire du Mage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 394077976645634
+    m_Localized: Charme de Dieu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 394077976645635
+    m_Localized: Chapeau de Mage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 394077976645636
+    m_Localized: Robe de Mage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 394077976645637
+    m_Localized: Chaussures de Mage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 394077976645638
+    m_Localized: chevalier Dragon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 394077976645639
+    m_Localized: Tasse de dragon eye
+    m_Metadata:
+      m_Items: []
+  - m_Id: 394077976645640
+    m_Localized: Charme de dragon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 394077976645641
+    m_Localized: Chapeau de chevalier dragon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 394077976645642
+    m_Localized: Chevalier des chevaliers de dragon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 394077976645643
+    m_Localized: Dragon Knight Shoes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 394077976645644
+    m_Localized: "Scandale des \xE9cailles de dragon"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 394077976645645
+    m_Localized: "\xC9cailles de dragon"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 394077976645646
+    m_Localized: Charme de dragon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 394077976645647
+    m_Localized: Chapeau de dragon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 394077976645648
+    m_Localized: "\xC9cailles de dragon"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 394077976645649
+    m_Localized: Chaussures de dragon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 394077976645650
+    m_Localized: "Aucun objet poss\xE9d\xE9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 394077976645651
+    m_Localized: "D\xE9monter"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 394077976645652
+    m_Localized: "D\xE9monter tout"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 394077976645653
+    m_Localized: "\xC9QUIPER"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 394077976645654
+    m_Localized: "D\xE9monter tout l'\xE9quipement <color=#f301e9>Sp\xE9cial</color>
+      ou inf\xE9rieur ? Les \xE9quipements \xE9quip\xE9s et verrouill\xE9s ne seront
+      pas d\xE9mont\xE9s"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 394077976645655
+    m_Localized: "Verrouiller l'\xE9quipement ? L'\xE9quipement verrouill\xE9 ne
+      peut pas \xEAtre d\xE9mont\xE9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 394077976645656
+    m_Localized: "D\xE9verrouiller l'\xE9quipement ? Vous pouvez d\xE9manteler l'\xE9quipement
+      s\xE9lectionn\xE9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 394077976645657
+    m_Localized: "Appuyez pour changer d'\xE9quipement"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 394077976645658
+    m_Localized: "L'\xE9quipement est verrouill\xE9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 394077976645659
+    m_Localized: "D\xE9mant\xE8lement r\xE9ussi"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 394077976645660
+    m_Localized: "Aucun \xE9quipement \xE9ligible \xE0 la d\xE9molition"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 394811061293056
+    m_Localized: "Niveau d'\xE9quipement"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 395266038419456
+    m_Localized: Puissance de combat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 396299565256704
+    m_Localized: "\xC9QUIP\xC9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2272512483250176
+    m_Localized: "\xCAtes-vous s\xFBr de d\xE9manteler cet \xE9quipement, y compris
+      le haut grade ?"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

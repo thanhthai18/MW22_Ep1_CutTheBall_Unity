@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f48964f8dfc931343af9c4058de12db4, type: 3}
+  m_Name: Dungeon
+  m_EditorClassIdentifier: 
+  classInfomations:
+  - className: Runtime.Config.DungeonRewardConfig
+    csvInformations:
+    - className: Runtime.Config.DungeonRewardConfig
+      csvFile: {fileID: 4900000, guid: 288e99ec6e0a08a48a6e67f5200e13f9, type: 3}
+      csvPath: Assets/Csv/Dungeon/DungeonReward.csv
+      usingFolder: 0
+      csvFolderPath: 
+      separateScriptableObject: 0
+      fileStartWith: 
+      fieldSetValue: items
+      isConvert: 0
+      convertMethod: 
+  - className: Runtime.Config.DungeonZoneConfig
+    csvInformations:
+    - className: Runtime.Config.DungeonZoneConfig
+      csvFile: {fileID: 4900000, guid: 6b113e0bff14c944d88343e7e02ae130, type: 3}
+      csvPath: Assets/Csv/Dungeon/DungeonZone.csv
+      usingFolder: 0
+      csvFolderPath: 
+      separateScriptableObject: 0
+      fileStartWith: 
+      fieldSetValue: items
+      isConvert: 0
+      convertMethod: 

@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Challenge_fr-FR
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: fr-FR
+  m_SharedData: {fileID: 11400000, guid: 629b4d4904f158e4b89de77d3003627b, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 392910852096
+    m_Localized: "D\xE9fi"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 392969572352
+    m_Localized: "D\xE9fense de Caerleon"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 392969572353
+    m_Localized: Donjon de la Crevasse
+    m_Metadata:
+      m_Items: []
+  - m_Id: 392969572354
+    m_Localized: Aucun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 392969572355
+    m_Localized: "Pr\xE9paration de nouveaux d\xE9fis..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 685673271296
+    m_Localized: Entrer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 268346172665856
+    m_Localized: "Votre limite de jeu quotidienne a \xE9t\xE9 atteinte pour aujourd'hui"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1225373706354688
+    m_Localized: "Vaincre le Mimic Dor\xE9 pour gagner des r\xE9compenses massives
+      !"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1486560093523968
+    m_Localized: "D\xC9MARRER"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9106384156086272
+    m_Localized: Tour d'Ombre
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9106384181252096
+    m_Localized: "Mimic Dor\xE9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9106384181252097
+    m_Localized: Ruine Ancienne
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12456990950281216
+    m_Localized: Tour de l'Ombre
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12456990958669824
+    m_Localized: Tour de la Force
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12456990958669825
+    m_Localized: "Tour de l'Agilit\xE9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12456990958669826
+    m_Localized: Tour de l'Intelligence
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12456990958669827
+    m_Localized: Lundi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12456990958669828
+    m_Localized: Mardi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12456990958669829
+    m_Localized: Mercredi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12456990958669830
+    m_Localized: Jeudi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12456990958669831
+    m_Localized: Vendredi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12456990958669832
+    m_Localized: Samedi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12456990958669833
+    m_Localized: Dimanche
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12457930805727232
+    m_Localized: EFFACER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12457930805727233
+    m_Localized: "Effacer l'\xC9tage Pr\xE9c\xE9dent"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

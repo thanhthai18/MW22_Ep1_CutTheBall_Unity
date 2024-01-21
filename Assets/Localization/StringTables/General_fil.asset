@@ -1,0 +1,395 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: General_fil
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: fil
+  m_SharedData: {fileID: 11400000, guid: 823ca369d6e18fc4ea9b9b242cf654c2, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 5975256138240000
+    m_Localized: 'Tapos sa: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7412414824828928
+    m_Localized: Halaga
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8360582637682688
+    m_Localized: Antas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8369807296299008
+    m_Localized: I-upgrade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8648842267316224
+    m_Localized: Lv
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10001596654841856
+    m_Localized: Kuha
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10001596688396288
+    m_Localized: Tingnan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10007562775457792
+    m_Localized: Tapos na
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10030802021412864
+    m_Localized: Hindi sapat ang {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10030802042384384
+    m_Localized: Bumili ng karagdagang {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10081243501678592
+    m_Localized: Baka mamaya na lang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12221428460711936
+    m_Localized: Pook ng Pagsasanay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5310816518656044
+    m_Localized: Buksan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13235484718034944
+    m_Localized: Pumili ng mga Bayani
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13235484747395072
+    m_Localized: Auto Assign
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13235484747395073
+    m_Localized: Pamamahala ng mga Bayani
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13235484747395074
+    m_Localized: Mga Aktibong Bayani
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13235484747395075
+    m_Localized: Bayaning Naghihintay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13235484747395076
+    m_Localized: Hindi Nakamit na Bayani
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13235484747395077
+    m_Localized: Hindi Pag-aari
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13292263577513984
+    m_Localized: Kanselahin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13292263590096896
+    m_Localized: Kumpirmahin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13292263590096897
+    m_Localized: Bag
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13292263590096898
+    m_Localized: Mail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22655239585558528
+    m_Localized: Likbuan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24782674231177216
+    m_Localized: Setting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24783814956036096
+    m_Localized: Wika
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25235535596240896
+    m_Localized: Mag-recruit ng mga bayani sa Apocalyptic Portal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25235535646572544
+    m_Localized: I-upgrade ang mga bayani sa Training Ground
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25235535646572545
+    m_Localized: Kumuha ng kagamitan mula sa Balon ng Pakikipagsapalaran
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25236460306055168
+    m_Localized: Palakasin ang iyong partido!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25265117672230912
+    m_Localized: Naiintindihan!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25265117693202432
+    m_Localized: Pabatid
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25673096875724800
+    m_Localized: Hindi ma-inisyalisa ang mga package sa tindahan, mangyaring mag-log
+      in sa Google Play/Apple o suriin ang iyong koneksyon sa network
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25673096900890624
+    m_Localized: Subukan ulit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25673096900890625
+    m_Localized: Kampo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25673096900890626
+    m_Localized: Portal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25891391121903616
+    m_Localized: Beta Buff
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25891391147069440
+    m_Localized: Kasalukuyang Antas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25891391147069441
+    m_Localized: Susunod na Antas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25891391147069442
+    m_Localized: Buff ng Impormasyon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25825164707115008
+    m_Localized: Beta Buff
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25825164707115009
+    m_Localized: Kasalukuyang Antas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25825164707115010
+    m_Localized: Susunod na Antas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25825164707115011
+    m_Localized: '- Ito ay karagdagang estadistika para sa lahat ng mga bayani sa
+      koponan dahil ang tampok na pampamalagay ay hindi pa lubos na natapos.<br>-
+      Ang estadistikang ito ay magiging kasama lamang sa yugto ng Beta ng laro.<br>-
+      Ang estadistikang ipinapakita sa talaan ay ang kabuuang estadistika na natanggap
+      sa antas na iyon.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27077148161228800
+    m_Localized: Kinakailangang Antas {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27819957203791872
+    m_Localized: Madsoon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27819957233152000
+    m_Localized: Kaaway
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27819957233152001
+    m_Localized: Boss
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28790105897201664
+    m_Localized: Musika
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28790105930756096
+    m_Localized: Tunog
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31046243808210944
+    m_Localized: I-load
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31046243837571072
+    m_Localized: I-save
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31046243837571073
+    m_Localized: Mag-login
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31046243837571074
+    m_Localized: Suporta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31046243837571075
+    m_Localized: I-save ang Datos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31046243837571076
+    m_Localized: Kopyahin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31074076525883392
+    m_Localized: I-load ang Data
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31087004046094336
+    m_Localized: Konektahin ang Google Account
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31091148223967232
+    m_Localized: Konekta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31340676839886848
+    m_Localized: Ang kasalukuyang data sa iyong aparato ay maaaring mawala kapag
+      ginagawa ang operasyong ito. Sigurado ka bang gusto mong i-download ang data
+      sa iyong aparato?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31422579955613696
+    m_Localized: Tap to play
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32800070836408320
+    m_Localized: Item
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33875928183238656
+    m_Localized: Kodigo ng regalo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33887296034729985
+    m_Localized: Kumupkop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33887296034729984
+    m_Localized: Mga Limitasyon sa Araw-araw
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34831357758406656
+    m_Localized: 'Nireset sa loob ng: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34831357942956032
+    m_Localized: Maaaring Makuha na mga Premyo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34831357947150336
+    m_Localized: Yugto
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36424939398483968
+    m_Localized: ' Pumili ng iyong pinuno'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36424939427844096
+    m_Localized: Pag-upgrade tagumpay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37960485413310464
+    m_Localized: Maligayang bati!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38319682726383616
+    m_Localized: Gantimpala
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38319682755743744
+    m_Localized: Tagumpay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41167600161636352
+    m_Localized: Naglo-load
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41169700270620672
+    m_Localized: I-tap para magpatuloy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42641584089452544
+    m_Localized: Gusto mo bang umalis sa laro?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43006607299170304
+    m_Localized: Dami ng Produksiyon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43006607320141824
+    m_Localized: Max Capacity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43006607320141825
+    m_Localized: Bilis ng Produksiyon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43006607320141826
+    m_Localized: Mag-upgrade para makakuha ng mas maraming yaman.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43022593859506176
+    m_Localized: Lebel Maximum.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45819527620468736
+    m_Localized: Aksyon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45819527641440256
+    m_Localized: Auto-claim
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46062909831237632
+    m_Localized: Subukang muli
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47236032870965248
+    m_Localized: Maganda!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47236032908713984
+    m_Localized: Sa huli
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47236032908713985
+    m_Localized: Masaya ka ba sa laro? Mangyaring ibahagi ang iyong opinyon upang
+      gawing mas maganda ang laro!!!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47236032908713986
+    m_Localized: Ano ang nararamdaman mo?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48375672605970432
+    m_Localized: Konektahin ang Apple account
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49339365821513728
+    m_Localized: Mangyaring kumonekta sa internet upang makuha ang gantimpala!
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

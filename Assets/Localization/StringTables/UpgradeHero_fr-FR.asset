@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: UpgradeHero_fr-FR
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: fr-FR
+  m_SharedData: {fileID: 11400000, guid: b826a096e3c08864f85d2be904b600d1, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 1313720923586560
+    m_Localized: "H\xE9ro <color=#fc0000>Force</color>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1313721082970112
+    m_Localized: "H\xE9ro <color=#009ff8>Intellect</color>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1313721082970113
+    m_Localized: "H\xE9ro <color=#89de1b>Agilit\xE9</color>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 886140031003
+    m_Localized: Niveau de groupe insuffisant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 886140031005
+    m_Localized: Fragments insuffisants
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1313721087164416
+    m_Localized: "Effets poss\xE9d\xE9s"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1313721087164417
+    m_Localized: Ce personnage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1313721087164418
+    m_Localized: Tous les persos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1447639775170560
+    m_Localized: "D\xE9bloqu\xE9 au niv."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16292151265579008
+    m_Localized: Force
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16292151290744832
+    m_Localized: Intelligence
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16292151290744833
+    m_Localized: "Agilit\xE9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16280485376438272
+    m_Localized: Force
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16280485397409792
+    m_Localized: Intelligence
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16280485401604096
+    m_Localized: "Agilit\xE9"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

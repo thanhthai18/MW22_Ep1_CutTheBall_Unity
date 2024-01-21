@@ -1,0 +1,140 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Shop_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 2738cb4aa74a48043a3cd4164bbe4009, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 5097325052547072
+    m_Localized: Profit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5097325073518594
+    m_Localized: First Purchase
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5097325073518595
+    m_Localized: Resources
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5104539309953025
+    m_Localized: Package
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5104539309953026
+    m_Localized: Sale
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5104539309953027
+    m_Localized: Free
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5104539309953028
+    m_Localized: 1 Time Only
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5428552666173440
+    m_Localized: Insufficient Diamond
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5428552687144960
+    m_Localized: Purchase more Diamond?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7549362184900608
+    m_Localized: Start your adventure with {0}!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8017466660737024
+    m_Localized: Permanent Value
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36599306331078656
+    m_Localized: Battle Pass Plus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36599306352050176
+    m_Localized: Active Battle Pass
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36599306352050178
+    m_Localized: Basic Pass
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36599306352050179
+    m_Localized: Level 25 Pass
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36599306352050180
+    m_Localized: "\u2022 Premium Pass Activation"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36599306352050181
+    m_Localized: "\u2022 Premium Pass Activation <br>\u2022 Increases Pass level
+      to 25"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37648801632907264
+    m_Localized: Battle Pass
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38097432089710592
+    m_Localized: Your party has reached level {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38097432114876416
+    m_Localized: You've obtained a Legendary hero
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38097432114876417
+    m_Localized: Train your heroes to make them even stronger!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38097432114876418
+    m_Localized: Upgrade your heroes!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39094838605627392
+    m_Localized: Premium
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46264090285297664
+    m_Localized: Starter Package
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46264090306269184
+    m_Localized: Ads Removal Package
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46264090310463488
+    m_Localized: Healer Package
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46264090310463489
+    m_Localized: Legendary Hero Package
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46564999577980928
+    m_Localized: Growth Pack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46564999603146752
+    m_Localized: Another pack will be revealed each time pack unlocked
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

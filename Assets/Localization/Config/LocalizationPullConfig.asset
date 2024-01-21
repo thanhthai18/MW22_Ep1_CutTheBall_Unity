@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad99ba3d3bd0b84cb895a480f0bb810, type: 3}
+  m_Name: LocalizationPullConfig
+  m_EditorClassIdentifier: 
+  _localizations:
+  - tableCollection: {fileID: 11400000, guid: 11e75bb6e25d6824aaa5f5bfc409fc75, type: 2}
+    name: Challenge
+    selected: 1
+  - tableCollection: {fileID: 11400000, guid: 94bc007b2ae27b845955a77519bedf04, type: 2}
+    name: DungeonGamePlay
+    selected: 1
+  - tableCollection: {fileID: 11400000, guid: a156e946b8ad70c4782b544b7e881640, type: 2}
+    name: Enemy
+    selected: 1
+  - tableCollection: {fileID: 11400000, guid: 0ab7dd5d2b8ecb646b0a4792e9d3db61, type: 2}
+    name: Entity
+    selected: 1
+  - tableCollection: {fileID: 11400000, guid: bb9a025b05b1e9b4bba1a89d3a2a57cd, type: 2}
+    name: Equipment
+    selected: 1
+  - tableCollection: {fileID: 11400000, guid: b3e8471f4e4d19c4f830354e432ae3c5, type: 2}
+    name: Gacha
+    selected: 1
+  - tableCollection: {fileID: 11400000, guid: 6b10fe047ed33b14ab591c2fa6494388, type: 2}
+    name: General
+    selected: 1
+  - tableCollection: {fileID: 11400000, guid: 53195ae89e083f04f8dd7b0dbd51f2dd, type: 2}
+    name: Hero
+    selected: 1
+  - tableCollection: {fileID: 11400000, guid: 697dd956d7669a4468a1318128ef7da6, type: 2}
+    name: Quest
+    selected: 1
+  - tableCollection: {fileID: 11400000, guid: 92c19079dbf4ea94a8995e620eaa7184, type: 2}
+    name: Resource
+    selected: 1
+  - tableCollection: {fileID: 11400000, guid: 0fa9d71b12163d24fb6737cd7c7b9e1a, type: 2}
+    name: Shop
+    selected: 1
+  - tableCollection: {fileID: 11400000, guid: 92352e67bddf2d74eac0500bc777f047, type: 2}
+    name: Skills
+    selected: 1
+  - tableCollection: {fileID: 11400000, guid: 27c112162fa1f6448a6fc78e08b236de, type: 2}
+    name: Stats
+    selected: 1
+  - tableCollection: {fileID: 11400000, guid: 50774a012c8ab14419e42ccbb1d34a5d, type: 2}
+    name: Teleportation
+    selected: 1
+  - tableCollection: {fileID: 11400000, guid: 53aebbc39eb22bd41879d2a3e370b719, type: 2}
+    name: Toast
+    selected: 1
+  - tableCollection: {fileID: 11400000, guid: 38bb2f6fd54da354bb0822f4e5ee8333, type: 2}
+    name: TreasureChest
+    selected: 1
+  - tableCollection: {fileID: 11400000, guid: 3221c960f58227b468b3b26650902e6e, type: 2}
+    name: Tutorial
+    selected: 1
+  - tableCollection: {fileID: 11400000, guid: 4fe2c63e7ab2ae4469967ee6ab74f72b, type: 2}
+    name: UpgradeHero
+    selected: 1

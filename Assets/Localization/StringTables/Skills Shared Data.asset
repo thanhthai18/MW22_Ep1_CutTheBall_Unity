@@ -1,0 +1,984 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Skills Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Skills
+  m_TableCollectionNameGuidString: 62c6ecc3f585e74408f2978e938a4b62
+  m_Entries:
+  - m_Id: 589820841984
+    m_Key: heavy_strike
+    m_Metadata:
+      m_Items: []
+  - m_Id: 589850202112
+    m_Key: encourage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 589850202113
+    m_Key: carpenter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 589850202114
+    m_Key: axe_strike
+    m_Metadata:
+      m_Items: []
+  - m_Id: 589854396417
+    m_Key: treasure_hunter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 589854396418
+    m_Key: strong_body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 589854396419
+    m_Key: healing_hand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 589854396420
+    m_Key: shared_knowledge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 589854396421
+    m_Key: whirl_strike
+    m_Metadata:
+      m_Items: []
+  - m_Id: 589854396422
+    m_Key: wind_step
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11109245547171840
+    m_Key: multi_shot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11458394163277824
+    m_Key: steady_aim
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297098420224
+    m_Key: enrage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297131974656
+    m_Key: call_of_the_moon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11543291708076032
+    m_Key: healing_orb
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11543291733241856
+    m_Key: nature_blessing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11543291733241857
+    m_Key: fire_burst
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11543291733241858
+    m_Key: head_shot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12130097853247488
+    m_Key: fire_blast
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12130097878413312
+    m_Key: scorched_earth
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048828907520
+    m_Key: spear_throw
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048841490432
+    m_Key: brave_heart
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048841490433
+    m_Key: shuriken_throw
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048841490434
+    m_Key: smoke_bomb
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14047010697801728
+    m_Key: dark_barrage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14047010727161856
+    m_Key: dark_ball
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14359255491530752
+    m_Key: power_shot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14359255520890880
+    m_Key: rain_of_arrow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14820142371295232
+    m_Key: lightning_bolt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14820142392266752
+    m_Key: lightning_huge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15799034032672768
+    m_Key: swipe_kick
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15799034036867072
+    m_Key: slam
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482014908416
+    m_Key: burning_strike
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482023297024
+    m_Key: focus_defense
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482023297025
+    m_Key: kitsune_bless
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482023297026
+    m_Key: kitsune_reincarnation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16228956651900928
+    m_Key: army_training
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16228956672872448
+    m_Key: pike_thrust
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16550110805389312
+    m_Key: poisonous_flask
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16550110817972224
+    m_Key: pandemic_end
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347146457088
+    m_Key: bat_swarm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347159040000
+    m_Key: bloody_nightmare
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347159040001
+    m_Key: healing_magic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347159040002
+    m_Key: mystic_spell
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347159040003
+    m_Key: ground_slam
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347159040004
+    m_Key: battle_endure
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347159040005
+    m_Key: hammer_slam
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347159040006
+    m_Key: provoke
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19171766245814272
+    m_Key: pray
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19171766254202880
+    m_Key: purification
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19171766254202881
+    m_Key: weakness_strike
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20141917577441280
+    m_Key: flurry_of_knives
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668605874176
+    m_Key: punishment_light
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668740091904
+    m_Key: goddess_aura
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668740091905
+    m_Key: cleave
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668740091906
+    m_Key: cyclone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37171343205605376
+    m_Key: madness
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37171343213993984
+    m_Key: frenzy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740952244224
+    m_Key: heavy_strike_description_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740960632832
+    m_Key: heavy_strike_description_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827136
+    m_Key: heavy_strike_description_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827137
+    m_Key: encourage_description_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827138
+    m_Key: encourage_description_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827139
+    m_Key: encourage_description_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827140
+    m_Key: carpenter_description_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827141
+    m_Key: carpenter_description_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827142
+    m_Key: carpenter_description_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827143
+    m_Key: axe_strike_description_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827144
+    m_Key: axe_strike_description_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827145
+    m_Key: axe_strike_description_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827149
+    m_Key: treasure_hunter_description_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827150
+    m_Key: treasure_hunter_description_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827151
+    m_Key: treasure_hunter_description_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827152
+    m_Key: strong_body_description_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827153
+    m_Key: strong_body_description_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827154
+    m_Key: strong_body_description_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827155
+    m_Key: healing_hand_description_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827156
+    m_Key: healing_hand_description_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827157
+    m_Key: healing_hand_description_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827158
+    m_Key: shared_knowledge_description_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827159
+    m_Key: shared_knowledge_description_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827160
+    m_Key: shared_knowledge_description_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827161
+    m_Key: whirl_strike_description_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827162
+    m_Key: whirl_strike_description_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827163
+    m_Key: whirl_strike_description_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827164
+    m_Key: wind_step_description_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827165
+    m_Key: wind_step_description_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 973740964827166
+    m_Key: wind_step_description_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11109245559754752
+    m_Key: multi_shot_description_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11109245559754753
+    m_Key: multi_shot_description_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11109245559754754
+    m_Key: multi_shot_description_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11458394192637952
+    m_Key: steady_aim_description_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11458394192637953
+    m_Key: steady_aim_description_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11458394192637954
+    m_Key: steady_aim_description_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168960
+    m_Key: healing_orb_description_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168961
+    m_Key: healing_orb_description_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168962
+    m_Key: healing_orb_description_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168963
+    m_Key: nature_blessing_description_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168964
+    m_Key: nature_blessing_description_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168965
+    m_Key: nature_blessing_description_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168966
+    m_Key: fire_burst_description_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168967
+    m_Key: fire_burst_description_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168968
+    m_Key: fire_burst_description_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168969
+    m_Key: head_shot_description_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168970
+    m_Key: head_shot_description_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168971
+    m_Key: head_shot_description_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168972
+    m_Key: enrage_description_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168973
+    m_Key: enrage_description_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168974
+    m_Key: enrage_description_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168975
+    m_Key: call_of_the_moon_description_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297136168976
+    m_Key: call_of_the_moon_description_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11541297140363264
+    m_Key: call_of_the_moon_description_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12130097878413313
+    m_Key: fire_blast_description_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12130097878413314
+    m_Key: fire_blast_description_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12130097878413315
+    m_Key: fire_blast_description_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12130097878413316
+    m_Key: scorched_earth_description_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12130097878413317
+    m_Key: scorched_earth_description_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12130097878413318
+    m_Key: scorched_earth_description_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048841490435
+    m_Key: spear_throw_description_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048841490436
+    m_Key: spear_throw_description_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048841490437
+    m_Key: spear_throw_description_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048841490438
+    m_Key: brave_heart_description_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048841490439
+    m_Key: brave_heart_description_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048841490440
+    m_Key: brave_heart_description_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048845684736
+    m_Key: shuriken_throw_description_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048845684737
+    m_Key: shuriken_throw_description_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048845684738
+    m_Key: shuriken_throw_description_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048845684739
+    m_Key: smoke_bomb_description_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048845684740
+    m_Key: smoke_bomb_description_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14007048845684741
+    m_Key: smoke_bomb_description_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14047010727161857
+    m_Key: dark_barrage_description_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14047010727161858
+    m_Key: dark_barrage_description_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14047010727161859
+    m_Key: dark_barrage_description_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14047010727161860
+    m_Key: dark_ball_description_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14047010727161861
+    m_Key: dark_ball_description_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14047010727161862
+    m_Key: dark_ball_description_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14359255525085184
+    m_Key: power_shot_description_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14359255525085185
+    m_Key: power_shot_description_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14359255529279488
+    m_Key: power_shot_description_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14359255529279489
+    m_Key: rain_of_arrow_description_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14359255529279490
+    m_Key: rain_of_arrow_description_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14359255529279491
+    m_Key: rain_of_arrow_description_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14820142396461056
+    m_Key: lightning_bolt_description_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14820142396461057
+    m_Key: lightning_bolt_description_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14820142396461058
+    m_Key: lightning_bolt_description_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14825842170384384
+    m_Key: lightning_huge_description_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14825842174578688
+    m_Key: lightning_huge_description_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14825842178772992
+    m_Key: lightning_huge_description_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15799034041061376
+    m_Key: swipe_kick_description_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15799034041061377
+    m_Key: swipe_kick_description_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15799034041061378
+    m_Key: swipe_kick_description_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15799034041061379
+    m_Key: slam_description_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15799034041061380
+    m_Key: slam_description_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15799034041061381
+    m_Key: slam_description_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482027491328
+    m_Key: burning_strike_description_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482027491329
+    m_Key: burning_strike_description_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482027491330
+    m_Key: burning_strike_description_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482027491331
+    m_Key: focus_defense_description_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482027491332
+    m_Key: focus_defense_description_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482027491333
+    m_Key: focus_defense_description_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482027491334
+    m_Key: kitsune_bless_description_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482027491335
+    m_Key: kitsune_bless_description_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482027491336
+    m_Key: kitsune_bless_description_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482027491337
+    m_Key: kitsune_reincarnation_description_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482027491338
+    m_Key: kitsune_reincarnation_description_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16134482027491339
+    m_Key: kitsune_reincarnation_description_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16228956677066752
+    m_Key: army_training_description_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16228956677066753
+    m_Key: army_training_description_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16228956681261056
+    m_Key: army_training_description_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16228956681261057
+    m_Key: pike_thrust_description_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16228956681261058
+    m_Key: pike_thrust_description_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16228956681261059
+    m_Key: pike_thrust_description_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16550110822166528
+    m_Key: poisonous_flask_description_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16550110822166529
+    m_Key: poisonous_flask_description_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16550110822166530
+    m_Key: poisonous_flask_description_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16550110822166531
+    m_Key: pandemic_end_description_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16550110822166532
+    m_Key: pandemic_end_description_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16550110822166533
+    m_Key: pandemic_end_description_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234304
+    m_Key: bat_swarm_description_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234305
+    m_Key: bat_swarm_description_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234306
+    m_Key: bat_swarm_description_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234307
+    m_Key: bloody_nightmare_description_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234308
+    m_Key: bloody_nightmare_description_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234309
+    m_Key: bloody_nightmare_description_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234310
+    m_Key: healing_magic_description_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234311
+    m_Key: healing_magic_description_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234312
+    m_Key: healing_magic_description_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234313
+    m_Key: mystic_spell_description_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234314
+    m_Key: mystic_spell_description_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234315
+    m_Key: mystic_spell_description_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234316
+    m_Key: ground_slam_description_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234317
+    m_Key: ground_slam_description_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234318
+    m_Key: ground_slam_description_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234319
+    m_Key: battle_endure_description_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234320
+    m_Key: battle_endure_description_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234321
+    m_Key: battle_endure_description_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234322
+    m_Key: hammer_slam_description_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234323
+    m_Key: hammer_slam_description_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234324
+    m_Key: hammer_slam_description_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234325
+    m_Key: provoke_description_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234326
+    m_Key: provoke_description_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16587347163234327
+    m_Key: provoke_description_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19171766262591488
+    m_Key: pray_description_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19171766262591489
+    m_Key: pray_description_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19171766262591490
+    m_Key: pray_description_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19171766262591491
+    m_Key: purification_description_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19171766262591492
+    m_Key: purification_description_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19171766262591493
+    m_Key: purification_description_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19171766262591494
+    m_Key: weakness_strike_description_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19171766262591495
+    m_Key: weakness_strike_description_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19171766262591496
+    m_Key: weakness_strike_description_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20141917598412800
+    m_Key: flurry_of_knives_description_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20141917598412801
+    m_Key: flurry_of_knives_description_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20141917598412802
+    m_Key: flurry_of_knives_description_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668748480512
+    m_Key: punishment_light_description_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668748480513
+    m_Key: punishment_light_description_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668748480514
+    m_Key: punishment_light_description_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668748480515
+    m_Key: goddess_aura_description_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668748480516
+    m_Key: goddess_aura_description_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668748480517
+    m_Key: goddess_aura_description_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668748480518
+    m_Key: cleave_description_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668748480519
+    m_Key: cleave_description_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668748480520
+    m_Key: cleave_description_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668748480521
+    m_Key: cyclone_description_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668748480522
+    m_Key: cyclone_description_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36514668748480523
+    m_Key: cyclone_description_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37171343218188288
+    m_Key: madness_description_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37171343218188289
+    m_Key: madness_description_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37171343218188290
+    m_Key: madness_description_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37171343218188291
+    m_Key: frenzy_description_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37171343218188292
+    m_Key: frenzy_description_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37171343218188293
+    m_Key: frenzy_description_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 589854396423
+    m_Key: stat_attack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 590034751488
+    m_Key: stat_defense
+    m_Metadata:
+      m_Items: []
+  - m_Id: 590034751489
+    m_Key: stat_attack_speed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 590034751490
+    m_Key: stat_crit_damage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 590034751491
+    m_Key: stat_defense_penetration
+    m_Metadata:
+      m_Items: []
+  - m_Id: 590034751492
+    m_Key: stat_crit_rate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 590034751493
+    m_Key: stat_fixed_damage
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 9009726274333311014
+  references:
+    version: 2
+    RefIds:
+    - rid: 9009726274333311014
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1694783178264
