@@ -9,7 +9,9 @@ namespace Runtime.Gameplay.EntitySystem
         #region Class Methods
 
         protected override void PopModal()
-            => ScreenNavigator.Instance.PopModal(ownerModal, true).Forget();
+        {
+            ScreenNavigator.Instance.PopModal(ownerModal, true).Forget();
+        }
 
         #endregion Class Methods
     }

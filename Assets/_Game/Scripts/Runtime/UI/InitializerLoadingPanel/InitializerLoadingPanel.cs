@@ -4,6 +4,7 @@ using UnityEngine.UI;
 using Runtime.Extensions;
 using TMPro;
 using DG.Tweening;
+using Cysharp.Threading.Tasks;
 
 namespace Runtime.UI
 {
@@ -12,11 +13,15 @@ namespace Runtime.UI
         #region Members
 
         [SerializeField]
+        private float _fakeProgressMinDuration;
+        [SerializeField]
+        private float _fakeProgressMaxDuration;
+        [SerializeField]
         private float _disappearFadeOutDuration;
         [SerializeField]
         private CanvasGroup _rootCanvasGroup;
         [SerializeField]
-        private Image _progressBarSlider;
+        private Slider _progressBarSlider;
         [SerializeField]
         private TextMeshProUGUI _progressBarText;
         [SerializeField]
@@ -49,18 +54,8 @@ namespace Runtime.UI
             UpdateLoading(0);
         }
 
-        public void UpdateLoading(float value)
-        {
-            var displayValue = Mathf.Floor(value * 100);
-            _progressBarText.text = displayValue + "%";
-            _progressBarSlider.transform.localScale = new Vector2(value, 1);
-        }
-
         public void FinishLoading()
-        {
-            _infoPanelGameObject.SetActive(false);
-            _tapToStartPanelGameObject.SetActive(true);
-        }
+            => RunFakeProgressAsync().Forget();
 
         private void OnClickTapToStartButton()
         {
@@ -75,6 +70,30 @@ namespace Runtime.UI
                     _rootCanvasGroup.SetActive(false);
                     DisappearActionCallback?.Invoke();
                 }).SetUpdate(true);
+        }
+
+        private async UniTask RunFakeProgressAsync()
+        {
+            UpdateLoading(0.0f);
+            var currentDuration = 0.0f;
+            var fakeProgressDuration = UnityEngine.Random.Range(_fakeProgressMinDuration, _fakeProgressMaxDuration);
+            while (currentDuration < fakeProgressDuration)
+            {
+                currentDuration += Time.deltaTime;
+                UpdateLoading(currentDuration / fakeProgressDuration);
+                await UniTask.Yield(PlayerLoopTiming.Update);
+            }
+            UpdateLoading(1.0f);
+            _infoPanelGameObject.SetActive(false);
+            _tapToStartPanelGameObject.SetActive(true);
+        }
+
+        private void UpdateLoading(float value)
+        {
+            var displayValue = Mathf.Floor(value * 100);
+            Debug.Log(displayValue);
+            _progressBarText.text = displayValue + "%";
+            _progressBarSlider.value = value;
         }
 
         #endregion Class Methods

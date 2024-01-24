@@ -8,7 +8,6 @@ using UnityScreenNavigator.Runtime.Foundation;
 using UnityScreenNavigator.Runtime.Foundation.Animation;
 using UnityScreenNavigator.Runtime.Foundation.Coroutine;
 using UnityScreenNavigator.Runtime.Foundation.PriorityCollection;
-
 using Cysharp.Threading.Tasks;
 
 namespace UnityScreenNavigator.Runtime.Core.Modals
@@ -127,7 +126,6 @@ namespace UnityScreenNavigator.Runtime.Core.Modals
 
             Parent = parentTransform;
             RectTransform.FillParent((RectTransform)Parent);
-
             Alpha = 0.0f;
 
             return CoroutineManager.Run<Modal>(

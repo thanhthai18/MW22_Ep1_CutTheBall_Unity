@@ -11,6 +11,7 @@ namespace UnityScreenNavigator.Runtime.Core.Modals
     public class ModalBackdrop : MonoBehaviour
     {
         [SerializeField] private ModalBackdropTransitionAnimationContainer _animationContainer;
+        [SerializeField] private float _bonusScale;
         protected CanvasGroup canvasGroup;
         protected RectTransform parentTransform;
         protected RectTransform rectTransform;
@@ -26,13 +27,11 @@ namespace UnityScreenNavigator.Runtime.Core.Modals
             canvasGroup = gameObject.GetOrAddComponent<CanvasGroup>();
 
             if (!TryGetComponent<Image>(out var image))
-            {
                 image = gameObject.AddComponent<Image>();
-                image.color = Color.clear;
-            }
 
             this.image = GetComponent<Image>();
             this.originalAlpha = this.image ? this.image.color.a : 1f;
+            this.image.color = Color.clear;
         }
 
         protected virtual void PopModal()
@@ -49,7 +48,7 @@ namespace UnityScreenNavigator.Runtime.Core.Modals
             SetAlpha(alpha);
 
             this.parentTransform = parentTransform;
-            this.rectTransform.FillParent(this.parentTransform);
+            rectTransform.FillParentAndScale(parentTransform, _bonusScale);
             canvasGroup.interactable = true;
 
             gameObject.SetActive(false);
@@ -103,7 +102,7 @@ namespace UnityScreenNavigator.Runtime.Core.Modals
         private IEnumerator EnterRoutine(bool playAnimation)
         {
             gameObject.SetActive(true);
-            rectTransform.FillParent(parentTransform);
+            rectTransform.FillParentAndScale(parentTransform, _bonusScale);
             canvasGroup.alpha = 1;
 
             if (playAnimation)
@@ -118,7 +117,7 @@ namespace UnityScreenNavigator.Runtime.Core.Modals
                 yield return CoroutineManager.Run<ModalBackdrop>(anim.CreatePlayRoutine());
             }
 
-            rectTransform.FillParent(parentTransform);
+            rectTransform.FillParentAndScale(parentTransform, _bonusScale);
         }
 
         internal AsyncProcessHandle Exit(bool playAnimation)
@@ -129,7 +128,7 @@ namespace UnityScreenNavigator.Runtime.Core.Modals
         private IEnumerator ExitRoutine(bool playAnimation)
         {
             gameObject.SetActive(true);
-            rectTransform.FillParent(parentTransform);
+            rectTransform.FillParentAndScale(parentTransform, _bonusScale);
             canvasGroup.alpha = 1;
 
             if (playAnimation)

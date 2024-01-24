@@ -1,10 +1,12 @@
 using System;
 using System.Collections.Generic;
+using Cysharp.Threading.Tasks;
+using Runtime.Definition;
+using Runtime.Manager.Data;
+using Runtime.Manager.Game;
+using Runtime.Manager.Toast;
 using UnityEngine;
 using UnityScreenNavigator.Runtime.Core.Sheets;
-using Runtime.Definition;
-using Runtime.Manager.Toast;
-using Cysharp.Threading.Tasks;
 using ScreenNavigatorModal = UnityScreenNavigator.Runtime.Core.Modals.Modal;
 
 namespace Runtime.UI
@@ -13,8 +15,7 @@ namespace Runtime.UI
     {
         #region Members
 
-        [SerializeField]
-        protected SheetContainer container;
+        [SerializeField] protected SheetContainer container;
         protected int[] sheetIds;
         protected bool isLoading;
 
@@ -38,7 +39,8 @@ namespace Runtime.UI
 
         public override UniTask Cleanup()
         {
-            ownerModalData.OnClosedCallbackAction?.Invoke();
+            if (ownerModalData != null && ownerModalData.OnClosedCallbackAction != null)
+                ownerModalData.OnClosedCallbackAction.Invoke();
             ResetSheetIds();
             return base.Cleanup();
         }
@@ -75,8 +77,8 @@ namespace Runtime.UI
     {
         #region Members
 
-        [SerializeField]
-        protected ModalType modalType = ModalType.Normal;
+        [SerializeField] protected ModalType modalType = ModalType.Normal;
+        [SerializeField] protected bool isDisplayedFullScreen = true;
         protected T ownerModalData;
 
         #endregion Members
@@ -86,19 +88,40 @@ namespace Runtime.UI
         public override async UniTask InitializeInternal(object arg = null)
         {
             var modalData = arg as T;
-            if (modalData != null)
-                await Initialize(modalData);
+            await Initialize(modalData);
         }
 
         public virtual async UniTask Initialize(T modalData)
         {
+            GameManager.Instance.StopGameFlow();
+
+            ScreenNavigator.Instance.SetUpModalOnInitialized(isDisplayedFullScreen);
             ownerModalData = modalData;
+            // switch (modalType)
+            // {
+            //     case ModalType.Positive:
+            //         AudioController.Instance.PlaySoundEffectAsync(AudioConstants.POPUP_POSITIVE, this.GetCancellationTokenOnDestroy()).Forget();
+            //         break;
+            //     case ModalType.Negative:
+            //         AudioController.Instance.PlaySoundEffectAsync(AudioConstants.POPUP_NEGATIVE, this.GetCancellationTokenOnDestroy()).Forget();
+            //         break;
+            //     case ModalType.Revive:
+            //         AudioController.Instance.PlaySoundEffectAsync(AudioConstants.REVIVE_PROMPT, this.GetCancellationTokenOnDestroy()).Forget();
+            //         break;
+            //     default:
+            //         AudioController.Instance.PlaySoundEffectAsync(AudioConstants.POPUP_POSITIVE, this.GetCancellationTokenOnDestroy()).Forget();
+            //         break;
+            // }
+
             await UniTask.CompletedTask;
         }
 
         public override UniTask Cleanup()
         {
-            ownerModalData.OnClosedCallbackAction?.Invoke();
+            GameManager.Instance.ContinueGameFlow();
+            ScreenNavigator.Instance.SetUpModalOnCleanUp();
+            if (ownerModalData != null && ownerModalData.OnClosedCallbackAction != null)
+                ownerModalData.OnClosedCallbackAction.Invoke();
             return base.Cleanup();
         }
 
@@ -108,8 +131,8 @@ namespace Runtime.UI
                 ScreenNavigator.Instance.PopModal(this, playAnimation).Forget();
         }
 
-        public virtual void ShowToast(string toastMessage)
-            => ToastManager.Instance.Show(toastMessage);
+        public virtual void ShowToast(string toastMessage, ToastVisualType toastVisualType = ToastVisualType.Text)
+            => ToastManager.Instance.Show(toastMessage, toastVisualType);
 
         #endregion Class Methods
     }
@@ -126,15 +149,6 @@ namespace Runtime.UI
 
         public ModalData(Action onClosedCallbackAction)
             => OnClosedCallbackAction = onClosedCallbackAction;
-
-        #endregion Class Methods
-    }
-
-    public class EmptyModalData : ModalData
-    {
-        #region Class Methods
-
-        public EmptyModalData() : base(null) { }
 
         #endregion Class Methods
     }

@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-String-Tables-French (France) (fr-FR)
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-String-Tables-French (France) (fr-FR)
+  m_Data:
+    m_SerializedData: []
+  m_GUID: dce9a0afecc390343822b986a310fc40
+  m_SerializeEntries:
+  - m_GUID: 9b39bf33a5ad6494cb8bac017ae98d13
+    m_Address: Shop_fr-FR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr-FR
+  - m_GUID: 4c0738017ff0ac04688beb26df1e439d
+    m_Address: Toast_fr-FR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr-FR
+  - m_GUID: d9f776888d9a93b43861b8dd1a9eb6bf
+    m_Address: DungeonGamePlay_fr-FR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr-FR
+  - m_GUID: 0c8c165f116e6ee4a99bebe08c09e89d
+    m_Address: Gacha_fr-FR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr-FR
+  - m_GUID: 2a78e9d204b12554fb1dbf2968584b1a
+    m_Address: Hero_fr-FR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr-FR
+  - m_GUID: e990322d3831b6544aaf87fe0aa52b8d
+    m_Address: Pvp_fr-FR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr-FR
+  - m_GUID: 635e8730debdf014b9f9a4e0ef4ae2d3
+    m_Address: General_fr-FR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr-FR
+  - m_GUID: 0b673062dc1f028448698cc8fef9abe3
+    m_Address: TreasureChest_fr-FR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr-FR
+  - m_GUID: d6c7e79e6e672d34480b21189f12180f
+    m_Address: Enemy_fr-FR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr-FR
+  - m_GUID: df7a1297b6db6f646850bf48f9c426dc
+    m_Address: Camp_fr-FR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr-FR
+  - m_GUID: 90e733d10454b2442bd8e42e3f9c4ba5
+    m_Address: Equipment_fr-FR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr-FR
+  - m_GUID: 42b12ad1c42b662439e7a4bfb117e116
+    m_Address: Quest_fr-FR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr-FR
+  - m_GUID: 9437b558254ccce43b14f34394d9e4f8
+    m_Address: Stats_fr-FR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr-FR
+  - m_GUID: 6b138427bc775a445beb1b97e17c414c
+    m_Address: Entity_fr-FR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr-FR
+  - m_GUID: 8534f9c2f43a97f47b5a6372ecf8e6e8
+    m_Address: Challenge_fr-FR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr-FR
+  - m_GUID: 09b7d808b1661e944b220e0122ea8cc3
+    m_Address: Teleportation_fr-FR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr-FR
+  - m_GUID: e2d4e71336d782b4abe7e65740561e4b
+    m_Address: Skills_fr-FR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr-FR
+  - m_GUID: 8539abe1eaf007642bb6c606bbb8608b
+    m_Address: Resource_fr-FR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr-FR
+  - m_GUID: 5f200337eeb4ae746854e1edb5677ddf
+    m_Address: Tutorial_fr-FR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr-FR
+  - m_GUID: d8d310f337914014da18ef760b7df90f
+    m_Address: UpgradeHero_fr-FR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr-FR
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: 01ec9dd64acabdf4cb088bb4c51ff0f0, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: ebd448dd51d6f9b4b86638d1900cb6fe, type: 2}
+    - {fileID: 11400000, guid: 32fd7080b7b44b14b98be0f65137d137, type: 2}

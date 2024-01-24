@@ -44,6 +44,24 @@ MonoBehaviour:
   - {fileID: 11400000, guid: ef7481efcc680eb43a49cc14974df68f, type: 2}
   - {fileID: 11400000, guid: 7c78edfd06281a141a646ff4cbee0735, type: 2}
   - {fileID: 11400000, guid: 97d43dd30043a114f8a119049a4a2412, type: 2}
+  - {fileID: 11400000, guid: 085c7970eeeba6849be6851951986f12, type: 2}
+  - {fileID: 11400000, guid: 124f2b877c04aaf4daf4571e81ccdeef, type: 2}
+  - {fileID: 11400000, guid: 62699d69e90aa3a428c0f6c004bb9e0b, type: 2}
+  - {fileID: 11400000, guid: ebae3f6e6b76f5a42b173e6a866926ac, type: 2}
+  - {fileID: 11400000, guid: 8ec1218860f63274d920561b25530e6f, type: 2}
+  - {fileID: 11400000, guid: 01c564ad6110fa644aed923cddfd7eee, type: 2}
+  - {fileID: 11400000, guid: 93fda21a8557970489bdea2bf4b45edd, type: 2}
+  - {fileID: 11400000, guid: 48321cb0a1239324a8ad624779c9ab0d, type: 2}
+  - {fileID: 11400000, guid: 29a7b5e24b88c134f99c2ea35ecb4c43, type: 2}
+  - {fileID: 11400000, guid: c061383276e86044e9a0afd42c1929a7, type: 2}
+  - {fileID: 11400000, guid: ed60384685b8eeb4d8e2acb45ed9e6c9, type: 2}
+  - {fileID: 11400000, guid: 23ae67e2529cbab47bcba9bd1e6af9d3, type: 2}
+  - {fileID: 11400000, guid: be2c0fd8a5483b34da677b0afbc45f2d, type: 2}
+  - {fileID: 11400000, guid: f37c9ae10bb5bf24c91293191f58205e, type: 2}
+  - {fileID: 11400000, guid: 3267355227b265140b2e79b056718e22, type: 2}
+  - {fileID: 11400000, guid: 3ee95d7850513b244abb5cb2a7b1b92a, type: 2}
+  - {fileID: 11400000, guid: 144ec836ff7e5fb41865fca49517f90e, type: 2}
+  - {fileID: 11400000, guid: 2fced0358571d5240a9c569514ab22d7, type: 2}
   m_BuildSettings:
     m_CompileScriptsInVirtualMode: 0
     m_CleanupStreamingAssetsAfterBuilds: 1
@@ -85,6 +103,20 @@ MonoBehaviour:
   m_LabelTable:
     m_LabelNames:
     - default
+    - Locale
+    - Locale-zh
+    - Locale-zh-Hant
+    - Locale-en
+    - Locale-fil
+    - Locale-fr-FR
+    - Locale-de
+    - Locale-id
+    - Locale-ja
+    - Locale-ko
+    - Locale-pt-br
+    - Locale-ru
+    - Locale-th
+    - Locale-vi
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: 4f857771e1156c647b117f8e4e9a65ec, type: 2}

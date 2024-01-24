@@ -12,14 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 181972267a60da949946e3b37d42ca35, type: 3}
   m_Name: Runtime.Config.HitObjectConfig
   m_EditorClassIdentifier: 
-  items:
-  - objectType: 0
-    valueAddScore: 3
-    requiredResourceData:
-      resourceType: 0
-      resourceNumber: 0
-  - objectType: 0
-    valueAddScore: -1
-    requiredResourceData:
-      resourceType: 0
-      resourceNumber: 0
+  items: []

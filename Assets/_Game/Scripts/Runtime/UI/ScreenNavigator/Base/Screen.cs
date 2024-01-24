@@ -2,8 +2,9 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityScreenNavigator.Runtime.Core.Sheets;
-using Cysharp.Threading.Tasks;
 using Runtime.Manager.Toast;
+using Runtime.Manager.Game;
+using Cysharp.Threading.Tasks;
 using ScreenNavigatorScreen = UnityScreenNavigator.Runtime.Core.Screens.Screen;
 
 namespace Runtime.UI
@@ -30,14 +31,15 @@ namespace Runtime.UI
             isLoading = false;
             sheetIds = new int[SheetDictionary.Count];
             ResetSheetIds();
-            await UniTask.CompletedTask;
+            await base.Initialize(screenData);
         }
 
-        public override UniTask Cleanup()
+        public override UniTask CleanUp()
         {
-            ownerScreenData.onClosedCallbackAction?.Invoke();
+            if (ownerScreenData != null && ownerScreenData.OnClosedCallbackAction != null)
+                ownerScreenData.OnClosedCallbackAction.Invoke();
             ResetSheetIds();
-            return base.Cleanup();
+            return base.CleanUp();
         }
 
         protected void ResetSheetIds()
@@ -70,6 +72,10 @@ namespace Runtime.UI
     {
         #region Members
 
+        [SerializeField]
+        protected bool isPreloaded;
+        [SerializeField]
+        protected bool isDisplayedFullScreen = true;
         protected T ownerScreenData;
 
         #endregion Members
@@ -79,20 +85,26 @@ namespace Runtime.UI
         public override async UniTask InitializeInternal(object arg)
         {
             var screenData = arg as T;
-            if (screenData != null)
-                await Initialize(screenData);
+            await Initialize(screenData);
         }
 
         public virtual async UniTask Initialize(T screenData)
         {
+            if (!isPreloaded)
+                GameManager.Instance.StopGameFlow();
+            ScreenNavigator.Instance.SetUpScreenOnInitialized(isDisplayedFullScreen);
             ownerScreenData = screenData;
             await UniTask.CompletedTask;
         }
 
-        public override UniTask Cleanup()
+        public override UniTask CleanUp()
         {
-            ownerScreenData.onClosedCallbackAction?.Invoke();
-            return base.Cleanup();
+            if (!isPreloaded)
+                GameManager.Instance.ContinueGameFlow();
+            ScreenNavigator.Instance.SetUpScreenOnCleanUp();
+            if (ownerScreenData != null && ownerScreenData.OnClosedCallbackAction != null)
+                ownerScreenData.OnClosedCallbackAction.Invoke();
+            return base.CleanUp();
         }
 
         public virtual void Close(bool playAnimation)
@@ -101,33 +113,24 @@ namespace Runtime.UI
                 ScreenNavigator.Instance.PopScreen(playAnimation).Forget();
         }
 
-        public virtual void ShowToast(string toastMessage)
-            => ToastManager.Instance.Show(toastMessage);
+        public virtual void ShowToast(string toastMessage, ToastVisualType toastVisualType = ToastVisualType.Text)
+            => ToastManager.Instance.Show(toastMessage, toastVisualType);
 
         #endregion Class Methods
     }
 
     public class ScreenData
     {
-        #region Members
+        #region Properties
 
-        public Action onClosedCallbackAction;
+        public Action OnClosedCallbackAction { get; private set; }
 
-        #endregion Members
+        #endregion Properties
 
         #region Class Methods
 
         public ScreenData(Action onClosedCallbackAction)
-            => this.onClosedCallbackAction = onClosedCallbackAction;
-
-        #endregion Class Methods
-    }
-
-    public class EmptyScreenData : ScreenData
-    {
-        #region Class Methods
-
-        public EmptyScreenData() : base(null) { }
+            => OnClosedCallbackAction = onClosedCallbackAction;
 
         #endregion Class Methods
     }

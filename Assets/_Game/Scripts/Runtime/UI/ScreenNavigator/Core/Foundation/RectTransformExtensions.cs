@@ -16,7 +16,13 @@ namespace UnityScreenNavigator.Runtime.Foundation
             self.rotation = Quaternion.identity;
             self.localScale = Vector3.one;
         }
-        
+
+        public static void FillParentAndScale(this RectTransform self, RectTransform parent, float bonusScale)
+        {
+            FillParent(self, parent);
+            self.localScale = Vector3.one * (1 + bonusScale);
+        }
+
         public static void RemoveChild(this Transform transform, Transform child, bool worldPositionStays = false)
         {
             if (child == false || !transform.Equals(child.parent))

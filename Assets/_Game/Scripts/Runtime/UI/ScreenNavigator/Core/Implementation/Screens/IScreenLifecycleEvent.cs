@@ -55,6 +55,6 @@ namespace UnityScreenNavigator.Runtime.Core.Screens
         /// Called just before this screen is released.
         /// </summary>
         /// <returns></returns>
-        UniTask Cleanup();
+        UniTask CleanUp();
     }
 }

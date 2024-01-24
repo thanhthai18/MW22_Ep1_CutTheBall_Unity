@@ -7,7 +7,11 @@ using UnityEngine.SceneManagement;
 using UnityEngine.AddressableAssets;
 using Runtime.Common.Singleton;
 using Cysharp.Threading.Tasks;
+using Runtime.Definition;
+using Runtime.Localization;
+using Runtime.Message;
 using UnitySceneManager = UnityEngine.SceneManagement.SceneManager;
+using UnityEngine.ResourceManagement.ResourceProviders;
 
 namespace Runtime.SceneLoading
 {
@@ -26,19 +30,15 @@ namespace Runtime.SceneLoading
         #region Members
 
         private static bool s_isLoadingScene;
-        [SerializeField]
-        private SceneLoaderData _sceneLoaderData;
-        [SerializeField]
-        private float _sceneLoadingProgressSmoothSpeed = 3.0f;
-        [SerializeField]
-        private float _mainLoadScale = 1.0f;
-        [SerializeField]
-        private float _progressBarRoundValue = 0;
-        [SerializeField]
-        private SceneLoaderScreen _sceneLoaderScreen;
+        [SerializeField] private SceneLoaderData _sceneLoaderData;
+        [SerializeField] private float _sceneLoadingProgressSmoothSpeed = 3.0f;
+        [SerializeField] private float _mainLoadScale = 1.0f;
+        [SerializeField] private float _progressBarRoundValue = 0;
+        [SerializeField] private SceneLoaderScreen _sceneLoaderScreen;
+        [SerializeField] private SceneFakeLoaderScreen _sceneFakeLoaderScreen;
         private bool _hasFinishedLoading;
         private float _sceneLoadingProgressSmoothValue;
-        private CancellationTokenSource _cancellationTokenSource;
+        private CancellationTokenSource _cancellationTokenSource = new CancellationTokenSource();
 
         #endregion Members
 
@@ -62,16 +62,15 @@ namespace Runtime.SceneLoading
         private static Action BeforeChangeSceneAction { get; set; }
 
         /// <summary>
-        /// The task that needs to be completed after the old scene has been unloaded, the new scene has been loaded,
+        /// The tasks that need to be completed after the old scene has been unloaded, the new scene has been loaded,
         /// but before the new scene is about to appear (before the fade-in takes place).
         /// </summary>
-        private static Func<CancellationToken, UniTask> CompleteTaskBeforeNewSceneAppearedTask { get; set; }
+        private static List<Func<CancellationToken, UniTask>> CompletedTaskBeforeNewSceneAppearedTasks { get; set; }
 
         /// <summary>
-        /// The action that will be executed after the new scene has been loaded, and is about to appear (fade in).
+        /// The tasks that need to be waited after all of the items in the list CompleteTaskBeforeNewSceneAppearedTasks completed.
         /// </summary>
-        private static Action BeforeNewSceneAppearedAction { get; set; }
-
+        private static List<Func<CancellationToken, UniTask>> WaitedTaskBeforeNewSceneAppearedTasks { get; set; }
 
         #endregion Properties
 
@@ -91,9 +90,20 @@ namespace Runtime.SceneLoading
         private void OnDisable()
             => UnitySceneManager.activeSceneChanged -= OnActiveSceneChanged;
 
+        private void OnDestroy()
+        {
+            _cancellationTokenSource.Cancel();
+            _cancellationTokenSource.Dispose();
+        }
+
         #endregion API Methods
 
         #region Class Methods
+
+        public static void ShowFirstSession(Action callback)
+        {
+            Instance._sceneLoaderScreen.FadeInFirstSession(callback);
+        }
 
         public static async UniTask LoadSceneAsync(string sceneName)
         {
@@ -104,17 +114,40 @@ namespace Runtime.SceneLoading
             s_isLoadingScene = false;
         }
 
+        public static async UniTask<SceneInstance> LoadAdditiveSceneAsyncOperation(string additiveSceneName)
+            => await Addressables.LoadSceneAsync(additiveSceneName, LoadSceneMode.Additive);
+
+        public static async UniTask UnloadAdditiveSceneAsyncOperation(SceneInstance sceneInstance)
+            => await Addressables.UnloadSceneAsync(sceneInstance);
+
+
+        /// <summary>
+        /// Load a fake scene with an attached task.
+        /// </summary>
+        /// <param name="loadSceneTask">The task executed in the middle of the fake loading process.</param>
+        /// <param name="loadSceneTaskDelayInMilliseconds">The delay for the task.</param>
+        public static async UniTask LoadFakeSceneAsync(Func<UniTask> loadSceneTask = null, int loadSceneTaskDelayInMilliseconds = 500)
+            => await Instance.StartInternalSceneFakeLoadAsync(loadSceneTask, loadSceneTaskDelayInMilliseconds);
+
         public static void RegisterTriggerChangeScene(Action triggerChangeSceneAction)
             => TriggerChangeSceneAction += triggerChangeSceneAction;
 
         public static void RegisterBeforeChangeScene(Action beforeChangeSceneAction)
             => BeforeChangeSceneAction += beforeChangeSceneAction;
 
-        public static void RegisterBeforeNewSceneAppeared(Action beforeNewSceneAppearedAction)
-            => BeforeNewSceneAppearedAction += beforeNewSceneAppearedAction;
+        public static void RegisterCompletedTaskBeforeNewSceneAppeared(Func<CancellationToken, UniTask> completedTaskBeforeNewSceneAppearedTask)
+        {
+            if (CompletedTaskBeforeNewSceneAppearedTasks == null)
+                CompletedTaskBeforeNewSceneAppearedTasks = new List<Func<CancellationToken, UniTask>>();
+            CompletedTaskBeforeNewSceneAppearedTasks.Add(completedTaskBeforeNewSceneAppearedTask);
+        }
 
-        public static void RegisterCompleteTaskBeforeNewSceneAppeared(Func<CancellationToken, UniTask> completeTaskBeforeNewSceneAppearedTask)
-            => CompleteTaskBeforeNewSceneAppearedTask += completeTaskBeforeNewSceneAppearedTask;
+        public static void RegisterWaitedTaskBeforeNewSceneAppeared(Func<CancellationToken, UniTask> waitedTaskBeforeNewSceneAppearedTask)
+        {
+            if (WaitedTaskBeforeNewSceneAppearedTasks == null)
+                WaitedTaskBeforeNewSceneAppearedTasks = new List<Func<CancellationToken, UniTask>>();
+            WaitedTaskBeforeNewSceneAppearedTasks.Add(waitedTaskBeforeNewSceneAppearedTask);
+        }
 
         private async UniTask StartInternalLoadSceneAsync(string sceneName)
         {
@@ -123,15 +156,20 @@ namespace Runtime.SceneLoading
                 TriggerChangeSceneAction.Invoke();
                 TriggerChangeSceneAction = null;
             }
+
             var sceneOpenedLoadingInfo = GetSceneLoadingInfo(sceneName);
             SceneLoadingInfo = sceneOpenedLoadingInfo;
             _sceneLoaderScreen.UpdateSceneLoadingInfo(SceneLoadingInfo);
             await StartSceneLoadingAsyncOperation();
         }
 
-        private IEnumerator StartSceneLoadingAsyncOperation()
+        private async UniTask StartInternalSceneFakeLoadAsync(Func<UniTask> loadSceneTask, int loadSceneTaskDelayInMilliseconds)
+            => await _sceneFakeLoaderScreen.RunSceneFakeLoadAsync(loadSceneTask, loadSceneTaskDelayInMilliseconds);
+
+
+        private async UniTask StartSceneLoadingAsyncOperation()
         {
-            yield return _sceneLoaderScreen.PrepareLoadingScene();
+            await _sceneLoaderScreen.PrepareLoadingSceneAsync();
 
             if (BeforeChangeSceneAction != null)
             {
@@ -139,9 +177,14 @@ namespace Runtime.SceneLoading
                 BeforeChangeSceneAction = null;
             }
 
-            yield return null;
+            await UniTask.Yield(PlayerLoopTiming.Update);
 
-            _cancellationTokenSource?.Cancel();
+            if (_cancellationTokenSource != null)
+            {
+                _cancellationTokenSource.Cancel();
+                _cancellationTokenSource.Dispose();
+            }
+
             _cancellationTokenSource = new CancellationTokenSource();
 
             var sceneLoadingAsyncOperation = Addressables.LoadSceneAsync(SceneLoadingInfo.LoadedSceneName);
@@ -151,8 +194,9 @@ namespace Runtime.SceneLoading
                 var status = sceneLoadingAsyncOperation.GetDownloadStatus();
                 float completeProgress = Mathf.Clamp01(status.Percent);
                 _sceneLoadingProgressSmoothValue = Mathf.Lerp(_sceneLoadingProgressSmoothValue, completeProgress, DeltaTime * _sceneLoadingProgressSmoothSpeed);
-                float progressBarValue = _progressBarRoundValue > 0 ? (Mathf.Round(_sceneLoadingProgressSmoothValue / _progressBarRoundValue) * _progressBarRoundValue)
-                                                                    : _sceneLoadingProgressSmoothValue;
+                float progressBarValue = _progressBarRoundValue > 0
+                    ? (Mathf.Round(_sceneLoadingProgressSmoothValue / _progressBarRoundValue) * _progressBarRoundValue)
+                    : _sceneLoadingProgressSmoothValue;
                 progressBarValue = progressBarValue * _mainLoadScale;
                 _sceneLoaderScreen.UpdateLoadProgress(progressBarValue);
                 currentLoadingTime += DeltaTime;
@@ -166,11 +210,12 @@ namespace Runtime.SceneLoading
                             _hasFinishedLoading = true;
                         }
                     }
-                    else yield return null;
+                    else await UniTask.Yield(PlayerLoopTiming.Update);
                 }
 
-                yield return null;
+                await UniTask.Yield(PlayerLoopTiming.Update);
             }
+
             _sceneLoaderScreen.UpdateLoadProgress(1);
         }
 
@@ -181,27 +226,36 @@ namespace Runtime.SceneLoading
         {
             _hasFinishedLoading = false;
             _sceneLoadingProgressSmoothValue = 0.0f;
-            WaitToCompleteTaskBeforeSceneAppear().Forget();
+            RunCompletedAndWaitedTasksBeforeSceneAppearAsync().Forget();
         }
 
-        private async UniTask WaitToCompleteTaskBeforeSceneAppear()
+        private async UniTask RunCompletedAndWaitedTasksBeforeSceneAppearAsync()
         {
-            if (CompleteTaskBeforeNewSceneAppearedTask != null)
+            if (CompletedTaskBeforeNewSceneAppearedTasks != null)
             {
-                await CompleteTaskBeforeNewSceneAppearedTask.Invoke(_cancellationTokenSource.Token);
-                CompleteTaskBeforeNewSceneAppearedTask = null;
+                while (CompletedTaskBeforeNewSceneAppearedTasks.Count > 0)
+                {
+                    await CompletedTaskBeforeNewSceneAppearedTasks[0].Invoke(_cancellationTokenSource.Token);
+                    CompletedTaskBeforeNewSceneAppearedTasks.RemoveAt(0);
+                }
+
+                CompletedTaskBeforeNewSceneAppearedTasks = null;
             }
             else await UniTask.CompletedTask;
 
-            await UniTask.Yield();
-
-            if (BeforeNewSceneAppearedAction != null)
+            if (WaitedTaskBeforeNewSceneAppearedTasks != null)
             {
-                BeforeNewSceneAppearedAction.Invoke();
-                BeforeNewSceneAppearedAction = null;
-            }
+                while (WaitedTaskBeforeNewSceneAppearedTasks.Count > 0)
+                {
+                    await WaitedTaskBeforeNewSceneAppearedTasks[0].Invoke(_cancellationTokenSource.Token);
+                    WaitedTaskBeforeNewSceneAppearedTasks.RemoveAt(0);
+                }
 
-            await UniTask.Yield();
+                WaitedTaskBeforeNewSceneAppearedTasks = null;
+            }
+            else await UniTask.CompletedTask;
+
+            await UniTask.Yield(PlayerLoopTiming.Update);
 
             _sceneLoaderScreen.ResetWhenSceneChanged();
         }
@@ -216,6 +270,7 @@ namespace Runtime.SceneLoading
                     return sceneLoadingInfo;
                 }
             }
+
             return null;
         }
 

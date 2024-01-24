@@ -79,10 +79,10 @@ namespace UnityScreenNavigator.Runtime.Core.Screens
                 CoroutineManager.Run<Screen>(NoPushJustLoadRoutine(preloadedScreen, arg));
         }
 
-        public override void Cleanup()
+        public override void CleanUp()
         {
             foreach (var screen in _screens)
-                screen.Cleanup();
+                screen.CleanUp();
         }
 
         /// <summary>

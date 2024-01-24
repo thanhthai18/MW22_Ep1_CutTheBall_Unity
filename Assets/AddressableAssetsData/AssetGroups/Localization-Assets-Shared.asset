@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-Assets-Shared
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-Assets-Shared
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 33e15ee63eb0828408604eab3922f0cc
+  m_SerializeEntries:
+  - m_GUID: 2738cb4aa74a48043a3cd4164bbe4009
+    m_Address: Assets/Localization/StringTables/Shop Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: a685d6e34661fa54d86bd3b5dc806f6c
+    m_Address: Assets/Localization/StringTables/Toast Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: afa303ff4924b9349a18e42da1cdb509
+    m_Address: Assets/Localization/StringTables/DungeonGamePlay Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 2445c1419f011be478d40ece9415a0b1
+    m_Address: Assets/Localization/StringTables/Gacha Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 393a84adb8af6424aab5702b14fcfa7e
+    m_Address: Assets/Localization/StringTables/Hero Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: d45e5c7bf7364ea4e98aee1969abbc01
+    m_Address: Assets/Localization/StringTables/Pvp Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 823ca369d6e18fc4ea9b9b242cf654c2
+    m_Address: Assets/Localization/StringTables/General Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: dca406a091b175042b0cd0464923b110
+    m_Address: Assets/Localization/StringTables/TreasureChest Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: f7c0e61f7eda15a48a8291ccfdda88fc
+    m_Address: Assets/Localization/StringTables/Enemy Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 6b5d94e9aa535874bb378d31ef4c430b
+    m_Address: Assets/Localization/StringTables/Camp Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 7a989f58e8a2310449953c151e765706
+    m_Address: Assets/Localization/StringTables/Equipment Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: b53f725853bc4174387aebee93bdd2da
+    m_Address: Assets/Localization/StringTables/Quest Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 42f1db742472e9d449ab1c62202a9532
+    m_Address: Assets/Localization/StringTables/Stats Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 8a3898e9ab319e54c8b50b5635445194
+    m_Address: Assets/Localization/StringTables/Entity Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 629b4d4904f158e4b89de77d3003627b
+    m_Address: Assets/Localization/StringTables/Challenge Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: e67a8d71e4ccf5b4fa8502457befd215
+    m_Address: Assets/Localization/StringTables/Teleportation Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 62c6ecc3f585e74408f2978e938a4b62
+    m_Address: Assets/Localization/StringTables/Skills Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: ae9f4babf875f2243aae7fb67f727c8e
+    m_Address: Assets/Localization/StringTables/Resource Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 571de98d4fb466646aee9ab68b147357
+    m_Address: Assets/Localization/StringTables/Tutorial Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: b826a096e3c08864f85d2be904b600d1
+    m_Address: Assets/Localization/StringTables/UpgradeHero Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: 01ec9dd64acabdf4cb088bb4c51ff0f0, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 8e22b320805dd2247a3191d897be8cb3, type: 2}
+    - {fileID: 11400000, guid: 293957a926953644fbcaaa91f1823ce6, type: 2}

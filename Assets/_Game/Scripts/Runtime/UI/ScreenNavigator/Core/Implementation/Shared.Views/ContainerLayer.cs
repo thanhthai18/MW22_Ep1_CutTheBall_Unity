@@ -12,7 +12,7 @@ namespace UnityScreenNavigator.Runtime.Core.Shared.Views
         public Canvas Canvas { get; private set; }
 
         public abstract void SetUp(IContainerLayerManager manager, string layerName);
-        public virtual void Cleanup() { }
+        public virtual void CleanUp() { }
 
         protected void Initialize(IContainerLayerManager manager, string layerName)
         {

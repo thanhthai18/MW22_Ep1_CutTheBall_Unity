@@ -93,7 +93,7 @@ namespace UnityScreenNavigator.Runtime.Core.Screens
         {
         }
 
-        public virtual UniTask Cleanup()
+        public virtual UniTask CleanUp()
         {
             return UniTask.CompletedTask;
         }
@@ -288,7 +288,7 @@ namespace UnityScreenNavigator.Runtime.Core.Screens
 
         internal AsyncProcessHandle BeforeRelease()
         {
-            return CoroutineManager.Run<Screen>(CreateCoroutine(_lifecycleEvents.Select(x => x.Cleanup())));
+            return CoroutineManager.Run<Screen>(CreateCoroutine(_lifecycleEvents.Select(x => x.CleanUp())));
         }
 
         private IEnumerator CreateCoroutine(IEnumerable<UniTask> targets)

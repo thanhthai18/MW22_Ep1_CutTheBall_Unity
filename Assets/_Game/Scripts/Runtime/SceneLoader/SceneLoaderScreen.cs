@@ -6,6 +6,8 @@ using UnityEngine.UI;
 using Runtime.Tool.Easing;
 using TMPro;
 using UnityRandom = UnityEngine.Random;
+using Cysharp.Threading.Tasks;
+using DG.Tweening;
 
 namespace Runtime.SceneLoading
 {
@@ -44,7 +46,7 @@ namespace Runtime.SceneLoading
         [SerializeField]
         private Image _backgroundImage;
         [SerializeField]
-        private Image _progressBarSliderImage;
+        private Slider _progressBarSlider;
         [SerializeField]
         private CanvasGroup _backgroundCanvasGroup;
         [SerializeField]
@@ -52,6 +54,15 @@ namespace Runtime.SceneLoading
         [SerializeField]
         private CanvasGroup _rootCanvasGroup;
 
+        [SerializeField]
+        private TMP_Text firstSessionText;
+        [SerializeField]
+        private Button firstSessionObjectButton;
+        [SerializeField]
+        private GameObject tapToContinue;
+        [SerializeField]
+        private GameObject loadingObject;
+        
         private SceneLoadingInfo _sceneLoadingInfo;
         private List<string> _cacheSceneLoadingTips;
         private List<Sprite> _cacheBackgrounds;
@@ -59,6 +70,7 @@ namespace Runtime.SceneLoading
         private int _currentTipIndex = 0;
         private int _currentBackgroundIndex = 0;
 
+        
         #endregion Members
 
         #region Properties
@@ -71,15 +83,14 @@ namespace Runtime.SceneLoading
 
         private void Awake()
         {
-            _progressBarSliderImage.type = Image.Type.Sliced;
-            _progressBarSliderImage.transform.localScale = new Vector2(0, 1);
+            _progressBarSlider.value = 0.0f;
             _fadeImageCanvas.alpha = 1;
             _fadeImageCanvas.transform.SetParent(_rootCanvasGroup.transform.parent, false);
             _fadeImageCanvas.transform.SetAsLastSibling();
+            firstSessionObjectButton.transform.SetAsLastSibling();
             _rootCanvasGroup.gameObject.SetActive(false);
+            firstSessionObjectButton.onClick.AddListener(FadeOutFirstSession);
         }
-
-        private void OnDisable() => StopAllCoroutines();
 
         #endregion API Methods
 
@@ -88,13 +99,12 @@ namespace Runtime.SceneLoading
         public void UpdateLoadProgress(float value)
         {
             string percent = (value * 100).ToString("F0");
-            _progressBarSliderImage.transform.localScale = new Vector2(value, 1);
+            _progressBarSlider.value = value;
             _progressText.text = string.Format(_progressTextFormat, percent);
         }
 
         public void ResetWhenSceneChanged()
         {
-            StopAllCoroutines();
             var alpha = _tipText.color;
             alpha.a = 0.0f;
             _tipText.color = alpha;
@@ -106,19 +116,24 @@ namespace Runtime.SceneLoading
 
             if (_sceneLoadingInfo != null)
             {
-                StartCoroutine(FadeIn(_sceneLoadingInfo.fadeInDelay,
-                                      _sceneLoadingInfo.fadeInSpeed,
-                                      () => _fadeImageCanvas.gameObject.SetActive(false)));
+                FadeInAsync(_sceneLoadingInfo.fadeInDelay, _sceneLoadingInfo.fadeInSpeed,
+                                      () => 
+                                          _fadeImageCanvas.gameObject.SetActive(false)
+                                      ).Forget();
+                if (this.firstSessionObjectButton.gameObject.activeInHierarchy)
+                {
+                    this.firstSessionObjectButton.enabled = true;
+                    tapToContinue.SetActive(true);
+                    loadingObject.SetActive(false);
+                }
             }
             else
             {
-                StartCoroutine(FadeIn(0.0f,
-                                      _screenInitialFadeInSpeed,
-                                      () => _fadeImageCanvas.gameObject.SetActive(false)));
+                FadeInAsync(0.0f, _screenInitialFadeInSpeed, () => _fadeImageCanvas.gameObject.SetActive(false)).Forget();
             }
         }
 
-        public IEnumerator PrepareLoadingScene()
+        public async UniTask PrepareLoadingSceneAsync()
         {
             UpdateLoadProgress(0);
             float currentStartLoadSceneDelay = 0.0f;
@@ -127,7 +142,7 @@ namespace Runtime.SceneLoading
                 currentStartLoadSceneDelay += DeltaTime;
                 var value = Easing.EaseInOutCubic(0.0f, 1.0f, currentStartLoadSceneDelay / _startLoadSceneDelay);
                 _rootCanvasGroup.alpha = value;
-                yield return null;
+                await UniTask.Yield(PlayerLoopTiming.Update);
             }
         }
 
@@ -138,7 +153,7 @@ namespace Runtime.SceneLoading
             if (_canChangeBackground)
             {
                 if (_cacheBackgrounds.Count > 1)
-                    StartCoroutine(StartTransitionBackgrounds());
+                    StartTransitionBackgroundsAsync().Forget();
                 else if (_cacheBackgrounds.Count > 0)
                     _backgroundImage.sprite = _cacheBackgrounds[0];
             }
@@ -148,7 +163,7 @@ namespace Runtime.SceneLoading
             {
                 _currentTipIndex = UnityRandom.Range(0, _cacheSceneLoadingTips.Count);
                 _tipText.text = _cacheSceneLoadingTips[_currentTipIndex];
-                StartCoroutine(StartLoopTips());
+                StartLoopTipsAsync().Forget();
             }
             else _tipText.text = "";
 
@@ -157,7 +172,7 @@ namespace Runtime.SceneLoading
             _rootCanvasGroup.gameObject.SetActive(true);
         }
 
-        private IEnumerator StartTransitionBackgrounds()
+        private async UniTask StartTransitionBackgroundsAsync()
         {
             while (true)
             {
@@ -165,20 +180,20 @@ namespace Runtime.SceneLoading
                 while (_backgroundCanvasGroup.alpha < 1.0f)
                 {
                     _backgroundCanvasGroup.alpha += DeltaTime * _backgroundFadeSpeed;
-                    yield return new WaitForEndOfFrame();
+                    await UniTask.Yield(PlayerLoopTiming.Update, this.GetCancellationTokenOnDestroy());
                 }
-                yield return new WaitForSeconds(_backgroundShowTime);
+                await UniTask.Delay(TimeSpan.FromSeconds(_backgroundShowTime), true, cancellationToken: this.GetCancellationTokenOnDestroy());
                 while (_backgroundCanvasGroup.alpha > 0.0f)
                 {
                     _backgroundCanvasGroup.alpha -= DeltaTime * _backgroundFadeSpeed;
-                    yield return new WaitForEndOfFrame();
+                    await UniTask.Yield(PlayerLoopTiming.Update);
                 }
                 _currentBackgroundIndex = (_currentBackgroundIndex + 1) % _cacheBackgrounds.Count;
-                yield return new WaitForSeconds(_changeBackgroundDelay);
+                await UniTask.Delay(TimeSpan.FromSeconds(_changeBackgroundDelay), true, cancellationToken: this.GetCancellationTokenOnDestroy());
             }
         }
 
-        private IEnumerator StartLoopTips()
+        private async UniTask StartLoopTipsAsync()
         {
             Color alpha = _tipText.color;
             if (_isTipFadeIn)
@@ -187,9 +202,9 @@ namespace Runtime.SceneLoading
                 {
                     alpha.a += DeltaTime * _tipFadeSpeed;
                     _tipText.color = alpha;
-                    yield return null;
+                    await UniTask.Yield(PlayerLoopTiming.Update);
                 }
-                StartCoroutine(StartWaitForNextTip(_tipShowTime));
+                await StartWaitForNextTipAsync(_tipShowTime);
             }
             else
             {
@@ -197,9 +212,9 @@ namespace Runtime.SceneLoading
                 {
                     alpha.a -= DeltaTime * _tipFadeSpeed;
                     _tipText.color = alpha;
-                    yield return null;
+                    await UniTask.Yield(PlayerLoopTiming.Update);
                 }
-                StartCoroutine(StartWaitForNextTip(_changeTipDelay));
+                await StartWaitForNextTipAsync(_changeTipDelay);
             }
 
             if (_isTipFadeIn)
@@ -209,47 +224,51 @@ namespace Runtime.SceneLoading
                 while (_currentTipIndex == previoustipIndex)
                 {
                     _currentTipIndex = UnityRandom.Range(0, _cacheSceneLoadingTips.Count);
-                    yield return null;
+                    await UniTask.Yield(PlayerLoopTiming.Update);
                 }
                 _tipText.text = _cacheSceneLoadingTips[_currentTipIndex];
             }
         }
 
-        private IEnumerator StartWaitForNextTip(float delayTime)
+        private async UniTask StartWaitForNextTipAsync(float delayTime)
         {
             _isTipFadeIn = !_isTipFadeIn;
-            yield return new WaitForSeconds(delayTime);
-            StartCoroutine(StartLoopTips());
+            await UniTask.Delay(TimeSpan.FromSeconds(delayTime), true, cancellationToken: this.GetCancellationTokenOnDestroy());
+            await StartLoopTipsAsync();
         }
 
-        private IEnumerator FadeIn(float delay, float fadeInSpeed, Action finishAction = null)
+        private async UniTaskVoid FadeInAsync(float delay, float fadeInSpeed, Action finishAction = null)
         {
-            yield return new WaitForSeconds(delay);
+            await UniTask.Delay(TimeSpan.FromSeconds(delay), true, cancellationToken: this.GetCancellationTokenOnDestroy());
             if (fadeInSpeed > 0)
             {
                 while (_fadeImageCanvas.alpha > 0.0f)
                 {
                     _fadeImageCanvas.alpha -= DeltaTime * fadeInSpeed;
-                    yield return null;
+                    await UniTask.Yield(PlayerLoopTiming.Update);
                 }
             }
             finishAction?.Invoke();
         }
 
-        private IEnumerator FadeOut(float delay, float fadeOutSpeed, Action finishAction = null)
+        public void FadeInFirstSession(Action callBackToStartLoadScene)
         {
-            yield return new WaitForSeconds(delay);
-            if (fadeOutSpeed > 0)
-            {
-                while (_fadeImageCanvas.alpha < 1.0f)
-                {
-                    _fadeImageCanvas.alpha += DeltaTime * fadeOutSpeed;
-                    yield return null;
-                }
-            }
-            finishAction?.Invoke();
+            this.firstSessionObjectButton.gameObject.SetActive(true);
+            this.firstSessionText.DOFade(1f, 3f).SetAutoKill(true).SetUpdate(true).OnComplete(() => {
+                this.loadingObject.SetActive(true);
+                callBackToStartLoadScene?.Invoke();
+            });
         }
-
+        
+        public void FadeOutFirstSession()
+        {
+            this.firstSessionObjectButton.gameObject.SetActive(true);
+            this.firstSessionText.DOFade(0f, 0.75f).SetAutoKill(true).SetUpdate(true);
+            this.firstSessionObjectButton.image.DOFade(0f, 1f).SetAutoKill(true).SetUpdate(true).OnComplete(() => {
+                firstSessionObjectButton.gameObject.SetActive(false);
+            });
+        }
+        
         #endregion Class Methods
     }
 }

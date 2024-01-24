@@ -79,7 +79,7 @@ namespace UnityScreenNavigator.Runtime.Core.Modals
             container.Initialize(manager, layerName);
         }
 
-        public override void Cleanup()
+        public override void CleanUp()
         {
             foreach (var modal in _modals)
                 modal.Cleanup();
@@ -131,7 +131,7 @@ namespace UnityScreenNavigator.Runtime.Core.Modals
 
             if (IsInTransition)
             {
-#if DEBUGGING
+#if UNITY_EDITOR
                 Debug.LogWarning("Attention: It should never reach here! -> A modal push routine is in transition <-");
 #endif
                 yield break;
@@ -158,17 +158,16 @@ namespace UnityScreenNavigator.Runtime.Core.Modals
                 throw assetLoadHandle.OperationException;
             }
 
-            var backdrop = Instantiate(_backdropPrefab);
-            backdrop.Setup((RectTransform)transform, options.backdropAlpha);
-            _backdrops.Add(backdrop);
-
             var instance = Instantiate(assetLoadHandle.Result);
-
             if (instance.TryGetComponent<TModal>(out var enterModal) == false)
             {
                 throw new InvalidOperationException(
                     $"Cannot transition because {typeof(TModal).Name} component is not attached to the specified resource \"{resourcePath}\".");
             }
+
+            var backdrop = Instantiate(_backdropPrefab);
+            backdrop.Setup((RectTransform)transform, options.backdropAlpha);
+            _backdrops.Add(backdrop);
 
             var modalId = enterModal.GetInstanceID();
             _assetLoadHandles.Add(modalId, assetLoadHandle);
@@ -188,7 +187,6 @@ namespace UnityScreenNavigator.Runtime.Core.Modals
             {
                 callbackReceiver.BeforePush(enterModal, exitModal);
             }
-
 
             using var preprocessHandles = new ValueList<AsyncProcessHandle>(2);
             if (exitModal != null)
@@ -254,7 +252,7 @@ namespace UnityScreenNavigator.Runtime.Core.Modals
         {
             if (_modals.Count == 0)
             {
-#if DEBUGGING
+#if UNITY_EDITOR
                 Debug.LogWarning("Attention: It should never reach here! -> No modals to pop <-");
 #endif
                 yield break;
@@ -262,7 +260,7 @@ namespace UnityScreenNavigator.Runtime.Core.Modals
 
             if (IsInTransition)
             {
-#if DEBUGGING
+#if UNITY_EDITOR
                 Debug.LogWarning("Attention: It should never reach here! -> A modal pop routine is in transition <-");
 #endif
                 yield break;

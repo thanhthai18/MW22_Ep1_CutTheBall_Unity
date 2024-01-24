@@ -59,23 +59,23 @@ namespace UnityScreenNavigator.Runtime.Core.Shared
 
         public ITransitionAnimation ScreenPushEnterAnimation => _screenPushEnterAnimation != null
             ? Instantiate(_screenPushEnterAnimation)
-            : SimpleTransitionAnimationObject.CreateInstance(beforeAlignment: SheetAlignment.Right,
+            : SimpleTransitionAnimationObject.CreateInstance(beforeAlignment: SheetAlignment.Center,
                 afterAlignment: SheetAlignment.Center);
 
         public ITransitionAnimation ScreenPushExitAnimation => _screenPushExitAnimation != null
             ? Instantiate(_screenPushExitAnimation)
             : SimpleTransitionAnimationObject.CreateInstance(beforeAlignment: SheetAlignment.Center,
-                afterAlignment: SheetAlignment.Left);
+                afterAlignment: SheetAlignment.Center);
 
         public ITransitionAnimation ScreenPopEnterAnimation => _screenPopEnterAnimation != null
             ? Instantiate(_screenPopEnterAnimation)
-            : SimpleTransitionAnimationObject.CreateInstance(beforeAlignment: SheetAlignment.Left,
+            : SimpleTransitionAnimationObject.CreateInstance(beforeAlignment: SheetAlignment.Center,
                 afterAlignment: SheetAlignment.Center);
 
         public ITransitionAnimation ScreenPopExitAnimation => _screenPopExitAnimation != null
             ? Instantiate(_screenPopExitAnimation)
             : SimpleTransitionAnimationObject.CreateInstance(beforeAlignment: SheetAlignment.Center,
-                afterAlignment: SheetAlignment.Right);
+                afterAlignment: SheetAlignment.Center);
 
         public ITransitionAnimation ModalEnterAnimation => _modalEnterAnimation != null
             ? Instantiate(_modalEnterAnimation)
