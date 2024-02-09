@@ -26,7 +26,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\Bin\Debug\Assembly-CSharp\</OutputPath>
-    <DefineConstants>UNITY_2021_3_22;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_ANDROID;TEXTCORE_1_0_OR_NEWER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_ETC_COMPRESSION;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;ODIN_VALIDATOR;ODIN_VALIDATOR_3_1;ODIN_INSPECTOR;ODIN_INSPECTOR_3;ODIN_INSPECTOR_3_1;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>UNITY_2021_3_22;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_ANDROID;TEXTCORE_1_0_OR_NEWER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_ETC_COMPRESSION;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;ODIN_VALIDATOR;ODIN_VALIDATOR_3_1;ODIN_INSPECTOR;ODIN_INSPECTOR_3;ODIN_INSPECTOR_3_1;USN_USE_ADDRESSABLES;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169,0649</NoWarn>
@@ -41,27 +41,11 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="D:\UnityProject\MW22_Ep1_CutTheBall_Unity\Assets\_Game\Plugins\Sirenix\Assemblies\Sirenix.OdinValidator.Editor.dll" />
-    <Analyzer Include="D:\UnityProject\MW22_Ep1_CutTheBall_Unity\Assets\_Game\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.dll" />
-    <Analyzer Include="D:\UnityProject\MW22_Ep1_CutTheBall_Unity\Assets\_Game\Plugins\Sirenix\Assemblies\AOT\Sirenix.Serialization.AOTGenerated.dll" />
-    <Analyzer Include="D:\UnityProject\MW22_Ep1_CutTheBall_Unity\Assets\_Game\Plugins\Sirenix\Assemblies\NoEditor\Sirenix.Serialization.dll" />
-    <Analyzer Include="D:\UnityProject\MW22_Ep1_CutTheBall_Unity\Assets\_Game\Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.dll" />
-    <Analyzer Include="D:\UnityProject\MW22_Ep1_CutTheBall_Unity\Assets\Plugins\Demigiant\DOTween\Editor\DOTweenEditor.dll" />
-    <Analyzer Include="D:\UnityProject\MW22_Ep1_CutTheBall_Unity\Assets\_Game\Plugins\Sirenix\Assemblies\Sirenix.Utilities.dll" />
-    <Analyzer Include="D:\UnityProject\MW22_Ep1_CutTheBall_Unity\Assets\_Game\Plugins\Sirenix\Assemblies\NoEmitAndNoEditor\Sirenix.Utilities.dll" />
-    <Analyzer Include="D:\UnityProject\MW22_Ep1_CutTheBall_Unity\Assets\_Game\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll" />
-    <Analyzer Include="D:\UnityProject\MW22_Ep1_CutTheBall_Unity\Assets\_Game\Plugins\Sirenix\Assemblies\NoEditor\Sirenix.Utilities.dll" />
-    <Analyzer Include="D:\UnityProject\MW22_Ep1_CutTheBall_Unity\Assets\_Game\Plugins\Sirenix\Assemblies\NoEmitAndNoEditor\Sirenix.Serialization.dll" />
-    <Analyzer Include="D:\UnityProject\MW22_Ep1_CutTheBall_Unity\Assets\_Game\Plugins\Sirenix\Assemblies\Sirenix.Serialization.Config.dll" />
-    <Analyzer Include="D:\UnityProject\MW22_Ep1_CutTheBall_Unity\Assets\_Game\Plugins\Sirenix\Assemblies\Sirenix.Serialization.dll" />
-    <Analyzer Include="D:\UnityProject\MW22_Ep1_CutTheBall_Unity\Assets\Plugins\Demigiant\DOTween\DOTween.dll" />
-  </ItemGroup>
-  <ItemGroup>
      <Compile Include="Assets\_Game\Scripts\Runtime\Gameplay\OldScript\GlobalValue.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Definitions\GameStateEventType.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Configs\Template\HitObjectConfig.cs" />
-     <Compile Include="Assets\_Game\Scripts\Runtime\Player\Model\PlayerAuthentication.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\SceneLoader\SceneFakeLoaderScreen.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\Player\Model\PlayerAuthentication.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\AssetLoader\SpriteAssetsLoader.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Gameplay\TextVisual\AnimatedVisual.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Definitions\StatModifyType.cs" />
@@ -90,6 +74,7 @@
      <Compile Include="Assets\_Game\Scripts\Runtime\SceneLoader\SceneLoaderScreen.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Manager\TickManager\TickManager.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Implementation\Sheets\SheetTransitionAnimationType.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\ScreenNavigator\WorldScreenNavigator.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Implementation\Activities\AnonymousActivityWindowLifecycleEvent.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Foundation\Collections\SystemArray.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Implementation\Activities\ActivityTransitionAnimationType.cs" />
@@ -113,6 +98,7 @@
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Implementation\Sheets\SheetTransitionAnimationContainer.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Gameplay\TextVisual\RewardResourceHoldVisual.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Manager\PoolManager\PoolManager.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Modals\QuitModal.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Tools\Json\JsonNodeObject.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Implementation\Sheets\Sheet.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Json\Service\JsonService.cs" />
@@ -181,6 +167,7 @@
      <Compile Include="Assets\_Game\Scripts\Runtime\Tools\Json\7zip\Compress\LZMA\LzmaBase.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Implementation\Activities\AnonymousActivityContainerCallbackReceiver.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Implementation\Shared\UnityScreenNavigatorSettings.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Modals\PopupNotificationModal.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Sync\Service\SaveLoadListenerService.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Messenger\MessageRegistry{T}.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Foundation\Animation\AnimationExtensions.cs" />
@@ -410,9 +397,28 @@
      <Compile Include="Assets\_Game\Scripts\Runtime\Extensions\EnumExtensions.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Foundation\PriorityCollection\PriorityList.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Base\AwaitableModal.cs" />
-     <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Modals\QuitModal.cs" />
-     <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\ScreenNavigator\WorldScreenNavigator.cs" />
-     <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Modals\PopupNotificationModal.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\Manager\EntitiesManager\WorldEntitiesManager.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\Manager\GameplayFlowProcessor\WorldGameplayFlowProcessor.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\Manager\GameResourceManager\WorldGameResourceManager.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\Manager\MapManager\WorldMapManager\WorldMapManager.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\Manager\GameplayDataManager\WorldGameplayDataManager.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\Manager\MapManager\MapArea.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\Manager\GameplayDataManager\GameplayDataManager.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\Manager\GameplayFlowProcessor\BaseGameplayFlowProcessor.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\Manager\MapManager\WorldMapManager\Zone\UnrespawnableZone\MapZoneUnrespawnable.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\Manager\MapManager\WorldMapManager\WorldMapChunk.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\Manager\MapManager\WorldMapManager\Zone\MapZoneObstacle.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\Manager\EntitiesManager\EntitiesManager.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\Manager\GameResourceManager\GameResourceManager.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\Manager\MapManager\WorldMapManager\Fog\MapFog.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\Manager\MapManager\WorldMapManager\Zone\MapZoneSection.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\Manager\MapManager\WorldMapManager\WorldMapChunkScenePart.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\Manager\MapManager\WorldMapManager\RestStation\ConvexPolygonArea.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\Manager\MapManager\MapManager.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\Manager\MapManager\MapAreaScenePart.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\Manager\MapManager\WorldMapManager\Zone\MapZoneObstacleData.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\Manager\MapManager\WorldMapManager\RestStation\ConcavePolygonArea.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\Manager\MapManager\WorldMapManager\Zone\MapZone.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Foundation\PriorityCollection" />
      <Folder Include="Assets\_Game\Plugins\Sirenix\Assemblies" />
@@ -436,6 +442,8 @@
      <Folder Include="Assets\_Game\Scripts\Runtime\Manager\GameManager" />
      <Folder Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Implementation\Shared" />
      <Folder Include="Assets\_Game\Scripts\Runtime\Common\UI" />
+     <Folder Include="Assets\_Game\Scripts\Runtime\Manager\MapManager" />
+     <Folder Include="Assets\_Game\AddressableAssets\UI" />
      <Folder Include="Assets\_Game\Animations" />
      <Folder Include="Assets\Csv" />
      <None Include="Assets\_Game\Plugins\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
@@ -472,6 +480,7 @@
      <Folder Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Base\Sheet" />
      <Folder Include="Assets\_Game\Plugins\Sirenix\Assemblies\AOT" />
      <None Include="Assets\_Game\Plugins\Sirenix\Assemblies\Sirenix.Serialization.Config.xml" />
+     <Folder Include="Assets\_Game\Scripts\Runtime\Manager\EntitiesManager" />
      <None Include="Assets\_Game\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.xml" />
      <Folder Include="Assets\_Game\Scripts\Runtime\Tools\Json\FastJSON\UnityClassesFactory" />
      <Folder Include="Assets\_Game\Scripts\Runtime\AnimationSystem\Base" />
@@ -484,10 +493,12 @@
      <None Include="Assets\_Game\Plugins\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <Folder Include="Assets\_Game\Scripts\Runtime\Gameplay\EntitySystem\Entity\Base" />
      <Folder Include="Assets\_Game\Scripts\Runtime\Manager\DataManager\ConfigDataManager" />
+     <Folder Include="Assets\_Game\Scripts\Runtime\Manager\MapManager\WorldMapManager\Zone\UnrespawnableZone" />
      <Folder Include="Assets\_Game\Scripts\Runtime\Manager\DataManager\LocalDataManager\Serializers" />
      <Folder Include="Assets\_Game\Scripts\Runtime\Tools\Json\7zip\Compress\LZ" />
      <Folder Include="Assets\_Game\Scripts\Runtime\Localization" />
      <Folder Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Implementation\Screens" />
+     <Folder Include="Assets\_Game\Art\Common" />
      <Folder Include="Assets\_Game\Scripts\Runtime\Sync" />
      <Folder Include="Assets\_Game\Scripts\Runtime\Common\Interface" />
      <Folder Include="Assets\_Game\Scripts\Runtime\Sync\Service\Load" />
@@ -497,18 +508,23 @@
      <Folder Include="Assets\_Game\Scripts\Runtime\Manager\DataManager" />
      <Folder Include="Assets\_Game\Scripts\Runtime\Manager\DataManager\LocalDataManager" />
      <None Include="Assets\_Game\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.xml" />
+     <Folder Include="Assets\_Game\Scripts\Runtime\Manager\MapManager\WorldMapManager\Fog" />
      <Folder Include="Assets\_Game\Scripts\Runtime\Sync\Service\Save" />
      <Folder Include="Assets\_Game\Scripts\Runtime\Tools\Json\FastJSON\CustomTypesFactory" />
      <Folder Include="Assets\_Game\Scripts\Runtime\Definitions" />
+     <Folder Include="Assets\_Game\Scripts\Runtime\Manager\GameResourceManager" />
      <Folder Include="Assets\_Game\Plugins\Sirenix" />
      <Folder Include="Assets\_Game\Scripts\Runtime\Configs" />
      <None Include="Assets\_Game\Plugins\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
      <Folder Include="Assets\_Game\Scripts\Runtime\Json\Converter" />
      <Folder Include="Assets\_Game\Scripts\Runtime\Gameplay\EntitySystem\Entity\Base\Interface" />
+     <Folder Include="Assets\_Game\Scripts\Runtime\Manager\MapManager\WorldMapManager\RestStation" />
      <Folder Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Implementation" />
+     <Folder Include="Assets\_Game\Prefabs\Gameplay" />
      <None Include="Assets\_Game\Plugins\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
      <None Include="Assets\_Game\Plugins\Sirenix\Assemblies\Sirenix.Utilities.xml" />
      <Folder Include="Assets\_Game\Scripts\Runtime\UI" />
+     <Folder Include="Assets\_Game\Scripts\Runtime\Manager\MapManager\WorldMapManager" />
      <None Include="Assets\_Game\Plugins\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
      <Folder Include="Assets\_Game\Plugins\TextMesh Pro\Examples &amp; Extras\Materials" />
      <Folder Include="Assets\_Game\Scripts\Runtime\Common\Singleton" />
@@ -540,11 +556,13 @@
      <Folder Include="Assets\_Game\Plugins\CsvReader\Data" />
      <Folder Include="Assets\_Game\Scripts\Runtime\Player\Constant" />
      <Folder Include="Assets\_Game\AddressableAssets\Data" />
+     <Folder Include="Assets\_Game\Scripts\Runtime\Manager\GameplayDataManager" />
      <Folder Include="Assets\_Game\Plugins\TextMesh Pro\Examples &amp; Extras\Resources\Sprite Assets" />
      <Folder Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Implementation\Activities" />
      <Folder Include="Assets\_Game\Plugins\TextMesh Pro\Resources\Style Sheets" />
      <Folder Include="Assets\_Game\Scripts\Runtime\Manager" />
      <Folder Include="Assets\_Game\Plugins\TextMesh Pro\Fonts" />
+     <Folder Include="Assets\_Game\Scripts\Runtime\Manager\MapManager\WorldMapManager\Zone" />
      <Folder Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Foundation\Collections" />
      <None Include="Assets\_Game\Plugins\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
      <Folder Include="Assets\AddressableAssetsData" />
@@ -587,6 +605,7 @@
      <Folder Include="Assets\_Game\Scripts\Runtime\Player\Model" />
      <Folder Include="Assets\_Game\Plugins\Sirenix\Assemblies\NoEditor" />
      <Folder Include="Assets\_Game\Scripts\Runtime\Manager\DataManager\TransitionedData" />
+     <Folder Include="Assets\_Game\Scripts\Runtime\Manager\GameplayFlowProcessor" />
      <Folder Include="Assets\_Game\AddressableAssets" />
      <None Include="Assets\_Game\Plugins\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
      <Folder Include="Assets\_Game\Plugins\Sirenix\Odin Inspector\Assets" />
@@ -606,6 +625,7 @@
      <Folder Include="Assets\_Game\Scripts\Runtime\Tools\Json" />
      <None Include="Assets\_Game\Plugins\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
      <Folder Include="Assets\_Game\Scripts\Runtime\Manager\DataManager\LocalDataManager\CryptoAlgorithms" />
+     <Folder Include="Assets\_Game\AddressableAssets\UI\prefab_modal_quit_game" />
      <Folder Include="Assets\_Game\Plugins\Sirenix\Odin Validator" />
      <Folder Include="Assets\_Game\Plugins\TextMesh Pro\Examples &amp; Extras\Resources\Fonts &amp; Materials" />
      <Folder Include="Assets\_Game\Scripts\Runtime\AnimationSystem\Components" />

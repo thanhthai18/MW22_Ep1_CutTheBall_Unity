@@ -33,6 +33,10 @@ MonoBehaviour:
     m_Address: LocalizationSettings
     m_ReadOnly: 0
     m_SerializedLabels: []
+  - m_GUID: 4ee2317c0d8b2484caae26abdd793b93
+    m_Address: prefab_modal_quit_game
+    m_ReadOnly: 0
+    m_SerializedLabels: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 01ec9dd64acabdf4cb088bb4c51ff0f0, type: 2}
   m_SchemaSet:
