@@ -41,24 +41,24 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\_Game\Scripts\Runtime\Manager\MapManager\WorldMapManager\Zone\UnrespawnableZone\Editor\MapZoneUnrespawnableEditor.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\AnimationSystem\Editor\EditorPreviewSpriteAnimation.cs" />
      <Compile Include="Assets\_Game\Scripts\Editor\DataCleaner\DataCleaner.cs" />
      <Compile Include="Assets\_Game\Scripts\Editor\FolderUtils\FolderHelper.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Editor\Core\Shared\View\ViewEditor.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Tools\Json\Editor\UltimateJsonEditor.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\Manager\MapManager\WorldMapManager\Fog\Editor\MapFogEditor.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Editor\Foundation\AssetLoader\PreloadedAssetObjectKeyAssetPairPropertyDrawer.cs" />
      <Compile Include="Assets\_Game\Scripts\Editor\SceneSwitcher\SceneSwitcherWindow.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\AnimationSystem\Editor\EditorSpriteAnimation.cs" />
      <Compile Include="Assets\_Game\Scripts\Editor\Packages\ImportRequiredPackages.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\Manager\MapManager\WorldMapManager\Zone\Editor\MapZoneHandles.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\Manager\MapManager\WorldMapManager\Zone\Editor\MapZoneStyleEditor.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\AnimationSystem\Editor\SpriteSorter.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Editor\Foundation\SortingLayerIdDrawer.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\AnimationSystem\Editor\AnimationFrame.cs" />
-     <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Editor\Foundation\PropertyDrawerFinder.cs" />
-     <Compile Include="Assets\_Game\Scripts\Runtime\Manager\MapManager\WorldMapManager\Zone\Editor\MapZoneHandles.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Manager\MapManager\WorldMapManager\Zone\Editor\MapZoneEditor.cs" />
-     <Compile Include="Assets\_Game\Scripts\Runtime\Manager\MapManager\WorldMapManager\Fog\Editor\MapFogEditor.cs" />
-     <Compile Include="Assets\_Game\Scripts\Runtime\Manager\MapManager\WorldMapManager\Zone\UnrespawnableZone\Editor\MapZoneUnrespawnableEditor.cs" />
-     <Compile Include="Assets\_Game\Scripts\Runtime\Manager\MapManager\WorldMapManager\Zone\Editor\MapZoneStyleEditor.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Editor\Foundation\PropertyDrawerFinder.cs" />
      <Folder Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Editor\Foundation\AssetLoader" />
      <Folder Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Editor\Foundation" />
      <Folder Include="Assets\_Game\Scripts\Runtime\Manager\MapManager\WorldMapManager\Zone\UnrespawnableZone\Editor" />

@@ -10,16 +10,14 @@ using Runtime.Gameplay.EntitySystem;
 
 namespace Runtime.Gameplay.Manager
 {
-    public abstract class BaseGameplayFlowProcessor<EM, GM, MM> : MonoBehaviour where EM : EntitiesManager
+    public abstract class BaseGameplayFlowProcessor<EM, GM> : MonoBehaviour where EM : EntitiesManager
                                                                                 where GM : GameResourceManager
-                                                                                where MM : MapManager
 
     {
         #region Members
 
         protected EM entitiesManager;
         protected GM gameResourceManager;
-        protected MM mapManager;
         protected CameraManager cameraManager;
         protected CancellationTokenSource gameplayFlowCancellationTokenSource;
         protected MessageRegistry<GameStateChangedMessage> gameStateChangedMessageRegistry;
@@ -32,7 +30,6 @@ namespace Runtime.Gameplay.Manager
         {
             entitiesManager = EntitiesManager.Instance as EM;
             gameResourceManager = GameResourceManager.Instance as GM;
-            mapManager = MapManager.Instance as MM;
             cameraManager = CameraManager.Instance;
             gameplayFlowCancellationTokenSource = new CancellationTokenSource();
             gameStateChangedMessageRegistry = Messenger.Subscribe<GameStateChangedMessage>(OnGameStateChanged);

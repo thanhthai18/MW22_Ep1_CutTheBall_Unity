@@ -91,7 +91,6 @@ namespace Runtime.UI
         private void UpdateLoading(float value)
         {
             var displayValue = Mathf.Floor(value * 100);
-            Debug.Log(displayValue);
             _progressBarText.text = displayValue + "%";
             _progressBarSlider.value = value;
         }

@@ -13,8 +13,7 @@ using UnityScreenNavigator.Runtime.Core.Shared.Views;
 namespace Runtime.Gameplay.Manager
 {
     public sealed class WorldGameplayFlowProcessor : BaseGameplayFlowProcessor<WorldEntitiesManager,
-                                                                               WorldGameResourceManager,
-                                                                               WorldMapManager>
+                                                                               WorldGameResourceManager>
     {
         #region Members
 

@@ -34,7 +34,7 @@ namespace Runtime.Gameplay.Manager
         protected override void Awake()
         {
             base.Awake();
-            //SceneManager.RegisterCompletedTaskBeforeNewSceneAppeared(LoadConfig);
+            SceneManager.RegisterCompletedTaskBeforeNewSceneAppeared(LoadConfig);
         }
 
         #endregion API Methods
@@ -469,35 +469,11 @@ namespace Runtime.Gameplay.Manager
         // public void AddBuffStatOnReceiveHero(string heroId, int heroLevel)
         //     => AddBuffTargetStatItemsAsync(heroId, heroLevel, this.GetCancellationTokenOnDestroy()).Forget();
         //
-        // protected virtual async UniTask LoadConfig(CancellationToken cancellationToken)
-        // {
-        //     _heroConfigFactory = new HeroConfigFactory();
-        //     _skillConfigFactory = new SkillConfigFactory();
-        //     _enemyConfigItemsDictionary = new Dictionary<string, EnemyConfigItem>();
-        //     _bossConfigItemsDictionary = new Dictionary<string, BossConfigItem>();
-        //     _objectConfigItemsDictionary = new Dictionary<string, ObjectConfigItem>();
-        //
-        //     await LoadBuffStatItemsAsync(cancellationToken);
-        //
-        //     //-------API-----//
-        //     await DataManager.Config.LoadApiGiftCodeConfig(cancellationToken);
-        //     await DataManager.Config.LoadApiUtilsConfig(cancellationToken);
-        //
-        //     await DataManager.Config.LoadSkillTreeConfig(cancellationToken);
-        //     await DataManager.Config.LoadHeroFragmentConfig(cancellationToken);
-        //     await DataManager.Config.LoadIAPShopConfig(cancellationToken);
-        //     await DataManager.Config.LoadPlayerInfoConfig(cancellationToken);
-        //
-        //     //-------EquipmentConfigTemp-----//
-        //     await DataManager.Config.LoadEquipmentItemBaseStatConfig(cancellationToken);
-        //     await DataManager.Config.LoadEquipmentRarityByLevelDropConfig(cancellationToken);
-        //     await DataManager.Config.LoadEquipmentLevelDropByZoneLevelConfig(cancellationToken);
-        //     await DataManager.Config.LoadEquipmentSubOptConfig(cancellationToken);
-        //     SetCacheEquipmentStatBuff();
-        //
-        //     Messenger.Publish(new GameStateChangedMessage(GameStateEventType.DataLoaded));
-        //     IsDataLoaded = true;
-        // }
+        protected virtual async UniTask LoadConfig(CancellationToken cancellationToken)
+        {
+            Messenger.Publish(new GameStateChangedMessage(GameStateEventType.DataLoaded));
+            IsDataLoaded = true;
+        }
         //
         // private async UniTask LoadBuffStatItemsAsync(CancellationToken cancellationToken)
         // {
