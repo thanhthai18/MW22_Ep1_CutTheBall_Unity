@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using Cysharp.Threading.Tasks;
 using Runtime.AssetLoader;
@@ -14,9 +13,7 @@ using Runtime.Manager.Toast;
 using Runtime.Message;
 using Runtime.PlayerManager;
 using Runtime.SceneLoading;
-using TMPro;
 using UnityEngine;
-using UnityEngine.Localization.Settings;
 using UnityEngine.UI;
 using UnityScreenNavigator.Runtime.Core.Shared.Views;
 
@@ -52,10 +49,9 @@ namespace Runtime.UI
         public override async UniTask Initialize(ScreenData screenData)
         {
             await base.Initialize(screenData);
-            Debug.Log("vai ca l");
             _settingsButton.onClick.AddListener(OnClickSettings);
-            _skinsButton.onClick.AddListener(OnClickSkins);
-            _rulesButton.onClick.AddListener(OnClickRules);
+            _skinsButton.onClick.AddListener(() => OnClickSkins().Forget());
+            _rulesButton.onClick.AddListener(() => OnClickRules().Forget());
             _startButton.onClick.AddListener(OnClickStart);
         }
         
@@ -75,14 +71,16 @@ namespace Runtime.UI
             Debug.Log("Settings");
         }
         
-        private void OnClickSkins()
+        private async UniTask OnClickSkins()
         {
-            Debug.Log("Skins");
+            var rulesGameWindowOptions = new WindowOptions(ModalId.SKINS);
+            await ScreenNavigator.Instance.LoadModal(rulesGameWindowOptions);
         }
         
-        private void OnClickRules()
+        private async UniTask OnClickRules()
         {
-            Debug.Log("Rules");
+            var rulesGameWindowOptions = new WindowOptions(ModalId.RULES);
+            await ScreenNavigator.Instance.LoadModal(rulesGameWindowOptions);
         }
         
         private void OnClickStart()

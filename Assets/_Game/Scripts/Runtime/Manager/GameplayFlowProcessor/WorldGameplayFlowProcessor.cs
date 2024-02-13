@@ -33,22 +33,6 @@ namespace Runtime.Gameplay.Manager
             _worldMapTimeManager = TimeManager.Instance;
             //_changeRestStateMessageRegistry = Messenger.Subscribe<ChangeRestStateMessage>(OnChangeRestState);
         }
-        
-        private void Update()
-        {
-            if (Input.GetKeyDown(KeyCode.A))
-            {
-                TestModal().Forget();
-            }
-        }
-
-        private async UniTask TestModal()
-        {
-            Debug.Log("Du ma");
-            var quitModalData = new QuitModalData(content: "content");
-            var quitGameWindowOptions = new WindowOptions(ModalId.QUIT_GAME, false);
-            await ScreenNavigator.Instance.LoadModal(quitGameWindowOptions, quitModalData);
-        }
 
         protected override void OnDestroy()
         {

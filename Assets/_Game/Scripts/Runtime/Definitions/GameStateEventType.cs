@@ -3,26 +3,12 @@
     public enum GameStateEventType
     {
         DataLoaded,
-        HeroSpawned,
         GameQuit,
         GameLost,
         NewDayReset,
         NewWeekReset,
-        ReviveMapTriggered,
-        GiveUpWorldMapTriggered,
-        FlashSaleEnd,
-        PlayerLevelChanged,
-        RefreshGachaCompleted,
+        PlayerSkinChanged,
         PressBackKey,
         GameFlowStopped,
-        HeroTeamPickUpdated,
-        MapAreaLoaded,
-        MapAreaCompleted,
-        DungeonCompleted,
-        DungeonPreviousFloorCompleted,
-        CampStart,
-        CampEnd,
-        PremiumCampStart,
-        PremiumCampEnd,
     }
 }

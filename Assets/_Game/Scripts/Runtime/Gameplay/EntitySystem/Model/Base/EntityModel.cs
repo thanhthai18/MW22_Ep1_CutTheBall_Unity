@@ -63,7 +63,7 @@ namespace Runtime.Gameplay.EntitySystem
         public uint EntityUId { get { return entityUId; } }
         public string EntityId { get { return entityId; } }
         public int DetectedPriority { get { return detectedPriority; } }
-        public abstract EntityType EntityType { get; }
+        public EntityType EntityType { get; private set; }
 
         #endregion Properties
 
@@ -80,9 +80,6 @@ namespace Runtime.Gameplay.EntitySystem
         public Vector2 GetEdgePoint(Vector2 centerToEdgeDirection)
             => Bound.GetEdgePoint(centerToEdgeDirection);
 
-        public virtual float GetTotalStatValue(StatType statType)
-            => 0;
-
         public void SetActive(bool isActive)
             => this.isActive = isActive;
 
@@ -98,23 +95,12 @@ namespace Runtime.Gameplay.EntitySystem
     {
         #region Class Methods
 
-        public static bool IsHero(this EntityType entityType)
-            => entityType == EntityType.Hero;
+        public static bool IsBall(this EntityType entityType)
+            => entityType == EntityType.Ball;
 
-        public static bool IsEnemyOrBoss(this EntityType entityType)
-            => entityType == EntityType.Enemy || entityType == EntityType.Boss;
+        public static bool IsBoom(this EntityType entityType)
+            => entityType == EntityType.Boom;
 
-        public static bool IsCharacter(this EntityType entityType)
-            => IsHero(entityType) || IsEnemyOrBoss(entityType);
-
-        public static bool IsObjectTree(this EntityType entityType)
-            => entityType == EntityType.ObjectTree;
-
-        public static bool IsObjectCrystal(this EntityType entityType)
-            => entityType == EntityType.ObjectCrystal;
-
-        public static bool IsObject(this EntityType entityType)
-            => entityType == EntityType.ObjectCrystal || entityType == EntityType.ObjectTree;
 
         #endregion Class Methods
     }

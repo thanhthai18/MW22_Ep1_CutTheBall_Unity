@@ -46,7 +46,6 @@
      <Compile Include="Assets\_Game\Scripts\Editor\DataCleaner\DataCleaner.cs" />
      <Compile Include="Assets\_Game\Scripts\Editor\FolderUtils\FolderHelper.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Editor\Core\Shared\View\ViewEditor.cs" />
-     <Compile Include="Assets\_Game\Scripts\Runtime\Tools\Json\Editor\UltimateJsonEditor.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Manager\MapManager\WorldMapManager\Fog\Editor\MapFogEditor.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Editor\Foundation\AssetLoader\PreloadedAssetObjectKeyAssetPairPropertyDrawer.cs" />
      <Compile Include="Assets\_Game\Scripts\Editor\SceneSwitcher\SceneSwitcherWindow.cs" />
@@ -63,7 +62,6 @@
      <Folder Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Editor\Foundation" />
      <Folder Include="Assets\_Game\Scripts\Runtime\Manager\MapManager\WorldMapManager\Zone\UnrespawnableZone\Editor" />
      <Folder Include="Assets\_Game\Plugins\Sirenix\Odin Inspector\Config\Editor" />
-     <Folder Include="Assets\_Game\Scripts\Runtime\Tools\Json\Editor" />
      <Folder Include="Assets\_Game\Scripts\Editor\DataCleaner" />
      <Folder Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Editor\Core" />
      <Folder Include="Assets\_Game\Scripts\Editor\SceneSwitcher" />
@@ -843,9 +841,6 @@
      <Reference Include="Unity.Addressables">
      <HintPath>D:\UnityProject\MW22_Ep1_CutTheBall_Unity\Library\ScriptAssemblies\Unity.Addressables.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.TextMeshPro.Editor">
-     <HintPath>D:\UnityProject\MW22_Ep1_CutTheBall_Unity\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
-     </Reference>
      <Reference Include="Unity.VisualScripting.State.Editor">
      <HintPath>D:\UnityProject\MW22_Ep1_CutTheBall_Unity\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
      </Reference>
@@ -908,9 +903,6 @@
      </Reference>
      <Reference Include="Unity.Timeline">
      <HintPath>D:\UnityProject\MW22_Ep1_CutTheBall_Unity\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.TextMeshPro">
-     <HintPath>D:\UnityProject\MW22_Ep1_CutTheBall_Unity\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Burst.Editor">
      <HintPath>D:\UnityProject\MW22_Ep1_CutTheBall_Unity\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
@@ -986,6 +978,15 @@
      </Reference>
      <Reference Include="Unity.VisualScripting.State">
      <HintPath>D:\UnityProject\MW22_Ep1_CutTheBall_Unity\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+     </Reference>
+     <Reference Include="UIEffect">
+     <HintPath>D:\UnityProject\MW22_Ep1_CutTheBall_Unity\Library\ScriptAssemblies\UIEffect.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TextMeshPro.Editor">
+     <HintPath>D:\UnityProject\MW22_Ep1_CutTheBall_Unity\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TextMeshPro">
+     <HintPath>D:\UnityProject\MW22_Ep1_CutTheBall_Unity\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>

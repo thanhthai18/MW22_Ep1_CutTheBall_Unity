@@ -206,27 +206,7 @@ namespace Runtime.Localization
 
         #region Class Methods
 
-        public static string GetResourceNameKey(ResourceType resourceType, int resourceId)
-        {
-            switch (resourceType)
-            {
-                case ResourceType.HeroFragment:
-                    LocalizationUtils.GetHeroLocalized(resourceId.ToString());
-                    break;
-            }
-            return resourceType.ToString().ToSnakeCase();
-        }
-
-        public static string GetResourceDescriptionKey(ResourceType resourceType, int resourceId)
-        {
-            switch (resourceType)
-            {
-                case ResourceType.HeroFragment:
-                    return "";
-                    break;
-            }
-            return (resourceType + "_desc").ToSnakeCase();
-        }
+       
 
         /*-----------------Quest------------------*/
 
@@ -235,15 +215,7 @@ namespace Runtime.Localization
             return $"quest_{questType.ToString().ToSnakeCase()}";
         }
 
-        /*-----------------Stats------------------*/
-        public static string GetEntityStatKey(StatType statType)
-            => $"stat_{statType.ToString().ToSnakeCase()}";
-
-        public static string GetSkillTreeNameKey(SkillTreeSystemType skillTreeSystemType)
-            => $"skill_name_{skillTreeSystemType.ToString().ToSnakeCase()}";
-
-        public static string GetSkillTreeDesKey(SkillTreeSystemType skillTreeSystemType)
-            => $"skill_des_{skillTreeSystemType.ToString().ToSnakeCase()}";
+       
         #endregion Class Methods
 
     }
@@ -300,170 +272,15 @@ namespace Runtime.Localization
             return ToLocalized(LocalizeTable.GENERAL, keyLocalize, arguments);
         }
 
-        /*-----------------Quest------------------*/
-
-        public static string GetQuestLocalized(string keyLocalize, params object[] arguments)
-        {
-            return ToLocalized(LocalizeTable.QUEST, keyLocalize, arguments);
-        }
-
-        /*-----------------Shop------------------*/
-
-        public static string GetShopLocalized(string keyLocalize, params object[] arguments)
-        {
-            return ToLocalized(LocalizeTable.SHOP, keyLocalize, arguments);
-        }
-
-        /*-----------------Resources------------------*/
-
-        public static string GetResourceLocalized(ResourceType resourceType, int resourceId)
-        {
-            switch (resourceType)
-            {
-                case ResourceType.HeroFragment:
-                    return GetHeroLocalized(resourceId.ToString());
-                default:
-                    return GetResourceLocalized(resourceType.ToString().ToSnakeCase());
-            }
-        }
-
-        public static string GetResourceDescriptionLocalized(ResourceType resourceType, int resourceId)
-        {
-            switch (resourceType)
-            {
-                case ResourceType.HeroFragment:
-                    return "";
-                default:
-                    var resourceDescriptionKey = $"{resourceType.ToString().ToSnakeCase()}_description";
-                    return GetResourceLocalized(resourceDescriptionKey);
-            }
-        }
-
-        public static string GetResourceLocalized(string keyLocalize, params object[] arguments)
-        {
-            return ToLocalized(LocalizeTable.RESOURCE, keyLocalize, arguments);
-        }
-
-        public static string GetResourceLocalizedForQuest(ResourceType resourceType)
-        {
-            switch (resourceType)
-            {
-                case ResourceType.Food:
-                    return GetToastLocalized(LocalizeKeys.HUNT_MONSTER);
-                case ResourceType.Wood:
-                    return GetToastLocalized(LocalizeKeys.SEARCH_TREE);
-            }
-
-            return string.Empty;
-        }
-
-        /*-----------------Stats------------------*/
-
-        public static string GetStatLocalized(string keyLocalize, params object[] arguments)
-        {
-            return ToLocalized(LocalizeTable.STATS, keyLocalize, arguments);
-        }
-
-        /*-----------------Toast------------------*/
+     
+    /*-----------------Toast------------------*/
 
         public static string GetToastLocalized(string keyLocalize, params object[] arguments)
         {
             return ToLocalized(LocalizeTable.TOAST, keyLocalize, arguments);
         }
 
-        /*-----------------DungeonGamePlay------------------*/
-
-        public static string GetDungeonGameplayLocalized(string keyLocalize, params object[] arguments)
-        {
-            return ToLocalized(LocalizeTable.DUNGEON_GAME_PLAY, keyLocalize, arguments);
-        }
-
-        /*-----------------TreasureChest------------------*/
-        public static string GetTreasureChestLocalized(string keyLocalize, params object[] arguments)
-        {
-            return ToLocalized(LocalizeTable.TREASURE_CHEST, keyLocalize, arguments);
-        }
-
-        /*-----------------Heroes------------------*/
-        public static string GetHeroLocalized(string keyLocalize, params object[] arguments)
-        {
-            return ToLocalized(LocalizeTable.HERO, keyLocalize, arguments);
-        }
-
-        /*-----------------Enemys------------------*/
-        public static string GetEnemyLocalized(string keyLocalize, params object[] arguments)
-        {
-            return ToLocalized(LocalizeTable.ENEMY, keyLocalize, arguments);
-        }
-
-        /*-----------------Entitys------------------*/
-        public static string GetEntityLocalized(string keyLocalize, params object[] arguments)
-        {
-            return ToLocalized(LocalizeTable.ENTITY, keyLocalize, arguments);
-        }
-
-        /*-----------------UpgradeHero------------------*/
-        public static string GetUpgradeHeroLocalized(string keyLocalize, params object[] arguments)
-        {
-            return ToLocalized(LocalizeTable.UPGRADE_HERO, keyLocalize, arguments);
-        }
-
-        /*-----------------Skill------------------*/
-
-        public static string GetSkillLocalized(string keyLocalize, params object[] arguments)
-        {
-            return ToLocalized(LocalizeTable.SKILLS, keyLocalize, arguments);
-        }
-
-        /*-----------------Teleportation Portal------------------*/
-
-        public static string GetTeleportationLocalized(string keyLocalize, params object[] arguments)
-        {
-            return ToLocalized(LocalizeTable.TELEPORTATION, keyLocalize, arguments);
-        }
-
-        /*-----------------Gacha------------------*/
-
-        public static string GetGachaLocalized(string keyLocalize, params object[] arguments)
-        {
-            return ToLocalized(LocalizeTable.GACHA, keyLocalize, arguments);
-        }
-
-        /*-----------------Tutorial------------------*/
-
-        public static string GetTutorialLocalized(string keyLocalize, params object[] arguments)
-        {
-            return ToLocalized(LocalizeTable.TUTORIAL, keyLocalize, arguments);
-        }
-
-        /*-----------------Equipment------------------*/
-
-        public static string GetEquipmentLocalized(string keyLocalize, params object[] arguments)
-        {
-            return ToLocalized(LocalizeTable.EQUIPMENT, keyLocalize, arguments);
-        }
-
-        public static string GetUnlockedFeatureLocalized(string keyLocalize, bool isDescription, params object[] arguments)
-        {
-            // TODO.
-            if (isDescription)
-                keyLocalize += "_description";
-            return ToLocalized(LocalizeTable.ENTITY, keyLocalize, arguments);
-        }
-
-        /*-----------------Challenge------------------*/
-
-        public static string GetChallengeLocalized(string keyLocalize, params object[] arguments)
-        {
-            return ToLocalized(LocalizeTable.CHALLENGE, keyLocalize, arguments);
-        }
-
-        /*-----------------Camp------------------*/
-
-        public static string GetCampLocalized(string keyLocalize, params object[] arguments)
-        {
-            return ToLocalized(LocalizeTable.CAMP, keyLocalize, arguments);
-        }
+        
 
         #endregion Class Methods
     }

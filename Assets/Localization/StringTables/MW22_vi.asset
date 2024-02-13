@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: MW22_vi
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: vi
+  m_SharedData: {fileID: 11400000, guid: 9b539f3e479859a4daa4b093990c51ee, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 1227939467264
+    m_Localized: "B\u1EA5m \u0111\u1EC3 ch\u01A1i"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1260617289728
+    m_Localized: "CH\u01A0I"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 319465462255616
+    m_Localized: "LU\u1EACT CH\u01A0I"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 319566721142784
+    m_Localized: "TR\u1EDE V\u1EC0"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 319683553480704
+    m_Localized: "Nhi\u1EC7m v\u1EE5 c\u1EE7a ng\u01B0\u1EDDi ch\u01A1i l\xE0 vu\u1ED1t
+      t\u1EA5t c\u1EA3 theo b\u1EA5t k\u1EF3 h\u01B0\u1EDBng n\xE0o \u0111\u1EC3
+      \u0111\xE1nh n\xF3. Qu\u1EA3 b\xF3ng \u0111\xE1 b\xF9ng n\u1ED5. Ngo\xE0i c\xE1c
+      qu\u1EA3 b\xF3ng, s\u1EBD c\xF3 bom tr\xEAn s\xE2n. Ch\xFAng \u0111\u01B0\u1EE3c
+      thi\u1EBFt k\u1EBF \u0111\u1EC3 g\xE2y nh\u1EA7m l\u1EABn cho ng\u01B0\u1EDDi
+      ch\u01A1i, b\u1EDFi v\xEC n\u1EBFu ng\u01B0\u1EDDi ch\u01A1i \u0111\xE1nh nh\u1EA7m
+      bom, n\xF3 s\u1EBD b\xF9ng n\u1ED5 v\xE0 tr\xF2 ch\u01A1i s\u1EBD k\u1EBFt
+      th\xFAc, b\u1EA5t k\u1EC3 s\u1ED1 l\u01B0\u1EE3ng cu\u1ED9c s\u1ED1ng.\n\n 
+      Ngo\xE0i ra, tr\xF2 ch\u01A1i s\u1EBD k\u1EBFt th\xFAc n\u1EBFu ng\u01B0\u1EDDi
+      ch\u01A1i b\u1ECF l\u1EE1 b\xF3ng v\xE0 kh\xF4ng th\u1EC3 \u0111\xE1 n\xF3
+      k\u1ECBp th\u1EDDi. Trong tr\u01B0\u1EDDng h\u1EE3p n\xE0y, ng\u01B0\u1EDDi
+      ch\u01A1i c\xF3 ba cu\u1ED9c s\u1ED1ng, v\u1EDBi 3 qu\u1EA3 b\xF3ng b\u1ECB
+      b\u1ECF l\u1EE1, tr\xF2 ch\u01A1i \u0111\xE3 k\u1EBFt th\xFAc. \u0110\xE2y
+      l\xE0 m\u1ED9t tr\xF2 ch\u01A1i \u0111i\u1EC3m, t\xF9y thu\u1ED9c v\xE0o s\u1ED1
+      l\u01B0\u1EE3ng b\xF3ng m\xE0 m\u1ED9t ng\u01B0\u1EDDi ch\u01A1i b\u1EAFn,
+      \u0111\xF3 l\xE0 s\u1ED1 l\u01B0\u1EE3ng anh ta nh\u1EADn \u0111\u01B0\u1EE3c."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 319820661084160
+    m_Localized: "C\xC0I \u0110\u1EB6T"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 319810695417856
+    m_Localized: "TRANG PH\u1EE4C"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

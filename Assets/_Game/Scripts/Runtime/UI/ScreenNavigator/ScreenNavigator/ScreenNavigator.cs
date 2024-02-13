@@ -289,9 +289,6 @@ namespace Runtime.UI
             }
         }
 
-        protected virtual void OnReviveSucceeded()
-            => Messenger.Publish(new GameStateChangedMessage(GameStateEventType.ReviveMapTriggered));
-
         protected void OnTriggerChangeScene()
         {
             isLoading = false;

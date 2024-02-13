@@ -5,7 +5,6 @@ using UnityEngine;
 using Runtime.Common.Singleton;
 using Runtime.Definition;
 using Runtime.Extensions;
-using Runtime.Gameplay.Visual;
 using Runtime.Manager.Data;
 using Runtime.Manager.Toast;
 using Runtime.Message;

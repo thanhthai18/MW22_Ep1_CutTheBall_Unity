@@ -15,108 +15,14 @@ MonoBehaviour:
   m_GroupName: Localization-String-Tables-English (en)
   m_Data:
     m_SerializedData: []
-  m_GUID: aac919b9362fb5b4da0a98601bb34d85
+  m_GUID: 48c49b5fe2badb1428d0eeabcf16f062
   m_SerializeEntries:
-  - m_GUID: 0fba530e2919c374f97c7424a891bf04
-    m_Address: Shop_en
+  - m_GUID: 89834e3235d0875498978d81e3926b6f
+    m_Address: MW22_en
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en
-  - m_GUID: cabd1a514384eb24b91fda96ebd55db5
-    m_Address: Toast_en
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-en
-  - m_GUID: 4432edef1de23a84b9cdf303e1330e85
-    m_Address: DungeonGamePlay_en
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-en
-  - m_GUID: f99287a149ab4d74988165b2774f2c04
-    m_Address: Gacha_en
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-en
-  - m_GUID: e5a440f25dcfa1d4db9ec313b602c270
-    m_Address: Hero_en
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-en
-  - m_GUID: 191090249f71ffd43a110962648d393d
-    m_Address: Pvp_en
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-en
-  - m_GUID: d30c220698ebd844ebab219c5f8c066a
-    m_Address: General_en
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-en
-  - m_GUID: 71982b89a0075014f89a1c863158d2c9
-    m_Address: TreasureChest_en
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-en
-  - m_GUID: 6ed42078df2f864489473bf81882652f
-    m_Address: Enemy_en
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-en
-  - m_GUID: a433d023db0a0be4a98ddd3918d0a807
-    m_Address: Camp_en
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-en
-  - m_GUID: 4fea2d5a63fcaec47b484dcb5eb6d52c
-    m_Address: Equipment_en
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-en
-  - m_GUID: 2cf2759a9769b7643a5d4ff59bbad739
-    m_Address: Quest_en
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-en
-  - m_GUID: 0d081d6d62f79ce48af6b5de2318b069
-    m_Address: Stats_en
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-en
-  - m_GUID: 05a25446451fe2c4b91f6c96cac63284
-    m_Address: Entity_en
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-en
-  - m_GUID: 92c92f9abd0e72343a8d254399c81f79
-    m_Address: Challenge_en
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-en
-  - m_GUID: 0d7222f57ea57c944ba2efbff4e27428
-    m_Address: Teleportation_en
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-en
-  - m_GUID: 81567b106e7ae2c4690f7e93d3cecbf0
-    m_Address: Skills_en
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-en
-  - m_GUID: 51c79cb6073d8554da94b8066396a254
-    m_Address: Resource_en
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-en
-  - m_GUID: 00b8889e0153adf4ea85e342987bdddd
-    m_Address: Tutorial_en
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-en
-  - m_GUID: edb3cba791709904db2cec21a028e656
-    m_Address: UpgradeHero_en
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-en
+    - Preload
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 01ec9dd64acabdf4cb088bb4c51ff0f0, type: 2}
   m_SchemaSet:

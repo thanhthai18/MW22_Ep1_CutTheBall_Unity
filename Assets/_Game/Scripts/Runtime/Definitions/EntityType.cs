@@ -1,11 +1,8 @@
-namespace Runtime.Definition
+﻿namespace Runtime.Definition
 {
     public enum EntityType
     {
-        Hero,
-        Enemy,
-        Boss,
-        ObjectTree,
-        ObjectCrystal,
+        Ball = 0,
+        Boom = 1,
     }
 }

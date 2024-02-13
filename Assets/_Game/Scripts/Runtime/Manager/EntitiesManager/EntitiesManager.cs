@@ -589,26 +589,7 @@ namespace Runtime.Gameplay.Manager
     //     #endregion Struct Methods
     // }
 
-    public struct SkillHeroModelTransform
-    {
-        #region Members
-
-        public readonly CharacterModel Model;
-        public readonly Transform Transform;
-
-        #endregion Members
-
-        #region Struct Methods
-
-        public SkillHeroModelTransform(CharacterModel model, Transform transform)
-        {
-            this.Model = model;
-            this.Transform = transform;
-        }
-
-        #endregion Struct Methods
-    }
-
+   
     public struct HeroTombIdentiy
     {
         #region Members

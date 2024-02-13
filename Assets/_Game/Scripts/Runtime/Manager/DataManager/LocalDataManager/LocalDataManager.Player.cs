@@ -2,7 +2,6 @@
 using Runtime.Definition;
 using Runtime.Message;
 using Runtime.PlayerManager;
-using Runtime.UI;
 using UnityEngine;
 
 namespace Runtime.Manager.Data
@@ -12,7 +11,7 @@ namespace Runtime.Manager.Data
         #region Properties
 
         public string SelectedLanguage => string.IsNullOrEmpty(Singleton.Of<PlayerService>().Player.Setting.selectedLanguage) ? Application.systemLanguage.ToString() : Singleton.Of<PlayerService>().Player.Setting.selectedLanguage;
-        public int PlayerLevel => Singleton.Of<PlayerService>().Player.BasicInfo.playerLevel;
+        public int PlayerSkinId => Singleton.Of<PlayerService>().Player.BasicInfo.PlayerSkinId;
 
         public string CurrentPlayerId
         {
@@ -23,34 +22,22 @@ namespace Runtime.Manager.Data
             }
         }
 
-        // public bool HasEnableMusic => Singleton.Of<PlayerService>().Player.Setting.hasEnableMusic;
-        // public bool HasEnableSound => Singleton.Of<PlayerService>().Player.Setting.hasEnableSound;
+        public bool HasEnableMusic => Singleton.Of<PlayerService>().Player.Setting.hasEnableMusic;
+        public bool HasEnableSound => Singleton.Of<PlayerService>().Player.Setting.hasEnableSound;
         public bool HasLoadServerData => PlayerPrefs.GetInt(Constant.HAS_LOAD_SERVER_DATA, 0) > 0;
 
         #endregion Properties
 
         #region Class Methods
 
-        public void SetPlayerLevel(int level)
+        public void SetPlayerSkinId(SkinType skinType)
         {
-            if (level > PlayerLevel)
-            {
-                Singleton.Of<PlayerService>().Player.BasicInfo.playerLevel = level;
-                Save();
-                Messenger.Publish(new GameStateChangedMessage(GameStateEventType.PlayerLevelChanged));
-#if TRACKING
-                FirebaseManager.Instance.TrackLevelUpEvent(level);
-#endif
-            }
-        }
-
-        
-
-   
-
-        public bool CheckPlayerLevel(long levelRequired)
-        {
-            return PlayerLevel >= levelRequired;
+            var skinTypeId = (int)skinType;
+            if (skinTypeId == Singleton.Of<PlayerService>().Player.BasicInfo.PlayerSkinId)
+                return;
+            Singleton.Of<PlayerService>().Player.BasicInfo.PlayerSkinId = skinTypeId;
+            Save();
+            Messenger.Publish(new GameStateChangedMessage(GameStateEventType.PlayerSkinChanged));
         }
 
         #endregion Class Methods

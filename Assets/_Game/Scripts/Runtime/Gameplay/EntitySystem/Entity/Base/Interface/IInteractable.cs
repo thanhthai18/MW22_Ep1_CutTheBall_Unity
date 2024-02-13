@@ -12,12 +12,8 @@ namespace Runtime.Gameplay.EntitySystem
         public uint EntityUId => Model.EntityUId;
         public Vector2 CenterPosition => Model.CenterPosition;
         public Vector2 Position => Model.Position;
-        public bool IsHero => Model.EntityType.IsHero();
-        public bool IsObject => Model.EntityType.IsObject();
-        public bool IsEnemyOrBoss => Model.EntityType.IsEnemyOrBoss();
-        public bool IsCharacter => Model.EntityType.IsCharacter();
-        public bool IsObjectTree => Model.EntityType.IsObjectTree();
-        public bool IsObjectCrystal => Model.EntityType.IsObjectCrystal();
+        public bool IsBall => Model.EntityType.IsBall();
+        public bool IsBoom => Model.EntityType.IsBoom();
         public int DetectedPriority => Model.DetectedPriority;
 
         #endregion Propreties

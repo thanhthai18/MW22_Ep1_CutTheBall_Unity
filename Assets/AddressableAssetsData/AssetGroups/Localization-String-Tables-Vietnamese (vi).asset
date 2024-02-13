@@ -15,108 +15,14 @@ MonoBehaviour:
   m_GroupName: Localization-String-Tables-Vietnamese (vi)
   m_Data:
     m_SerializedData: []
-  m_GUID: 5ef5e9330109ca34095b1087c10331ef
+  m_GUID: c21a62eefd8f85d4d92be97208f0c3e9
   m_SerializeEntries:
-  - m_GUID: ee7ca6a0033bfef4298a54ef92e3e295
-    m_Address: Shop_vi
+  - m_GUID: 93bc457dd993f9146b94755524d7edc3
+    m_Address: MW22_vi
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-vi
-  - m_GUID: c7746021e070ba34086d6f8dc9cc56e6
-    m_Address: Toast_vi
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-vi
-  - m_GUID: 2cde48f7d49bb304c9b9ea188c49f693
-    m_Address: DungeonGamePlay_vi
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-vi
-  - m_GUID: fc9aa93f577def64aa8d189d0e9703d3
-    m_Address: Gacha_vi
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-vi
-  - m_GUID: 543475cac65f8e345a326a238598f479
-    m_Address: Hero_vi
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-vi
-  - m_GUID: b7381b99a080dcb4e883cd66fc052cdf
-    m_Address: Pvp_vi
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-vi
-  - m_GUID: af808a94b97ab69499cb35b1aca407c3
-    m_Address: General_vi
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-vi
-  - m_GUID: dd65319d9ef3b054b91c0af8ddea7d79
-    m_Address: TreasureChest_vi
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-vi
-  - m_GUID: 824e307ec457b934194fd440a7c6c924
-    m_Address: Enemy_vi
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-vi
-  - m_GUID: a0d9a6dbf7f83e44baa4c5d36a309450
-    m_Address: Camp_vi
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-vi
-  - m_GUID: 1f225441b644f4b4da924c0603e69a35
-    m_Address: Equipment_vi
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-vi
-  - m_GUID: 2f0ca8067535a914080fabd26044a1af
-    m_Address: Quest_vi
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-vi
-  - m_GUID: e48e4f13e0521034497589bdc1322d0d
-    m_Address: Stats_vi
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-vi
-  - m_GUID: a55136f8f8534e54cb78ec4c66783ae5
-    m_Address: Entity_vi
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-vi
-  - m_GUID: a762393ed88f8db4eab916cc41b57c22
-    m_Address: Challenge_vi
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-vi
-  - m_GUID: e065baaaf5e6387418605975162ac281
-    m_Address: Teleportation_vi
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-vi
-  - m_GUID: 6ef7479c396201f4192ad9814bdf0253
-    m_Address: Skills_vi
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-vi
-  - m_GUID: 853ef0278a707cb4b8e05f444aa7d0a8
-    m_Address: Resource_vi
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-vi
-  - m_GUID: 164e9fe5a9030b64bb2d4d17b65530be
-    m_Address: Tutorial_vi
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-vi
-  - m_GUID: 602321b25236ad941826029583cf82c7
-    m_Address: UpgradeHero_vi
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-vi
+    - Preload
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 01ec9dd64acabdf4cb088bb4c51ff0f0, type: 2}
   m_SchemaSet:

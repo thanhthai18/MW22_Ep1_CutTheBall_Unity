@@ -17,24 +17,12 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 1098c5deadaeec34a84c8c13858b8fba
   m_SerializeEntries:
-  - m_GUID: 57d24aea1248dd740971e0c73fa71cfb
-    m_Address: SpriteCommonAtlas
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: ee8d997a6c8cff947846be4980b2f2dc
-    m_Address: Runtime.Config.HitObjectConfig
-    m_ReadOnly: 0
-    m_SerializedLabels: []
   - m_GUID: 2cda990e2423bbf4892e6590ba056729
     m_Address: CutTheBall
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: 22b32d159e8a2ac4a94e01b4b226a99f
     m_Address: LocalizationSettings
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 4ee2317c0d8b2484caae26abdd793b93
-    m_Address: prefab_modal_quit_game
     m_ReadOnly: 0
     m_SerializedLabels: []
   m_ReadOnly: 0
