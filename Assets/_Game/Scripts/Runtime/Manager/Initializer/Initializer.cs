@@ -40,7 +40,7 @@ namespace Runtime.Manager.Initialization
         private void LoadScene()
         {
             Destroy(gameObject);
-            var loadedSceneName = SceneName.CUT_THE_BALL_SCENE_NAME;
+            var loadedSceneName = SceneName.MAIN_MENU_SCENE_NAME;
             SceneManager.LoadSceneAsync(loadedSceneName).Forget();
         }
 

@@ -12,13 +12,11 @@ using UnityScreenNavigator.Runtime.Core.Shared.Views;
 
 namespace Runtime.Gameplay.Manager
 {
-    public sealed class WorldGameplayFlowProcessor : BaseGameplayFlowProcessor<WorldEntitiesManager,
-                                                                               WorldGameResourceManager>
+    public sealed class CutTheBallFlowProcessor : BaseGameplayFlowProcessor<CutTheBallEntitiesManager,
+                                                                          CutTheBallResourceManager>
     {
         #region Members
 
-        [SerializeField]
-        private int _worldMapIndex;
         private TimeManager _worldMapTimeManager;
         //private MessageRegistry<ChangeRestStateMessage> _changeRestStateMessageRegistry;
 

@@ -15,7 +15,7 @@ using UnityRandom = UnityEngine.Random;
 
 namespace Runtime.Gameplay.Manager
 {
-    public class WorldEntitiesManager : EntitiesManager
+    public class CutTheBallEntitiesManager : EntitiesManager
     {
         #region Properties
 

@@ -86,6 +86,8 @@ namespace Runtime.UI
         private void OnClickStart()
         {
             Debug.Log("Start");
+            var loadedSceneName = SceneName.CUT_THE_BALL_SCENE_NAME;
+            SceneManager.LoadSceneAsync(loadedSceneName).Forget();
         }
         
 

@@ -75,7 +75,7 @@
      <Compile Include="Assets\_Game\Scripts\Runtime\AnimationSystem\Components\SingleFullSpriteAnimationPlayer.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Implementation\Sheets\ISheetContainerCallbackReceiver.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Foundation\RectTransformExtensions.cs" />
-     <Compile Include="Assets\_Game\Scripts\Runtime\Manager\GameResourceManager\WorldGameResourceManager.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\Manager\GameResourceManager\CutTheBallResourceManager.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Manager\DataManager\LocalDataManager\LocalDataManager.Player.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Base\Modal.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Manager\PoolManager\ReturnPool.cs" />
@@ -188,7 +188,7 @@
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Implementation\Modals\ModalBackdrop.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Manager\GameplayFlowProcessor\BaseGameplayFlowProcessor.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Implementation\Modals\ModalOptions.cs" />
-     <Compile Include="Assets\_Game\Scripts\Runtime\Manager\GameplayDataManager\WorldGameplayDataManager.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\Manager\GameplayDataManager\MainMenuDataManager.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Base\Sheet\Sheet.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Manager\TimeManager\Utils\TimeExtension.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Implementation\Activities\Activity.cs" />
@@ -205,7 +205,7 @@
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Foundation\AssetLoaders\ResourcesAssetLoaderObject.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Foundation\Collections\ThrowHelper.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\AnimationSystem\Components\SingleSpriteAnimationPlayer.cs" />
-     <Compile Include="Assets\_Game\Scripts\Runtime\Manager\GameplayFlowProcessor\WorldGameplayFlowProcessor.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\Manager\GameplayFlowProcessor\CutTheBallFlowProcessor.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Foundation\SortingLayerId.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Foundation\Animation\AnimationPlayer.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Configs\Base\BaseConfig.cs" />
@@ -258,7 +258,7 @@
      <Compile Include="Assets\_Game\Scripts\Runtime\Manager\CameraManager\CameraManager.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Manager\MapManager\WorldMapManager\WorldMapChunk.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Gameplay\OldScript\NewBehaviourScript.cs" />
-     <Compile Include="Assets\_Game\Scripts\Runtime\Manager\EntitiesManager\WorldEntitiesManager.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\Manager\EntitiesManager\CutTheBallEntitiesManager.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Manager\MapManager\WorldMapManager\Zone\MapZoneObstacle.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Implementation\Shared.Views\IContainerLayer.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Implementation\Screens\ScreenOptions.cs" />
@@ -304,6 +304,7 @@
      <Compile Include="Assets\_Game\Scripts\Runtime\Tools\Json\Converter\Vector2IntConverter.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Tools\Json\Service\JsonService.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Tools\HashService\HashService.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\Manager\GameplayDataManager\CutTheBallDataManager.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Foundation\PriorityCollection" />
      <Folder Include="Assets\_Game\Plugins\Sirenix\Assemblies" />
@@ -513,7 +514,6 @@
      <Folder Include="Assets\_Game\Scripts\Runtime\Utilities" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne.json" />
      <Folder Include="Assets\_Game\Scripts\Runtime\Sync\Player\Constant" />
-     <Folder Include="Assets\_Game\Scenes\New Folder" />
      <None Include="Assets\_Game\Plugins\Sirenix\Assemblies\Sirenix.OdinValidator.Editor.xml" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
      <Folder Include="Assets\_Game" />

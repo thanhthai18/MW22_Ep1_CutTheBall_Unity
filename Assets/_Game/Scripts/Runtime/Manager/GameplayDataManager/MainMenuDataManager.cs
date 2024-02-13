@@ -4,7 +4,7 @@ using Cysharp.Threading.Tasks;
 
 namespace Runtime.Gameplay.Manager
 {
-    public class WorldGameplayDataManager : GameplayDataManager
+    public class MainMenuDataManager : GameplayDataManager
     {
         #region Class Methods
 

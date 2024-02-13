@@ -1972,6 +1972,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _sceneLoaderData:
     scenesLoadingInfo:
+    - sceneStartNameFormat: MenuScene
+      description: 
+      sceneLoadingMinTime: 3
+      fadeInDelay: 0.5
+      fadeInSpeed: 0.5
+      fadeOutDelay: 0
+      fadeOutSpeed: 1
+      sceneLoadingTips:
+      - tip_1
+      - tip_2
+      - tip_3
+      - tip_4
+      - tip_5
+      backgrounds: []
     - sceneStartNameFormat: CutTheBall
       description: 
       sceneLoadingMinTime: 3

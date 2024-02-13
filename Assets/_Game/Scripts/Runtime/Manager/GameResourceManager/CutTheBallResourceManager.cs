@@ -11,7 +11,7 @@ using UnityEngine;
 
 namespace Runtime.Gameplay.Manager
 {
-    public class WorldGameResourceManager : GameResourceManager
+    public class CutTheBallResourceManager : GameResourceManager
     {
         #region Properties
 
