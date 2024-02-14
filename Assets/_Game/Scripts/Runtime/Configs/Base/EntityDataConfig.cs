@@ -1,5 +1,5 @@
 ﻿using System;
-using CsvReader;
+using UnityEngine;
 
 namespace Runtime.Config
 {
@@ -14,8 +14,9 @@ namespace Runtime.Config
         #endregion Members
     }
     
-    public class EntityDataConfig : BaseConfig<EntityDataConfigItem>
+    public class EntityDataConfig : ScriptableObject
     {
-        
+        public EntityDataConfigItem[] ballDataConfig;
+        public EntityDataConfigItem[] boomDataConfig;
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace Runtime.Gameplay.EntitySystem
 {
-    public class BoomStrategy : EntityStrategy<BallModel>
+    public class BoomStrategy : EntityStrategy<BoomModel>
     {
         #region Class Methods
 

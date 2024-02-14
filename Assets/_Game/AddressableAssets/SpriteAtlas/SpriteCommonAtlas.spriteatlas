@@ -31,18 +31,13 @@ SpriteAtlas:
       enableAlphaDilation: 0
     secondaryTextureSettings: {}
     variantMultiplier: 1
-    packables:
-    - {fileID: 102900000, guid: 52b05a5ba75699245bed0d53ed6a33b7, type: 3}
+    packables: []
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
-  m_PackedSprites:
-  - {fileID: 21300000, guid: 69443c206cd02cf418cdd82211f731c7, type: 3}
-  - {fileID: 21300000, guid: 4164a40516bc6a342826ac39847bcc87, type: 3}
-  m_PackedSpriteNamesToIndex:
-  - Boom
-  - Ball
+  m_PackedSprites: []
+  m_PackedSpriteNamesToIndex: []
   m_RenderDataMap: {}
   m_Tag: SpriteCommonAtlas
   m_IsVariant: 0

@@ -24,6 +24,10 @@ namespace Runtime.Definition
         public const float COORDINATE_AXES_OFFSET_DEGREES = 90.0f;
         public const float CIRCLE_DEGREES = 360.0f;
         public const string HIT_MATERIAL_COLOR_PROPERTY = "_Fill_Color";
+        public const int HASH_NUMBER_BALL_ID = 1000;
+        public const int HASH_NUMBER_BOOM_ID = 2000;
+        public const int MAX_LIFE = 3;
+        public const int MARGIN_VALUE_CAMERA = 3;
 
         public static readonly DateTime JAN1St1970 = new DateTime(1970, 1, 5, 0, 0, 0, DateTimeKind.Utc);
 
@@ -31,27 +35,20 @@ namespace Runtime.Definition
 
         #region Class Methods
 
-        public static Vector3 GetRandomPosition()
-        {
-            Camera mainCamera = Camera.main;
-            float screenWidth = mainCamera.pixelWidth;
-            float screenHeight = mainCamera.pixelHeight;
-
-            Vector3 randomScreenPosition = new Vector3(Random.Range(0, screenWidth), Random.Range(0, screenHeight), 0f);
-            Vector3 worldPosition = mainCamera.ScreenToWorldPoint(randomScreenPosition);
-            worldPosition.z = 0f;
-
-            return worldPosition;
-        }
-
         public static Vector3 GetRandomStartPosition()
         {
-            float margin = 10f; 
-            float yPosition = -Screen.height - margin;
-            Vector3 randomStartPos = GetRandomPosition();
-            randomStartPos.y = yPosition;
+            Vector2 sizeCamera = DataManager.Transitioned.GetCameraSize();
+            float xSize = sizeCamera.x;
+            float ySize = sizeCamera.y;
+            float xPosition = Random.Range(-xSize, xSize);
+            float yPosition = -ySize / 2.0f - MARGIN_VALUE_CAMERA;
+            Vector3 randomStartPos = new Vector3(xPosition, yPosition, 0);
             return randomStartPos;
         }
+
+        public static string GetBallId(SkinType skinType) => (HASH_NUMBER_BALL_ID + (int)skinType).ToString();
+        public static string GetBallId(int skinTypeId) => (HASH_NUMBER_BALL_ID + skinTypeId).ToString();
+        public static string GetBoomId() => HASH_NUMBER_BOOM_ID.ToString();
 
         #endregion Class Methods
     }
@@ -105,16 +102,14 @@ namespace Runtime.Definition
     {
         #region Members
 
-        public const int HERO_LAYER = 7;
-        public const int OBJECT_LAYER = 9;
-        public const int ENEMY_LAYER = 10;
+        public const int BALL_LAYER = 7;
+        public const int BOOM_LAYER = 9;
         public const int SPRITE_RENDERER_BUTTON_LAYER = 13;
-        public const int WORLD_CHUNK_BOUND_LAYER = 16;
-        public static int HERO_LAYER_MASK = 1 << HERO_LAYER;
-        public static int OBJECT_LAYER_MASK = 1 << OBJECT_LAYER;
-        public static int ENEMY_LAYER_MASK = 1 << ENEMY_LAYER;
+        public const int SPLIT_LAYER = 16;
+        public static int BALL_LAYER_MASK = 1 << BALL_LAYER;
+        public static int BOOM_LAYER_MASK = 1 << BOOM_LAYER;
         public static int SPRITE_RENDERER_BUTTON_LAYER_MASK = 1 << SPRITE_RENDERER_BUTTON_LAYER;
-        public static int WORLD_CHUNK_BOUND_LAYER_LAYER_MASK = 1 << WORLD_CHUNK_BOUND_LAYER;
+        public static int SPLIT_LAYER_LAYER_MASK = 1 << SPLIT_LAYER;
 
         #endregion Members
     }

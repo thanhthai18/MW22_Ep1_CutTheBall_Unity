@@ -9,8 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1920761343905123877}
+  - component: {fileID: 2134776471808768119}
   m_Layer: 0
-  m_Name: SplitControllerManager
+  m_Name: SplitManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31,6 +32,18 @@ Transform:
   m_Father: {fileID: 1920761344152632043}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2134776471808768119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1920761343905123874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3d3ee0940710e541adfd930fc960aa5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1920761344026961372
 GameObject:
   m_ObjectHideFlags: 0
@@ -279,7 +292,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 524e2ed24c275d74ba27b609cb188dcb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _worldMapIndex: 0
 --- !u!1 &1920761344796978687
 GameObject:
   m_ObjectHideFlags: 0
@@ -289,7 +301,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1920761344796978686}
-  - component: {fileID: 647485216642713378}
+  - component: {fileID: 4799463868323342188}
   m_Layer: 0
   m_Name: EntitiesManager
   m_TagString: Untagged
@@ -312,7 +324,7 @@ Transform:
   m_Father: {fileID: 1920761344152632043}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &647485216642713378
+--- !u!114 &4799463868323342188
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -321,7 +333,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1920761344796978687}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60fd10c885178a944b2935e49699fe1c, type: 3}
+  m_Script: {fileID: 11500000, guid: 4b133b4c42162984cbb56e54e002bb1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1920761345181115914
@@ -333,9 +345,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1920761345181115917}
-  - component: {fileID: 2027098559612972315}
+  - component: {fileID: 3162239948554185641}
   m_Layer: 0
-  m_Name: GameResourceManager
+  m_Name: LifeManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -356,7 +368,7 @@ Transform:
   m_Father: {fileID: 1920761344152632043}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2027098559612972315
+--- !u!114 &3162239948554185641
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -365,7 +377,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1920761345181115914}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9de41d0966d5089418c4f869155f0b9d, type: 3}
+  m_Script: {fileID: 11500000, guid: 8bc7a8594ecb4455b67110a32ede5a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1920761345206667072
@@ -465,14 +477,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5085903563062650739}
-  - component: {fileID: 6917097190399637738}
   m_Layer: 0
   m_Name: GameplayVisualController
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &5085903563062650739
 Transform:
   m_ObjectHideFlags: 0
@@ -488,18 +499,3 @@ Transform:
   m_Father: {fileID: 1920761344152632043}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6917097190399637738
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6647080820434220809}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 389f35f79608e6244a0d9ac7a10ec033, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _maxDamageVisualsNumber: 15
-  _maxExpVisualsNumber: 15
-  _timeDelayZoomBackInMiliSecond: 1000

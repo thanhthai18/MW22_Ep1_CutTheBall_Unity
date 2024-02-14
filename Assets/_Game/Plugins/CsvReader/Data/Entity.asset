@@ -13,27 +13,25 @@ MonoBehaviour:
   m_Name: Entity
   m_EditorClassIdentifier: 
   classInfomations:
-  - className: Runtime.Config.BallDataConfig
+  - className: Runtime.Config.EntityDataConfig
     csvInformations:
-    - className: Runtime.Config.BallDataConfig
+    - className: Runtime.Config.EntityDataConfig
       csvFile: {fileID: 4900000, guid: 583a8a4d38086ae44bbdfb61435def90, type: 3}
       csvPath: Assets/Csv/BallDataConfig.csv
       usingFolder: 0
       csvFolderPath: 
       separateScriptableObject: 0
       fileStartWith: 
-      fieldSetValue: items
+      fieldSetValue: ballDataConfig
       isConvert: 0
       convertMethod: 
-  - className: Runtime.Config.BoomDataConfig
-    csvInformations:
-    - className: Runtime.Config.BoomDataConfig
+    - className: Runtime.Config.EntityDataConfig
       csvFile: {fileID: 4900000, guid: f674bb2bab43b7444a7b97996a7c4cd7, type: 3}
       csvPath: Assets/Csv/BoomDataConfig.csv
       usingFolder: 0
       csvFolderPath: 
       separateScriptableObject: 0
       fileStartWith: 
-      fieldSetValue: items
+      fieldSetValue: boomDataConfig
       isConvert: 0
       convertMethod: 

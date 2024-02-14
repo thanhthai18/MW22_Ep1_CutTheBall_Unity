@@ -19,8 +19,8 @@ namespace Runtime.Gameplay.EntitySystem
 
         public uint EntityUId { get; private set; }
         public bool IsActive => ownerModel.IsActive;
-        public float JumpPower { get; private set; }
-        public float JumpDuration { get; private set; }
+        public float JumpPower => ownerModel.JumpPower;
+        public float JumpDuration => ownerModel.JumpDuration;
 
         #endregion Properties
 
@@ -33,7 +33,6 @@ namespace Runtime.Gameplay.EntitySystem
             HasDisposed = false;
             SetUpPosition(position);
             SetUpScale();
-            SetUpPhysics(ownerModel);
             ExecuteInitialize();
         }
 
@@ -51,6 +50,7 @@ namespace Runtime.Gameplay.EntitySystem
         {
             SetAnimation(EntityAnimationState.Explore);
             GenerateVFXExplore(ownerModel).Forget();
+            transform.DOKill();
         } 
         
         public virtual void Missed()
@@ -59,6 +59,7 @@ namespace Runtime.Gameplay.EntitySystem
             {
                 SetActive(false);
                 PoolManager.Instance.Remove(gameObject);
+                transform.DOKill();
             }
         }
 
@@ -67,7 +68,7 @@ namespace Runtime.Gameplay.EntitySystem
             Jump();
         }
         
-        protected virtual void InitAnimations(T model)
+        protected virtual void InitAnimations()
         {
             entityAnimationPlayer = transform.GetComponentInChildren<IEntityAnimationPlayer>(true);
 #if UNITY_EDITOR
@@ -106,12 +107,6 @@ namespace Runtime.Gameplay.EntitySystem
         protected virtual void SetUpScale()
             => transform.localScale = Vector3.one;
 
-        protected virtual void SetUpPhysics(T model)
-        {
-            JumpPower = model.JumpPower;
-            JumpDuration = model.JumpDuration;
-        }
-        
         protected void SetAnimation(EntityAnimationState state)
             => entityAnimationPlayer.Play(state);
 
@@ -126,7 +121,7 @@ namespace Runtime.Gameplay.EntitySystem
 
         protected virtual void ExecuteInitialize()
         {
-            InitAnimations(ownerModel);
+            InitAnimations();
             InitActions(ownerModel);
         }
         protected virtual void ExecuteDispose() { }

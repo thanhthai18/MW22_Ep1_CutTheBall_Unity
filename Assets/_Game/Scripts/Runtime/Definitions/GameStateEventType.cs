@@ -10,5 +10,10 @@
         PlayerSkinChanged,
         PressBackKey,
         GameFlowStopped,
+        BallSpawned,
+        BoomSpawned,
+        BallExplored,
+        BoomExplored,
+        DecreaseLife,
     }
 }

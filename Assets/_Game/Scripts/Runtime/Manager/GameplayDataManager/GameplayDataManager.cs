@@ -17,16 +17,11 @@ namespace Runtime.Gameplay.Manager
     {
         #region Members
 
-        // private Dictionary<string, EnemyConfigItem> _enemyConfigItemsDictionary;
-        // private Dictionary<string, BossConfigItem> _bossConfigItemsDictionary;
-        // private Dictionary<string, ObjectConfigItem> _objectConfigItemsDictionary;
-        // private HeroConfigFactory _heroConfigFactory;
-        // private SkillConfigFactory _skillConfigFactory;
-        // private List<BuffTargetStatItem> _buffTargetStatItems;
-        // private List<EquipmentStat> _equipmentStatBuffs;
-
+        private Dictionary<string, EntityDataConfigItem> _ballConfigItemsDictionary = new();
+        private Dictionary<string, EntityDataConfigItem> _boomConfigItemsDictionary = new();
+        
         #endregion Members
-
+        
         public bool IsDataLoaded { get; protected set; }
 
         #region API Methods
@@ -40,6 +35,30 @@ namespace Runtime.Gameplay.Manager
         #endregion API Methods
 
         #region Class Methods
+        
+        public async UniTask<EntityModelData> GetBallModelDataAsync(string entityId, CancellationToken cancellationToken)
+        {
+            if (!_ballConfigItemsDictionary.ContainsKey(entityId))
+            {
+                var ballDataConfigItems = DataManager.Config.GetBallDataConfigItem();
+                _ballConfigItemsDictionary.TryAdd(entityId, ballDataConfigItems.First());
+            }
+
+            var ballModelData = new EntityModelData(_ballConfigItemsDictionary[entityId]);
+            return ballModelData;
+        }
+        
+        public async UniTask<EntityModelData> GetBoomModelDataAsync(string entityId, CancellationToken cancellationToken)
+        {
+            if (!_boomConfigItemsDictionary.ContainsKey(entityId))
+            {
+                var boomDataConfigItems = DataManager.Config.GetBoomDataConfigItem();
+                _boomConfigItemsDictionary.TryAdd(entityId, boomDataConfigItems.First());
+            }
+
+            var boomModelData = new EntityModelData(_boomConfigItemsDictionary[entityId]);
+            return boomModelData;
+        }
 
         // public async UniTask<HeroStats> GetHeroStatsAsync(string heroId, int heroLevel, CancellationToken cancellationToken)
         // {
@@ -318,22 +337,7 @@ namespace Runtime.Gameplay.Manager
         //     return totalHeroPowerIgnoreEquipment;
         // }
         //
-        // public async UniTask<HeroModelData> GetHeroModelDataAsync(string heroId, int heroLevel, CancellationToken cancellationToken)
-        // {
-        //     var heroStats = await GetHeroStatsAsync(heroId, heroLevel, cancellationToken);
-        //     var heroLevelModel = new HeroLevelModel(heroLevel, heroStats);
-        //     var skillIdentities = await GetHeroSkillIdentitiesAsync(heroId, heroLevel, cancellationToken);
-        //     var skillModels = await GetHeroSkillModelsAsync(skillIdentities, cancellationToken);
-        //     var heroConfigItem = await GetHeroConfigItem(heroId, cancellationToken);
-        //     var heroModelData = new HeroModelData(heroId,
-        //                                           heroId,
-        //                                           heroConfigItem.detectedPriority,
-        //                                           heroConfigItem.attackType,
-        //                                           Constant.HERO_DIED_RESPAWN_DELAY,
-        //                                           skillModels,
-        //                                           heroLevelModel);
-        //     return heroModelData;
-        // }
+       
         //
         // public async UniTask<HeroModelData> GetPVPHeroModelDataAsync(string heroId, int heroLevel,
         //                                                              PVPHeroBuffData pvpHeroBuffData, CancellationToken cancellationToken)

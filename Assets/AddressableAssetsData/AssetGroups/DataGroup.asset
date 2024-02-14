@@ -21,12 +21,8 @@ MonoBehaviour:
     m_Address: Runtime.Config.HitObjectConfig
     m_ReadOnly: 0
     m_SerializedLabels: []
-  - m_GUID: 195d2cbaebe64b04e99557ed2343726b
-    m_Address: Runtime.Config.BoomDataConfig
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-  - m_GUID: 99910e65cf5cfbf43a2f6a8ffb87a891
-    m_Address: Runtime.Config.BallDataConfig
+  - m_GUID: cd291d494cf5bb94e8fa5df01f8d5823
+    m_Address: Runtime.Config.EntityDataConfig
     m_ReadOnly: 0
     m_SerializedLabels: []
   m_ReadOnly: 0

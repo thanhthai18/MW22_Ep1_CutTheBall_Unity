@@ -16,11 +16,7 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: 16434da98e2d7f842b4256c0f37bf285
-  m_SerializeEntries:
-  - m_GUID: 4164a40516bc6a342826ac39847bcc87
-    m_Address: football-ball-03
-    m_ReadOnly: 0
-    m_SerializedLabels: []
+  m_SerializeEntries: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 01ec9dd64acabdf4cb088bb4c51ff0f0, type: 2}
   m_SchemaSet:

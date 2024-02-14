@@ -48,7 +48,7 @@ namespace Runtime.Gameplay.EntitySystem
         
         public uint EntityUId { get { return entityUId; } }
         public string EntityId { get { return entityId; } }
-        public EntityType EntityType { get; private set; }
+        public abstract EntityType EntityType { get; }
 
         #endregion Properties
 

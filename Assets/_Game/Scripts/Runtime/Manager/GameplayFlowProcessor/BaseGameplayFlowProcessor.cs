@@ -10,26 +10,37 @@ using Runtime.Gameplay.EntitySystem;
 
 namespace Runtime.Gameplay.Manager
 {
-    public abstract class BaseGameplayFlowProcessor<EM, GM> : MonoBehaviour where EM : EntitiesManager
-                                                                                where GM : GameResourceManager
+    public abstract class BaseGameplayFlowProcessor<EM, SM, LM> : MonoBehaviour where EM : EntitiesManager
+                                                                                where SM : SplitManager
+                                                                                where LM : LifeManager
 
     {
         #region Members
 
-        protected EM entitiesManager;
-        protected GM gameResourceManager;
+        protected static EM entitiesManager;
+        protected static SM splitManager;
+        protected static LM lifeManager;
         protected CameraManager cameraManager;
         protected CancellationTokenSource gameplayFlowCancellationTokenSource;
         protected MessageRegistry<GameStateChangedMessage> gameStateChangedMessageRegistry;
 
         #endregion Members
 
+        #region Properties
+
+        public static EM S_EntitiesManager => entitiesManager;
+        public static SM S_SplitManager => splitManager;
+        public static LM S_LifeManager => lifeManager;
+        
+        #endregion Properties
+
         #region API Methods
 
         protected virtual void Awake()
         {
             entitiesManager = EntitiesManager.Instance as EM;
-            gameResourceManager = GameResourceManager.Instance as GM;
+            splitManager = SplitManager.Instance as SM;
+            lifeManager = LifeManager.Instance as LM;
             cameraManager = CameraManager.Instance;
             gameplayFlowCancellationTokenSource = new CancellationTokenSource();
             gameStateChangedMessageRegistry = Messenger.Subscribe<GameStateChangedMessage>(OnGameStateChanged);
@@ -55,26 +66,30 @@ namespace Runtime.Gameplay.Manager
 
         protected virtual void OnGameStateChanged(GameStateChangedMessage gameStateChangedMessage)
         {
-            // switch (gameStateChangedMessage.GameStateEventType)
-            // {
-            //     case GameStateEventType.GameFlowStopped:
-            //         heroesControllerManager.HandleGameFlowStopped();
-            //         break;
-            //
-            //     case GameStateEventType.DataLoaded:
-            //         GameManager.Instance.SetGameMomentType(GameMomentType.StartGame);
-            //         cameraManager.HandleDataLoaded(heroesControllerManager.HeroesGroupCenterHolder);
-            //         mapManager.HandleDataLoaded(gameplayFlowCancellationTokenSource.Token);
-            //         InitQuestOnHandleDataLoaded();
-            //         break;
-            //
-            //     case GameStateEventType.HeroSpawned:
-            //         heroesControllerManager.HandleHeroesSpawned();
-            //         navigationManager.HandleHeroesSpawned();
-            //         proximityManager.HandleHeroesSpawned();
-            //         cameraManager.HandleHeroesSpawned();
-            //         break;
-            // }
+            switch (gameStateChangedMessage.GameStateEventType)
+            {
+                case GameStateEventType.GameFlowStopped:
+                    //heroesControllerManager.HandleGameFlowStopped();
+                    break;
+            
+                case GameStateEventType.DataLoaded:
+                    GameManager.Instance.SetGameMomentType(GameMomentType.StartGame);
+                    //S_SplitManager.HandleDataLoaded(gameplayFlowCancellationTokenSource.Token);
+                    //S_EntitiesManager.HandleDataLoaded(gameplayFlowCancellationTokenSource.Token);
+                    break;
+            
+                case GameStateEventType.BallSpawned:
+                    break;
+                
+                case GameStateEventType.BoomSpawned:
+                    break;
+                
+                case GameStateEventType.BallExplored:
+                    break;
+                
+                case GameStateEventType.BoomExplored:
+                    break;
+            }
         }
 
         // protected virtual void OnGateEventTriggered(GateEventTriggeredMessage gateEventTriggeredMessage)
