@@ -49,6 +49,7 @@
      <Compile Include="Assets\_Game\Scripts\Runtime\Utilities\ThaiHelperUtility.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Extensions\CanvasGroupExtensions.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Manager\InputManager\Interface\IVector3Input.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\Sync\Player\Data\Vector2Data.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Messenger\Messenger.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Implementation\Sheets\SheetExtensions.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Implementation\Screens\IScreenLifecycleEvent.cs" />
@@ -69,13 +70,16 @@
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Modals\RulesModal.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Common\Interface\IDraggable.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Definitions\DayType.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\Tools\HashService\HashService.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Manager\TickManager\TickTimer.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Implementation\Activities\ActivityTransitionAnimationContainer.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Manager\ToastManager\Toast.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\AnimationSystem\Components\SingleFullSpriteAnimationPlayer.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Modals\SkinsModal\SkinsModal.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Implementation\Sheets\ISheetContainerCallbackReceiver.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Foundation\RectTransformExtensions.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Manager\GameResourceManager\CutTheBallResourceManager.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\Definitions\SkinType.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Manager\DataManager\LocalDataManager\LocalDataManager.Player.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Base\Modal.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Manager\PoolManager\ReturnPool.cs" />
@@ -91,6 +95,7 @@
      <Compile Include="Assets\_Game\Scripts\Runtime\Common\Interface\IClickable.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Foundation\PriorityCollection\PriorityQueue.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Foundation\AssetLoaders\PreloadedAssetLoader.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Modals\SkinsModal\ISkinElement.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Implementation\Shared.Views\TransformExtensions.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Definitions\ButtonSourceType.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Implementation\Shared.Views\IWindow.cs" />
@@ -98,16 +103,15 @@
      <Compile Include="Assets\_Game\Scripts\Runtime\Manager\AddressablesManager\AddressablesManager.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Manager\MapManager\MapArea.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Implementation\Sheets\AnonymousSheetLifecycleEvent.cs" />
-     <Compile Include="Assets\_Game\Scripts\Runtime\Gameplay\EntitySystem\Model\Base\EntityBound.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\Gameplay\EntitySystem\Entity\Base\IEntityStrategy.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Implementation\Shared.Views\GlobalContainerLayerManager.cs" />
-     <Compile Include="Assets\_Game\Scripts\Runtime\Gameplay\EntitySystem\Entity\Base\Interface\IInteractable.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Implementation\Shared\AnimationAssetType.cs" />
-     <Compile Include="Assets\_Game\Scripts\Runtime\Gameplay\EntitySystem\Entity\Base\IEntity.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Implementation\Modals\IModalContainerCallbackReceiver.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Foundation\GameObjectExtensions.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\SceneLoader\ScreenInteractionBlocker.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Manager\DataManager\LocalDataManager\Serializers\XMLSerializer.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Foundation\EnabledIfAttribute.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\Sync\Player\Model\PlayerAuthentication.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Implementation\Shared.Views\ContainerLayer.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Definitions\GameActionType.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Manager\DataManager\DataManager.cs" />
@@ -122,12 +126,15 @@
      <Compile Include="Assets\_Game\Scripts\Runtime\Manager\MapManager\MapManager.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Manager\GameplayDataManager\GameplayDataManager.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Gameplay\OldScript\MouseTrail.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\Sync\Player\Service\PlayerService.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\Tools\Json\Converter\Vector2IntConverter.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Manager\DataManager\TransitionedData\TransitionedData.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Messenger\MessengerSingleton.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Implementation\Screens\ScreenTransitionAnimationType.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\AnimationSystem\Components\SingleFullSpriteAnimationPlayersController.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Foundation\AssetLoaders\ResourcesAssetLoader.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Implementation\Modals\ModalTransitionAnimationType.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\Manager\GameplayDataManager\CutTheBallDataManager.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Implementation\Shared.Views\IView.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Implementation\Activities\AnonymousActivityContainerCallbackReceiver.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Implementation\Shared\UnityScreenNavigatorSettings.cs" />
@@ -166,9 +173,11 @@
      <Compile Include="Assets\_Game\Scripts\Runtime\Manager\TimeManager\Constant\TimeConstant.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Definitions\Constant.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Foundation\Animation\UpdateDispatcher.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\Sync\Player\Constant\PlayerServerInfoTags.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Implementation\Shared\ITransitionAnimation.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Implementation\Shared.Views\View.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Manager\PoolManager\ReturnPoolAfterDuration.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\Sync\Player\Model\PlayerBase.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Extensions\ListExtensions.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Foundation\Coroutine\CoroutineManager.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Foundation\Animation\IAnimation.cs" />
@@ -189,6 +198,7 @@
      <Compile Include="Assets\_Game\Scripts\Runtime\Manager\GameplayFlowProcessor\BaseGameplayFlowProcessor.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Implementation\Modals\ModalOptions.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Manager\GameplayDataManager\MainMenuDataManager.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\Sync\Player\Constant\BasicTags.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Base\Sheet\Sheet.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Manager\TimeManager\Utils\TimeExtension.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Implementation\Activities\Activity.cs" />
@@ -198,12 +208,14 @@
      <Compile Include="Assets\_Game\Scripts\Runtime\Localization\LocalizationUtils.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Utilities\InputUtility.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Manager\DataManager\LocalDataManager\CryptoAlgorithms\TripleDESCryptoAlgorithm.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\Sync\Player\Model\Player.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Foundation\AssetLoaders\IAssetLoadHandleSetter.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Implementation\Shared.Views\ITransform.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Implementation\Activities\ActivityManager.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Gameplay\OldScript\EventManager.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Foundation\AssetLoaders\ResourcesAssetLoaderObject.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Foundation\Collections\ThrowHelper.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\Sync\Player\SaveLoadService\Service\Load\FirestoreLoadService.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\AnimationSystem\Components\SingleSpriteAnimationPlayer.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Manager\GameplayFlowProcessor\CutTheBallFlowProcessor.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Foundation\SortingLayerId.cs" />
@@ -211,14 +223,17 @@
      <Compile Include="Assets\_Game\Scripts\Runtime\Configs\Base\BaseConfig.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Common\Singleton\MonoSingleton.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Foundation\AssetLoaders\AssetLoadStatus.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\Sync\Player\Model\PlayerBasicInfo.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Common\Singleton\Singleton.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Implementation\Activities\ActivityOptions.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Sync\Player\SaveLoadService\Service\Save\DeviceSaveService.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Implementation\Modals\ModalContainer.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Implementation\Shared.Views\IViewGroup.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\Tools\Json\Service\JsonService.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Base\Screen.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Sync\Player\SaveLoadService\Model\DataLoadResult.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Messenger\MessageHandler{T}.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\Sync\Player\Constant\PlayerTags.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Json\Converter\Vector2IntConverter.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Base\CustomModalBackdrop.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Manager\DataManager\LocalDataManager\LocalDataManager.cs" />
@@ -232,6 +247,7 @@
      <Compile Include="Assets\_Game\Scripts\Runtime\Tools\Easing\Easing.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Implementation\Screens\Screen.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Messenger\Messages\GameStateChangedMessage.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\Sync\Player\Model\PlayerSetting.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Extensions\StringExtensions.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Gameplay\EntitySystem\Entity\Base\Disposable.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Definitions\GameMomentType.cs" />
@@ -242,6 +258,7 @@
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Implementation\Activities\IActivityLifecycleEvent.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Implementation\Shared\TransitionAnimationBehaviour.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Manager\DataManager\ConfigDataManager\ConfigDataManager.ShopConfig.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Modals\SkinsModal\SkinElement.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Gameplay\OldScript\GamePlayContrl.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Manager\EntitiesManager\EntitiesManager.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Gameplay\OldScript\BallController.cs" />
@@ -250,7 +267,6 @@
      <Compile Include="Assets\_Game\Scripts\Runtime\Definitions\LogicCode.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Gameplay\OldScript\UIController.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Definitions\VersionRequirement.cs" />
-     <Compile Include="Assets\_Game\Scripts\Runtime\Gameplay\EntitySystem\Entity\Base\EntityTargetDetector.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Definitions\CollectionName.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Manager\MapManager\WorldMapManager\WorldMapManager.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Gameplay\EntitySystem\Model\Base\EntityModel.cs" />
@@ -258,6 +274,7 @@
      <Compile Include="Assets\_Game\Scripts\Runtime\Manager\CameraManager\CameraManager.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Manager\MapManager\WorldMapManager\WorldMapChunk.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Gameplay\OldScript\NewBehaviourScript.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\Definitions\EntityType.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Manager\EntitiesManager\CutTheBallEntitiesManager.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Manager\MapManager\WorldMapManager\Zone\MapZoneObstacle.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Implementation\Shared.Views\IContainerLayer.cs" />
@@ -270,7 +287,7 @@
      <Compile Include="Assets\_Game\Scripts\Runtime\AnimationSystem\Base\SpriteAnimation.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\AnimationSystem\Base\SpriteAnimator.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\AnimationSystem\Base\ObjectSpriteAnimator.cs" />
-     <Compile Include="Assets\_Game\Scripts\Runtime\Gameplay\EntitySystem\Entity\Base\Entity.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\Gameplay\EntitySystem\Entity\Base\EntityStrategy.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Foundation\Collections\Pool.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Implementation\Shared\MonoBehaviourDestroyedEventDispatcher.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\Manager\InputManager\InputManager.cs" />
@@ -285,26 +302,19 @@
      <Compile Include="Assets\_Game\Scripts\Runtime\Extensions\EnumExtensions.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Foundation\PriorityCollection\PriorityList.cs" />
      <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Base\AwaitableModal.cs" />
-     <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Modals\SkinsModal\SkinsModal.cs" />
-     <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Modals\SkinsModal\SkinElement.cs" />
-     <Compile Include="Assets\_Game\Scripts\Runtime\Definitions\SkinType.cs" />
-     <Compile Include="Assets\_Game\Scripts\Runtime\Definitions\EntityType.cs" />
-     <Compile Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Modals\SkinsModal\ISkinElement.cs" />
-     <Compile Include="Assets\_Game\Scripts\Runtime\Sync\Player\Constant\PlayerServerInfoTags.cs" />
-     <Compile Include="Assets\_Game\Scripts\Runtime\Sync\Player\Model\PlayerAuthentication.cs" />
-     <Compile Include="Assets\_Game\Scripts\Runtime\Sync\Player\Model\PlayerBasicInfo.cs" />
-     <Compile Include="Assets\_Game\Scripts\Runtime\Sync\Player\Service\PlayerService.cs" />
-     <Compile Include="Assets\_Game\Scripts\Runtime\Sync\Player\Model\PlayerSetting.cs" />
-     <Compile Include="Assets\_Game\Scripts\Runtime\Sync\Player\Constant\BasicTags.cs" />
-     <Compile Include="Assets\_Game\Scripts\Runtime\Sync\Player\SaveLoadService\Service\Load\FirestoreLoadService.cs" />
-     <Compile Include="Assets\_Game\Scripts\Runtime\Sync\Player\Model\PlayerBase.cs" />
-     <Compile Include="Assets\_Game\Scripts\Runtime\Sync\Player\Constant\PlayerTags.cs" />
-     <Compile Include="Assets\_Game\Scripts\Runtime\Sync\Player\Model\Player.cs" />
-     <Compile Include="Assets\_Game\Scripts\Runtime\Sync\Player\Data\Vector2Data.cs" />
-     <Compile Include="Assets\_Game\Scripts\Runtime\Tools\Json\Converter\Vector2IntConverter.cs" />
-     <Compile Include="Assets\_Game\Scripts\Runtime\Tools\Json\Service\JsonService.cs" />
-     <Compile Include="Assets\_Game\Scripts\Runtime\Tools\HashService\HashService.cs" />
-     <Compile Include="Assets\_Game\Scripts\Runtime\Manager\GameplayDataManager\CutTheBallDataManager.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\Gameplay\EntitySystem\Entity\Ball\BallStrategy.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\Gameplay\EntitySystem\Model\Ball\BallModel.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\Gameplay\EntitySystem\Entity\Base\Animation\EntityAnimationState.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\Gameplay\EntitySystem\Entity\Base\Animation\IEntityAnimationPlayer.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\Gameplay\EntitySystem\Entity\Base\Animation\EntitySpriteAnimationPlayer.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\Gameplay\EntitySystem\Model\Base\EntityModelFactory.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\Gameplay\EntitySystem\Entity\Boom\BoomStrategy.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\Gameplay\EntitySystem\Entity\Base\EntityFactory.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\Configs\Base\EntityDataConfig.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\Gameplay\EntitySystem\Model\Boom\BoomModel.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\Configs\Base\EntityDataConfigFactory.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\Configs\Base\BallDataConfig.cs" />
+     <Compile Include="Assets\_Game\Scripts\Runtime\Configs\Base\BoomDataConfig.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Foundation\PriorityCollection" />
      <Folder Include="Assets\_Game\Plugins\Sirenix\Assemblies" />
@@ -322,6 +332,7 @@
      <Folder Include="Assets\_Game\Materials\MaterialShader" />
      <Folder Include="Assets\_Game\Scripts\Runtime\Json" />
      <Folder Include="Assets\_Game\Scripts\Runtime\HashService" />
+     <Folder Include="Assets\_Game\Scripts\Runtime\Gameplay\EntitySystem\Model\Boom" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile-2-Pass.shader" />
      <Folder Include="Assets\_Game\AddressableAssets\SpriteAtlas\SkinsModalAtlas" />
      <Folder Include="Assets\Localization\Config" />
@@ -375,6 +386,7 @@
      <Folder Include="Assets\_Game\Scripts\Runtime\Manager\TimeManager\Constant" />
      <Folder Include="Assets\_Game\Scripts\Runtime\Gameplay\EntitySystem" />
      <Folder Include="Assets\_Game\Scripts\Runtime\Sync\Player\Model" />
+     <Folder Include="Assets\_Game\Scripts\Runtime\Gameplay\EntitySystem\Entity\Base\Animation" />
      <None Include="Assets\_Game\Plugins\Sirenix\Odin Validator\Readme.txt" />
      <Folder Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core" />
      <Folder Include="Assets\_Game\Scripts\Runtime\Gameplay\EntitySystem\Model" />
@@ -419,6 +431,7 @@
      <Folder Include="Assets\_Game\Prefabs\Gameplay" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
      <None Include="Assets\_Game\Plugins\Sirenix\Assemblies\Sirenix.Utilities.xml" />
+     <Folder Include="Assets\_Game\Scripts\Runtime\Gameplay\EntitySystem\Model\Ball" />
      <Folder Include="Assets\_Game\Scripts\Runtime\UI" />
      <Folder Include="Assets\_Game\Scripts\Runtime\Manager\MapManager\WorldMapManager" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
@@ -454,6 +467,8 @@
      <Folder Include="Assets\TextMesh Pro\Resources\Style Sheets" />
      <Folder Include="Assets\_Game\Scripts\Runtime\Manager" />
      <Folder Include="Assets\TextMesh Pro\Fonts" />
+     <Folder Include="Assets\_Game\Scripts\Runtime\Gameplay\EntitySystem\Entity\Ball" />
+     <Folder Include="Assets\_Game\Scripts\Runtime\Gameplay\EntitySystem\Entity\Boom" />
      <Folder Include="Assets\_Game\Scripts\Runtime\Manager\MapManager\WorldMapManager\Zone" />
      <Folder Include="Assets\_Game\Scripts\Runtime\UI\ScreenNavigator\Core\Foundation\Collections" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
@@ -1204,6 +1219,9 @@
      <Reference Include="Unity.Addressables">
      <HintPath>D:\UnityProject\MW22_Ep1_CutTheBall_Unity\Library\ScriptAssemblies\Unity.Addressables.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.TextMeshPro.Editor">
+     <HintPath>D:\UnityProject\MW22_Ep1_CutTheBall_Unity\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.VisualScripting.State.Editor">
      <HintPath>D:\UnityProject\MW22_Ep1_CutTheBall_Unity\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
      </Reference>
@@ -1267,6 +1285,9 @@
      <Reference Include="Unity.Timeline">
      <HintPath>D:\UnityProject\MW22_Ep1_CutTheBall_Unity\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.TextMeshPro">
+     <HintPath>D:\UnityProject\MW22_Ep1_CutTheBall_Unity\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.Burst.Editor">
      <HintPath>D:\UnityProject\MW22_Ep1_CutTheBall_Unity\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
      </Reference>
@@ -1309,6 +1330,9 @@
      <Reference Include="Unity.Burst">
      <HintPath>D:\UnityProject\MW22_Ep1_CutTheBall_Unity\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
      </Reference>
+     <Reference Include="UIEffect">
+     <HintPath>D:\UnityProject\MW22_Ep1_CutTheBall_Unity\Library\ScriptAssemblies\UIEffect.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.VisualScripting.Shared.Editor">
      <HintPath>D:\UnityProject\MW22_Ep1_CutTheBall_Unity\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
      </Reference>
@@ -1341,15 +1365,6 @@
      </Reference>
      <Reference Include="Unity.VisualScripting.State">
      <HintPath>D:\UnityProject\MW22_Ep1_CutTheBall_Unity\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
-     </Reference>
-     <Reference Include="UIEffect">
-     <HintPath>D:\UnityProject\MW22_Ep1_CutTheBall_Unity\Library\ScriptAssemblies\UIEffect.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.TextMeshPro.Editor">
-     <HintPath>D:\UnityProject\MW22_Ep1_CutTheBall_Unity\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.TextMeshPro">
-     <HintPath>D:\UnityProject\MW22_Ep1_CutTheBall_Unity\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>

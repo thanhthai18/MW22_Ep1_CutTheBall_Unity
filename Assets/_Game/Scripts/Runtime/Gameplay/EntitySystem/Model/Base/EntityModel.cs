@@ -1,3 +1,4 @@
+using Runtime.Config;
 using UnityEngine;
 using Runtime.Definition;
 
@@ -6,14 +7,14 @@ namespace Runtime.Gameplay.EntitySystem
     public abstract class EntityModel
     {
         #region Members
-
+        
         protected uint entityUId;
         protected string entityId;
         protected Vector2 position;
-        protected int detectedPriority;
         protected Vector2 originalPosition;
         protected bool isActive;
-        protected Bound bound;
+        protected float jumpPower;
+        protected float jumpDuration;
 
         #endregion Members
 
@@ -29,11 +30,9 @@ namespace Runtime.Gameplay.EntitySystem
             get => isActive;
         }
 
-        public Bound Bound
-        {
-            get => bound;
-            set => bound = value;
-        }
+        public virtual float JumpDuration => jumpDuration;
+        
+        public virtual float JumpPower => jumpPower;
 
         public Vector2 Position
         {
@@ -41,44 +40,28 @@ namespace Runtime.Gameplay.EntitySystem
             set => position = value;
         }
 
-        public Vector2 CenterPosition
-        {
-            get => position + Vector2.up * Height * 0.5f;
-        }
-
-        public Vector2 TopPosition
-        {
-            get => position + Vector2.up * Height;
-        }
-
         public Vector2 OriginalPosition
         {
             get => originalPosition;
             set => originalPosition = value;
         }
-
-        public virtual int Level { get { return 1; } }
-        public float Height { get { return bound.Height; } }
-        public float Radius { get { return bound.Width; } }
+        
         public uint EntityUId { get { return entityUId; } }
         public string EntityId { get { return entityId; } }
-        public int DetectedPriority { get { return detectedPriority; } }
         public EntityType EntityType { get; private set; }
 
         #endregion Properties
 
         #region Class Methods
 
-        public EntityModel(uint entityUId, string entityId, int detectedPriority)
+        public EntityModel(uint entityUId, string entityId, EntityModelData entityModelData)
         {
             InitEvents();
             this.entityUId = entityUId;
             this.entityId = entityId;
-            this.detectedPriority = detectedPriority;
+            jumpPower = entityModelData.configItem.jumpPower;
+            jumpDuration = entityModelData.configItem.jumpDuration;
         }
-
-        public Vector2 GetEdgePoint(Vector2 centerToEdgeDirection)
-            => Bound.GetEdgePoint(centerToEdgeDirection);
 
         public void SetActive(bool isActive)
             => this.isActive = isActive;
@@ -86,7 +69,9 @@ namespace Runtime.Gameplay.EntitySystem
         public static implicit operator bool(EntityModel entityModel)
             => entityModel != null;
 
-        protected virtual void InitEvents() { }
+        protected virtual void InitEvents()
+        {
+        }
 
         #endregion Class Methods
     }
@@ -101,6 +86,22 @@ namespace Runtime.Gameplay.EntitySystem
         public static bool IsBoom(this EntityType entityType)
             => entityType == EntityType.Boom;
 
+
+        #endregion Class Methods
+    }
+    
+    public class EntityModelData
+    {
+        #region Members
+
+        public EntityDataConfigItem configItem;
+        
+        #endregion Members
+        
+        #region Class Methods
+        
+        public EntityModelData(EntityDataConfigItem configItem)
+            => this.configItem = configItem;
 
         #endregion Class Methods
     }

@@ -19,7 +19,7 @@ namespace Runtime.Definition
         public const string HAS_LOAD_SERVER_DATA = "has_load_server_data";
         public const string DATA_SAVED_FOLDER = "/Save/";
         public const string DATA_SAVE_PATH = "/Save/Data.dat";
-        public const int TIME_OF_A_DAY_IN_SECONDS = 86400;//30; // // 600; //24 * 60 * 60; // 1 day
+        public const int TIME_OF_A_DAY_IN_SECONDS = 86400; //30; // // 600; //24 * 60 * 60; // 1 day
         public const int TIME_OF_A_WEEK_IN_SECONDS = 604800; //60; // // // 7200; //24 * 60 * 60 * 7; // 7 day
         public const float COORDINATE_AXES_OFFSET_DEGREES = 90.0f;
         public const float CIRCLE_DEGREES = 360.0f;
@@ -31,6 +31,27 @@ namespace Runtime.Definition
 
         #region Class Methods
 
+        public static Vector3 GetRandomPosition()
+        {
+            Camera mainCamera = Camera.main;
+            float screenWidth = mainCamera.pixelWidth;
+            float screenHeight = mainCamera.pixelHeight;
+
+            Vector3 randomScreenPosition = new Vector3(Random.Range(0, screenWidth), Random.Range(0, screenHeight), 0f);
+            Vector3 worldPosition = mainCamera.ScreenToWorldPoint(randomScreenPosition);
+            worldPosition.z = 0f;
+
+            return worldPosition;
+        }
+
+        public static Vector3 GetRandomStartPosition()
+        {
+            float margin = 10f; 
+            float yPosition = -Screen.height - margin;
+            Vector3 randomStartPos = GetRandomPosition();
+            randomStartPos.y = yPosition;
+            return randomStartPos;
+        }
 
         #endregion Class Methods
     }
@@ -38,8 +59,8 @@ namespace Runtime.Definition
     public class VFXKey
     {
         #region Members
-       
-        public const string REQUIRED_VISUAL = "required_visual";
+
+        public const string EXPLORE_VFX = "{0}_explore_vfx";
 
         #endregion Members
     }
@@ -125,6 +146,7 @@ namespace Runtime.Definition
         public const string SKILL_DATA_CONFIG_ASSET_FORMAT = "Runtime.Config.{0}SkillDataConfig";
         public const string HERO_IDLE_ANIMATION = "Idle_{0}";
         public const string HERO_MOVE_ANIMATION = "Move_{0}";
+        public const string ENTITY_DATA_CONFIG_ASSET_FORMAT = "Runtime.Config.{0}DataConfig";
 
         #endregion Members
     }

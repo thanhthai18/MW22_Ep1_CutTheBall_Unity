@@ -13,47 +13,23 @@ MonoBehaviour:
   m_Name: Entity
   m_EditorClassIdentifier: 
   classInfomations:
-  - className: Runtime.Config.HeroConfig
+  - className: Runtime.Config.BallDataConfig
     csvInformations:
-    - className: Runtime.Config.HeroConfig
-      csvFile: {fileID: 0}
-      csvPath: 
-      usingFolder: 1
-      csvFolderPath: Assets/Csv/Entity/Character/Hero
-      separateScriptableObject: 1
-      fileStartWith: Hero_
+    - className: Runtime.Config.BallDataConfig
+      csvFile: {fileID: 4900000, guid: 583a8a4d38086ae44bbdfb61435def90, type: 3}
+      csvPath: Assets/Csv/BallDataConfig.csv
+      usingFolder: 0
+      csvFolderPath: 
+      separateScriptableObject: 0
+      fileStartWith: 
       fieldSetValue: items
       isConvert: 0
       convertMethod: 
-  - className: Runtime.Config.BossConfig
+  - className: Runtime.Config.BoomDataConfig
     csvInformations:
-    - className: Runtime.Config.BossConfig
-      csvFile: {fileID: 0}
-      csvPath: 
-      usingFolder: 1
-      csvFolderPath: Assets/Csv/Entity/Character/Boss
-      separateScriptableObject: 1
-      fileStartWith: Boss_
-      fieldSetValue: items
-      isConvert: 0
-      convertMethod: 
-  - className: Runtime.Config.EnemyConfig
-    csvInformations:
-    - className: Runtime.Config.EnemyConfig
-      csvFile: {fileID: 4900000, guid: 6cf9903b53752d741aff6b3cec2f49a0, type: 3}
-      csvPath: Assets/Csv/Entity/Character/Enemy/Enemy.csv
-      usingFolder: 1
-      csvFolderPath: Assets/Csv/Entity/Character/Enemy
-      separateScriptableObject: 1
-      fileStartWith: Enemy_
-      fieldSetValue: items
-      isConvert: 0
-      convertMethod: 
-  - className: Runtime.Config.ObjectConfig
-    csvInformations:
-    - className: Runtime.Config.ObjectConfig
-      csvFile: {fileID: 4900000, guid: 1a4a0c3cb0943ba4bb69ff936b8693e5, type: 3}
-      csvPath: Assets/Csv/Entity/Object/Object.csv
+    - className: Runtime.Config.BoomDataConfig
+      csvFile: {fileID: 4900000, guid: f674bb2bab43b7444a7b97996a7c4cd7, type: 3}
+      csvPath: Assets/Csv/BoomDataConfig.csv
       usingFolder: 0
       csvFolderPath: 
       separateScriptableObject: 0

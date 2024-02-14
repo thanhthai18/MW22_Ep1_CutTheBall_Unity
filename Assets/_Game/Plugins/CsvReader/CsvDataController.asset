@@ -13,13 +13,5 @@ MonoBehaviour:
   m_Name: CsvDataController
   m_EditorClassIdentifier: 
   data:
-  - {fileID: 11400000, guid: 11fb9dea9dc5a00459b136a10922ca52, type: 2}
-  - {fileID: 11400000, guid: c65fa349fa7644e4ca5fe2afef16c4e9, type: 2}
   - {fileID: 11400000, guid: ce0671c024f38b94aaa0903c63ba759a, type: 2}
-  - {fileID: 11400000, guid: f7f3782610728054ab80c9b51e2280d6, type: 2}
-  - {fileID: 11400000, guid: f57ba0b32b5e2484cbbfc1cc470e5f53, type: 2}
-  - {fileID: 11400000, guid: 76010722637024f499202c87cb8eac8b, type: 2}
-  - {fileID: 11400000, guid: 5ff7486ed1c8ce74aab348f717af0656, type: 2}
-  - {fileID: 11400000, guid: 503e406c7fc43f046944ec27005e035a, type: 2}
-  - {fileID: 11400000, guid: 2076b8d96c6366d4e98ae08ca361066e, type: 2}
-  csvDataName: Ball
+  csvDataName: Entity
