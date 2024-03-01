@@ -1,19 +1,19 @@
-﻿using System.Threading;
+﻿using System;
+using System.Threading;
+using Cysharp.Threading.Tasks;
 using UnityEngine;
 using Runtime.Message;
 using Runtime.Definition;
 using Runtime.SceneLoading;
-using Runtime.Gameplay.Map;
 using Runtime.Manager.Game;
-using Runtime.Common.Singleton;
 using Runtime.Gameplay.EntitySystem;
+using Random = UnityEngine.Random;
 
 namespace Runtime.Gameplay.Manager
 {
     public abstract class BaseGameplayFlowProcessor<EM, SM, LM> : MonoBehaviour where EM : EntitiesManager
                                                                                 where SM : SplitManager
                                                                                 where LM : LifeManager
-
     {
         #region Members
 
@@ -22,15 +22,19 @@ namespace Runtime.Gameplay.Manager
         protected static LM lifeManager;
         protected CameraManager cameraManager;
         protected CancellationTokenSource gameplayFlowCancellationTokenSource;
-        protected MessageRegistry<GameStateChangedMessage> gameStateChangedMessageRegistry;
+        
+        private bool _gameEnd;
+        private readonly int _ballSpawnIntervalInMilisecond = 1000;
+        private readonly float _bombSpawnChance = 0.2f;
 
         #endregion Members
 
         #region Properties
-
-        public static EM S_EntitiesManager => entitiesManager;
-        public static SM S_SplitManager => splitManager;
-        public static LM S_LifeManager => lifeManager;
+        
+        public abstract GameStateEventType State { get; protected set; }
+        public static EM EntitiesManager => entitiesManager;
+        public static SM SplitManager => splitManager;
+        public static LM LifeManager => lifeManager;
         
         #endregion Properties
 
@@ -38,12 +42,11 @@ namespace Runtime.Gameplay.Manager
 
         protected virtual void Awake()
         {
-            entitiesManager = EntitiesManager.Instance as EM;
-            splitManager = SplitManager.Instance as SM;
-            lifeManager = LifeManager.Instance as LM;
+            entitiesManager = Manager.EntitiesManager.Instance as EM;
+            splitManager = Manager.SplitManager.Instance as SM;
+            lifeManager = Manager.LifeManager.Instance as LM;
             cameraManager = CameraManager.Instance;
             gameplayFlowCancellationTokenSource = new CancellationTokenSource();
-            gameStateChangedMessageRegistry = Messenger.Subscribe<GameStateChangedMessage>(OnGameStateChanged);
             SceneManager.RegisterBeforeChangeScene(OnBeforeChangeScene);
         }
 
@@ -51,47 +54,20 @@ namespace Runtime.Gameplay.Manager
         {
             gameplayFlowCancellationTokenSource.Cancel();
             gameplayFlowCancellationTokenSource.Dispose();
-            gameStateChangedMessageRegistry.Dispose();
         }
 
         #endregion API Methods
 
         #region Class Methods
 
+        public abstract void ChangeState(GameStateEventType newState);
+            
+ 
         // protected virtual void OnObjectDestroyed(ObjectDestroyedMessage objectDestroyedMessage)
         // {
         //     entitiesManager.HandleObjectDestroyed(objectDestroyedMessage, gameplayFlowCancellationTokenSource.Token);
         //     gameResourceManager.HandleObjectDestroyed(objectDestroyedMessage, gameplayFlowCancellationTokenSource.Token);
         // }
-
-        protected virtual void OnGameStateChanged(GameStateChangedMessage gameStateChangedMessage)
-        {
-            switch (gameStateChangedMessage.GameStateEventType)
-            {
-                case GameStateEventType.GameFlowStopped:
-                    //heroesControllerManager.HandleGameFlowStopped();
-                    break;
-            
-                case GameStateEventType.DataLoaded:
-                    GameManager.Instance.SetGameMomentType(GameMomentType.StartGame);
-                    //S_SplitManager.HandleDataLoaded(gameplayFlowCancellationTokenSource.Token);
-                    //S_EntitiesManager.HandleDataLoaded(gameplayFlowCancellationTokenSource.Token);
-                    break;
-            
-                case GameStateEventType.BallSpawned:
-                    break;
-                
-                case GameStateEventType.BoomSpawned:
-                    break;
-                
-                case GameStateEventType.BallExplored:
-                    break;
-                
-                case GameStateEventType.BoomExplored:
-                    break;
-            }
-        }
-
         // protected virtual void OnGateEventTriggered(GateEventTriggeredMessage gateEventTriggeredMessage)
         //     => mapManager.HandleGateEventTriggered(gateEventTriggeredMessage);
         //

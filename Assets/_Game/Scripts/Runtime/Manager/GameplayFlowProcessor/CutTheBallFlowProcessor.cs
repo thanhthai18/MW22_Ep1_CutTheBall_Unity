@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using Runtime.Definition;
 using Runtime.Gameplay.Map;
 using Runtime.Message;
@@ -9,12 +10,14 @@ using Runtime.Manager.Time;
 using Cysharp.Threading.Tasks;
 using Runtime.UI;
 using UnityScreenNavigator.Runtime.Core.Shared.Views;
+using Random = UnityEngine.Random;
 
 namespace Runtime.Gameplay.Manager
 {
-    public sealed class CutTheBallFlowProcessor : BaseGameplayFlowProcessor<EntitiesManager,
-                                                                            SplitManager,
-                                                                            LifeManager>
+    public class CutTheBallFlowProcessor : BaseGameplayFlowProcessor<EntitiesManager,
+                                                                     SplitManager,
+                                                                     LifeManager>
+    
     {
         #region Members
 
@@ -26,6 +29,8 @@ namespace Runtime.Gameplay.Manager
         #endregion Members
 
         #region API Methods
+
+        public override GameStateEventType State { get; protected set; }
 
         protected override void Awake()
         {
@@ -43,55 +48,53 @@ namespace Runtime.Gameplay.Manager
 
         #region Class Methods
 
-        protected override void OnGameStateChanged(GameStateChangedMessage gameStateChangedMessage)
-        {
-            base.OnGameStateChanged(gameStateChangedMessage);
-            switch (gameStateChangedMessage.GameStateEventType)
-            {
+        public override void ChangeState(GameStateEventType newState) {
+            
+            Messenger.Publish(new GameStateChangedMessage(newState));
+
+            State = newState;
+            switch (newState) {
+                case GameStateEventType.GameFlowStopped:
+                    //heroesControllerManager.HandleGameFlowStopped();
+                    break;
+            
                 case GameStateEventType.DataLoaded:
+                    GameManager.Instance.SetGameMomentType(GameMomentType.StartGame);
+                    //S_SplitManager.HandleDataLoaded(gameplayFlowCancellationTokenSource.Token);
+                    //S_EntitiesManager.HandleDataLoaded(gameplayFlowCancellationTokenSource.Token);
                     //_worldMapTimeManager.HandleDataLoaded();
-                    S_LifeManager.HandleDataLoaded();
+                    LifeManager.HandleDataLoaded();
                     SpawnEntities().Forget();
                     break;
-
-                // case GameStateEventType.HeroTeamPickUpdated:
-                //     mapManager.HandleHeroTeamPickUpdated(gameplayFlowCancellationTokenSource.Token);
-                //     break;
-                //
-                // case GameStateEventType.NewDayReset:
-                //     mapManager.HandleNewDayReset(gameplayFlowCancellationTokenSource.Token);
-                //     break;
-                //
-                // case GameStateEventType.ReviveMapTriggered:
-                //     mapManager.HandleReviveMapTriggered(gameplayFlowCancellationTokenSource.Token);
-                //     GameManager.Instance.SetGameMomentType(GameMomentType.StartGame);
-                //     break;
-                //
-                // case GameStateEventType.GiveUpWorldMapTriggered:
-                //     mapManager.HandleGiveUpMapTriggered(gameplayFlowCancellationTokenSource.Token);
-                //     GameManager.Instance.SetGameMomentType(GameMomentType.StartGame);
-                //     break;
-                //
-                // case GameStateEventType.CampCleanUp:
-                //     var playResult = PlayResult.None;
-                //     entitiesManager.HandleCampCleanUp(gameplayFlowCancellationTokenSource.Token, out playResult);
-                //     switch (playResult)
-                //     {
-                //         case PlayResult.LostGame:
-                //             HandleGameLost();
-                //             break;
-                //     }
-                //     break;
+                
+            
+                case GameStateEventType.BallSpawned:
+                    break;
+                
+                case GameStateEventType.BoomSpawned:
+                    break;
+                
+                case GameStateEventType.BallExplored:
+                    break;
+                
+                case GameStateEventType.BoomExplored:
+                    break;
+                default:
+                    throw new ArgumentOutOfRangeException(nameof(newState), newState, null);
             }
-        }
 
-        private async UniTask SpawnEntities()
+            Messenger.Publish(new GameStateChangedMessage(newState));
+        
+            Debug.Log($"New state: {newState}");
+        }
+      
+        protected virtual async UniTask SpawnEntities()
         {
-            while (S_LifeManager.IsAlive() && !_gameEnd)
+            while (LifeManager.IsAlive() && !_gameEnd)
             {
                 await UniTask.Delay(_ballSpawnIntervalInMilisecond, cancellationToken: gameplayFlowCancellationTokenSource.Token);
                 EntityType entityType = Random.value < _bombSpawnChance ? EntityType.Boom : EntityType.Ball;
-                S_EntitiesManager.CreateDefaultEntityAsync(entityType, Vector2.zero, gameplayFlowCancellationTokenSource.Token);
+                EntitiesManager.CreateDefaultEntityAsync(entityType, Vector2.zero, gameplayFlowCancellationTokenSource.Token);
             }
         }
 

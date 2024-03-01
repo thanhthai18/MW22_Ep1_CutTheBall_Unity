@@ -16,6 +16,11 @@ namespace Runtime.Gameplay.Manager
     {
         #region Class Methods
 
+        public void Test()
+        {
+            
+        }
+
         // public virtual void HandleEnemyDied(EnemyDiedMessage enemyDiedMessage, CancellationToken cancellationToken) { }
         // public virtual void HandleObjectDestroyed(ObjectDestroyedMessage objectDestroyedMessage, CancellationToken cancellationToken) { }
         //
