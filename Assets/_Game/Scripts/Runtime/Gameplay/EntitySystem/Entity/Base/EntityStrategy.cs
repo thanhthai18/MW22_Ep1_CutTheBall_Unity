@@ -1,17 +1,23 @@
+using System;
 using Cysharp.Threading.Tasks;
 using DG.Tweening;
 using Runtime.Definition;
+using Runtime.Extensions;
+using Runtime.Gameplay.Manager;
 using Runtime.Manager.Pool;
 using UnityEngine;
 
 namespace Runtime.Gameplay.EntitySystem
 {
-    public abstract class EntityStrategy<T> : Disposable, IEntityStrategy where T : EntityModel
+    public abstract class EntityStrategy<T> : Disposable, IEntityStrategy, IFaceDirection where T : EntityModel
     {
         #region Members
 
         protected T ownerModel;
         protected IEntityAnimationPlayer entityAnimationPlayer;
+        protected Vector3 previousPosition;
+        private readonly int _numberObJumps = 1;
+        private readonly float _powerRotate = 5;
 
         #endregion Members
 
@@ -21,35 +27,61 @@ namespace Runtime.Gameplay.EntitySystem
         public bool IsActive => ownerModel.IsActive;
         public float JumpPower => ownerModel.JumpPower;
         public float JumpDuration => ownerModel.JumpDuration;
+        public FaceDirectionType FaceDirection => ownerModel.DestinationPosition.x >= ownerModel.OriginalPosition.x ? FaceDirectionType.FaceRight : FaceDirectionType.FaceLeft;
 
         #endregion Properties
 
+        #region API Methods
+
+        private void OnMouseEnter()
+        {
+            if (CanAllowCollision())
+                Collision();
+        }
+
+        #endregion API Methods
+
         #region Class Methods
         
-        public virtual void Build(EntityModel model, Vector3 position)
+        public virtual void Build(EntityModel model, Vector3 spawnPosition, Vector3 destinationPosition)
         {
             ownerModel = model as T;
             EntityUId = model.EntityUId;
             HasDisposed = false;
-            SetUpPosition(position);
+            SetUpPosition(spawnPosition, destinationPosition);
             SetUpScale();
             ExecuteInitialize();
         }
 
         public virtual void Jump()
         {
-            Vector3 jumpTarget = Constant.GetRandomStartPosition(); 
+            Vector3 jumpTarget = Constant.GetRandomStartPosition();
 
-            transform.DOJump(jumpTarget, JumpPower, 1, JumpDuration)
+            var finalJumpPower = JumpPower + GameExtensions.RandomTwoValue(1, -1) * Constant.SPREAD_JUMP_POWER;
+            transform.DOJump(ownerModel.DestinationPosition, finalJumpPower, _numberObJumps, JumpDuration)
+                .OnUpdate(RotateSelf)
                 .SetEase(Ease.OutQuad)
                 .OnComplete(Missed);
             SetAnimation(EntityAnimationState.Move);
         }
+
+        public virtual void RotateSelf()
+        {
+            if (FaceDirection == FaceDirectionType.FaceRight)
+            {
+                transform.eulerAngles += new Vector3(0, 0, _powerRotate);
+            }
+            else if (FaceDirection == FaceDirectionType.FaceLeft)
+            {
+                transform.eulerAngles -= new Vector3(0, 0, _powerRotate);
+            }
+        }
         
         public virtual void Collision()
         {
+            ownerModel.SetActive(false);
             SetAnimation(EntityAnimationState.Explore);
-            GenerateVFXExplore(ownerModel).Forget();
+            //GenerateVFXExplore(ownerModel).Forget();
             transform.DOKill();
         } 
         
@@ -62,6 +94,8 @@ namespace Runtime.Gameplay.EntitySystem
                 transform.DOKill();
             }
         }
+
+        public virtual bool CanAllowCollision() => ownerModel.IsActive && SplitManager.Instance.InSplit;
 
         protected virtual void InitActions(T model)
         {
@@ -97,11 +131,12 @@ namespace Runtime.Gameplay.EntitySystem
             }
         }
         
-        protected virtual void SetUpPosition(Vector3 position)
+        protected virtual void SetUpPosition(Vector3 position, Vector3 desinationPosition)
         {
             transform.position = position;
             ownerModel.Position = position;
             ownerModel.OriginalPosition = position;
+            ownerModel.DestinationPosition = desinationPosition;
         }
         
         protected virtual void SetUpScale()
@@ -112,9 +147,16 @@ namespace Runtime.Gameplay.EntitySystem
 
         protected async UniTask GenerateVFXExplore(T model)
         {
-            var entityType = model.EntityType;
-            string prefabId = string.Format(VFXKey.EXPLORE_VFX, entityType);
-            await PoolManager.Instance.Get(prefabId, gameObject.GetCancellationTokenOnDestroy());
+            try
+            {
+                var entityType = model.EntityType;
+                string prefabId = string.Format(VFXKey.EXPLORE_VFX, entityType);
+                await PoolManager.Instance.Get(prefabId, gameObject.GetCancellationTokenOnDestroy());
+            }
+            catch
+            {
+                Debug.Log("chua co vfx");
+            }
         }
         
         protected virtual void ExecuteValidate() { }

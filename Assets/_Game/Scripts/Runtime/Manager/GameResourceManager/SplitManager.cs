@@ -1,24 +1,66 @@
-﻿using System.Linq;
-using System.Threading;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using Runtime.Common.Singleton;
-using Runtime.Definition;
-using Runtime.Extensions;
-using Runtime.Manager.Data;
-using Runtime.Manager.Toast;
-using Runtime.Message;
-using Cysharp.Threading.Tasks;
+
 
 namespace Runtime.Gameplay.Manager
 {
     public class SplitManager : MonoSingleton<SplitManager>
     {
+        #region Members
+
+        [SerializeField] private Camera mainCamera;
+        private bool isHoldMouse;
+        public TrailRenderer trail;
+        private float _countCheckSplit;
+        private readonly float _valueAllowSplit = 1;
+
+        #endregion Members
+
+        #region Properties
+
+        public bool InSplit => trail.enabled && isHoldMouse && _countCheckSplit >= _valueAllowSplit;
+
+        #endregion Properties
+
+        #region API Methods
+
+        private void Awake()
+        {
+            isHoldMouse = false;
+            mainCamera = Camera.main;
+            trail = GetComponent<TrailRenderer>();
+        }
+
+        #endregion API Methods
+
         #region Class Methods
 
-        public void Test()
+        private void Update()
         {
-            
+            if (Input.GetMouseButtonDown(0))
+            {
+                _countCheckSplit = 0;
+                trail.enabled = false;
+                isHoldMouse = true;
+            }
+
+            if (Input.GetMouseButtonUp(0))
+            {
+                _countCheckSplit = 0;
+                isHoldMouse = false;
+            }
+
+            if (isHoldMouse)
+            {
+                Debug.Log("---" + InSplit);
+                if (!InSplit)
+                    _countCheckSplit += Time.deltaTime;
+                transform.position = (Vector2)mainCamera.ScreenToWorldPoint(Input.mousePosition);
+                if (!trail.enabled)
+                {
+                    trail.enabled = true;
+                }
+            }
         }
 
         // public virtual void HandleEnemyDied(EnemyDiedMessage enemyDiedMessage, CancellationToken cancellationToken) { }

@@ -3,6 +3,7 @@ using System.Text;
 using System.Collections.Generic;
 using UnityEngine;
 using Runtime.Definition;
+using Random = UnityEngine.Random;
 
 namespace Runtime.Extensions
 {
@@ -176,6 +177,12 @@ namespace Runtime.Extensions
             if (original.ContainsKey(key))
                 original.Remove(key);
             original.Add(key, value);
+        }
+
+        public static T RandomTwoValue<T>(T value1, T value2)
+        {
+            int ran = Random.Range(0, 2);
+            return ran == 0 ? value1 : value2;
         }
 
         #endregion Class Methods

@@ -4,12 +4,6 @@ using UnityEngine;
 
 namespace Runtime.Animation
 {
-    public enum LoopType
-    {
-        Repeat,
-        Yoyo
-    }
-
     /// <summary>
     /// This controls the animation that uses sprites.
     /// </summary>

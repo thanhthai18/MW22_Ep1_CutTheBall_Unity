@@ -124,19 +124,4 @@ namespace Runtime.Gameplay.Manager
 
         #endregion Class Methods
     }
-
-    public enum OrthographicType
-    {
-        Normal = 100,
-        ZoomInDeep = 65,
-        ZoomIn = 80,
-        ZoomOut = 125,
-        ZoomOutDeep = 140,
-    }
-
-    public enum ShakeType
-    {
-        Normal = 50,
-        Hard = 200,
-    }
 }

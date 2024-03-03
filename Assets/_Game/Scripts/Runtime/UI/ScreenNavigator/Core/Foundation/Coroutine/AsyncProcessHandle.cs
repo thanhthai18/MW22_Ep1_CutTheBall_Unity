@@ -5,13 +5,6 @@ using UnityEngine;
 
 namespace UnityScreenNavigator.Runtime.Foundation.Coroutine
 {
-    internal interface IAsyncProcessHandleSetter
-    {
-        void Complete(object result);
-
-        void Error(Exception ex);
-    }
-
     public class AsyncProcessHandle : CustomYieldInstruction, IAsyncProcessHandleSetter
     {
         private readonly UniTaskCompletionSource<object> _tcs = new();

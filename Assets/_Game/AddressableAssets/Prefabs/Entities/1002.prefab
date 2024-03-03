@@ -58,7 +58,7 @@ MonoBehaviour:
     haveEvent: 0
     frameTriggeredEvent: 0
     spawnPointsTransform: []
-  - spriteAnimationName: 1002_Idle
+  - spriteAnimationName: 1002_Explore
     state: 3
     isLoop: 1
     haveEvent: 0
@@ -226,8 +226,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animations:
   - {fileID: 11400000, guid: 6a2a23ebbb945af4d9c56086fe917613, type: 2}
-  - {fileID: 11400000, guid: 6a2a23ebbb945af4d9c56086fe917613, type: 2}
-  - {fileID: 11400000, guid: 6a2a23ebbb945af4d9c56086fe917613, type: 2}
+  - {fileID: 11400000, guid: 7f88afc9ff62abf44bcb07b068142507, type: 2}
   useScaledDeltaTime: 0
   initFrame: 0
   spriteRenderer: {fileID: 5101037375363362349}

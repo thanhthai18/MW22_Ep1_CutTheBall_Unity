@@ -11,14 +11,6 @@ using static Runtime.Manager.Toast.ToastManager;
 
 namespace Runtime.Manager.Toast
 {
-    public enum ToastVisualType
-    {
-        Reward = 0,
-        Text = 1,
-        Map = 2,
-    }
-
-
     public class ToastManager : MonoSingleton<ToastManager>
     {
         #region Members

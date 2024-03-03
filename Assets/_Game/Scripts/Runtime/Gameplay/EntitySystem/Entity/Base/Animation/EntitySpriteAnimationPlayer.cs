@@ -1,29 +1,9 @@
-using System;
 using System.Linq;
 using UnityEngine;
 using Runtime.Animation;
-using Sirenix.OdinInspector;
 
 namespace Runtime.Gameplay.EntitySystem
 {
-    [Serializable]
-    public class StateSpriteAnimation
-    {
-        #region Members
-
-        public string spriteAnimationName;
-        public EntityAnimationState state;
-        public bool isLoop;
-
-        public bool haveEvent;
-        [ShowIf(nameof(haveEvent))]
-        public int frameTriggeredEvent;
-        [ShowIf(nameof(haveEvent))]
-        public Transform[] spawnPointsTransform;
-
-        #endregion Members
-    }
-
     public class EntitySpriteAnimationPlayer : MonoBehaviour, IEntityAnimationPlayer
     {
         #region Members

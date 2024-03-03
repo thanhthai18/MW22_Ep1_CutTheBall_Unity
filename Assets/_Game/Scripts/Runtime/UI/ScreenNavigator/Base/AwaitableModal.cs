@@ -2,15 +2,6 @@ using Cysharp.Threading.Tasks;
 
 namespace Runtime.UI
 {
-    public interface IAwaitableModal
-    {
-        #region Interface Methods
-
-        UniTask WaitAsync();
-
-        #endregion Interface Methods
-    }
-
     public abstract class AwaitableModal<T> : Modal<T>, IAwaitableModal where T : ModalData
     {
         #region Members

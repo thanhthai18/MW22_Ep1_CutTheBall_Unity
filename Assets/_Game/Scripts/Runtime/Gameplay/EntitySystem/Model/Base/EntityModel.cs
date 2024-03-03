@@ -1,4 +1,3 @@
-using Runtime.Config;
 using UnityEngine;
 using Runtime.Definition;
 
@@ -12,6 +11,7 @@ namespace Runtime.Gameplay.EntitySystem
         protected string entityId;
         protected Vector2 position;
         protected Vector2 originalPosition;
+        protected Vector2 destinationPosition;
         protected bool isActive;
         protected float jumpPower;
         protected float jumpDuration;
@@ -45,6 +45,12 @@ namespace Runtime.Gameplay.EntitySystem
             get => originalPosition;
             set => originalPosition = value;
         }
+
+        public Vector2 DestinationPosition
+        {
+            get => destinationPosition;
+            set => destinationPosition = value;
+        } 
         
         public uint EntityUId { get { return entityUId; } }
         public string EntityId { get { return entityId; } }
@@ -72,36 +78,6 @@ namespace Runtime.Gameplay.EntitySystem
         protected virtual void InitEvents()
         {
         }
-
-        #endregion Class Methods
-    }
-
-    public static class EntityModelExtensions
-    {
-        #region Class Methods
-
-        public static bool IsBall(this EntityType entityType)
-            => entityType == EntityType.Ball;
-
-        public static bool IsBoom(this EntityType entityType)
-            => entityType == EntityType.Boom;
-
-
-        #endregion Class Methods
-    }
-    
-    public class EntityModelData
-    {
-        #region Members
-
-        public EntityDataConfigItem configItem;
-        
-        #endregion Members
-        
-        #region Class Methods
-        
-        public EntityModelData(EntityDataConfigItem configItem)
-            => this.configItem = configItem;
 
         #endregion Class Methods
     }

@@ -4,14 +4,6 @@ using UnityEngine;
 
 namespace UnityScreenNavigator.Runtime.Foundation.Animation
 {
-    internal delegate float CalcDeltaTime(float deltaTime);
-
-    public enum DeltaTimeType
-    {
-        Unscaled,
-        Timescaled,
-    }
-
     internal class UpdateDispatcher : MonoBehaviour
     {
         private static UpdateDispatcher _instance;
@@ -79,14 +71,6 @@ namespace UnityScreenNavigator.Runtime.Foundation.Animation
         public void Unregister(IUpdatable target)
         {
             _targets.Remove(target);
-        }
-    }
-
-    public static class AnimationUpdateDeltaTime
-    {
-        public static void Set(DeltaTimeType type)
-        {
-            UpdateDispatcher.Instance.SetDeltaTime(type);
         }
     }
 }

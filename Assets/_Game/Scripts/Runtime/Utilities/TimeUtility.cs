@@ -2,15 +2,6 @@
 
 namespace Runtime.Utilities
 {
-    public enum TimeFormatType
-    {
-        AutoDetect,
-        Hhmmss,
-        Ddhhmmss,
-        Short,
-        Mmss,
-    }
-
     public static class TimeUtility
     {
         #region Class Methods

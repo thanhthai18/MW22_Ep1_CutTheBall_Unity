@@ -15,16 +15,6 @@ using UnityEngine.ResourceManagement.ResourceProviders;
 
 namespace Runtime.SceneLoading
 {
-    [Serializable]
-    public struct SceneLoaderData
-    {
-        #region Members
-
-        public List<SceneLoadingInfo> scenesLoadingInfo;
-
-        #endregion Members
-    }
-
     public class SceneManager : PersistentMonoSingleton<SceneManager>
     {
         #region Members

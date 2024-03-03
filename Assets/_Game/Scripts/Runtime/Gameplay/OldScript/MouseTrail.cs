@@ -12,6 +12,7 @@ public class MouseTrail : MonoBehaviour
     private void Awake()
     {
         isHoldMouse = false;
+        mainCamera = Camera.main;
         trail = GetComponent<TrailRenderer>();
     }
 

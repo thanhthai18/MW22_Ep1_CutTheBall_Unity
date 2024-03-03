@@ -475,6 +475,7 @@ namespace Runtime.Gameplay.Manager
         //
         protected virtual async UniTask LoadConfig(CancellationToken cancellationToken)
         {
+            await DataManager.Config.LoadEntityConfig(cancellationToken);
             Messenger.Publish(new GameStateChangedMessage(GameStateEventType.DataLoaded));
             IsDataLoaded = true;
         }
