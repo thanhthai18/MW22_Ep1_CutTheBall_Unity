@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 namespace Runtime.Gameplay.EntitySystem
@@ -12,6 +13,12 @@ namespace Runtime.Gameplay.EntitySystem
     /// </summary>
     public interface IEntityAnimationPlayer
     {
+        #region Actions
+
+        public Action<EntityAnimationState> OnCompletedAnimationStateCallback { get; set; }
+
+        #endregion Actions
+        
         #region Interface Methods
 
         void Init();

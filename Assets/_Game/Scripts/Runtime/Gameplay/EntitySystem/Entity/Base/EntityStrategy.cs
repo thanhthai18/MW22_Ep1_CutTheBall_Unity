@@ -114,12 +114,19 @@ namespace Runtime.Gameplay.EntitySystem
 #endif
             entityAnimationPlayer.Init();
             SetAnimation(EntityAnimationState.Idle);
+            entityAnimationPlayer.OnCompletedAnimationStateCallback = null;
+            entityAnimationPlayer.OnCompletedAnimationStateCallback += OnCompletedAnimationState;
         }
         
         public void SetActive(bool isActive)
         {
             ownerModel.SetActive(isActive);
-            gameObject.SetActive(isActive);
+            if(!isActive)
+                PoolManager.Instance.Remove(gameObject);
+            else
+            {
+                gameObject.SetActive(true);
+            }
         }
         
         public override void Dispose()
@@ -145,6 +152,14 @@ namespace Runtime.Gameplay.EntitySystem
         protected void SetAnimation(EntityAnimationState state)
             => entityAnimationPlayer.Play(state);
 
+        protected void OnCompletedAnimationState(EntityAnimationState state)
+        {
+            if (state == EntityAnimationState.Explore)
+            {
+                PoolManager.Instance.Remove(gameObject);
+            }
+        }
+
         protected async UniTask GenerateVFXExplore(T model)
         {
             try
@@ -166,7 +181,11 @@ namespace Runtime.Gameplay.EntitySystem
             InitAnimations();
             InitActions(ownerModel);
         }
-        protected virtual void ExecuteDispose() { }
+
+        protected virtual void ExecuteDispose()
+        {
+            entityAnimationPlayer.OnCompletedAnimationStateCallback = null;
+        }
 
         #endregion Class Methods
 

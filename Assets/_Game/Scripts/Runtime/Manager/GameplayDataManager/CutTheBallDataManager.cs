@@ -14,7 +14,6 @@ namespace Runtime.Gameplay.Manager
 
         protected override async UniTask LoadConfig(CancellationToken cancellationToken)
         {
-            await DataManager.Config.LoadEntityConfig(cancellationToken);
             await base.LoadConfig(cancellationToken);
         }
         

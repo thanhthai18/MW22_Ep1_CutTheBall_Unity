@@ -48,6 +48,7 @@ namespace Runtime.Animation
         /// Called when the animation is stopped.
         /// </summary>
         public Action AnimationStoppedAction { get; set; }
+        public Action AnimationCompletedAction { get; set; }
         private Action CurrentSkillEventTriggeredCallbackAction { get; set; }
         private int CurrentEventTriggeredFrame { get; set; }
 
@@ -240,6 +241,7 @@ namespace Runtime.Animation
                             if (currentOneShot)
                             {
                                 Stop();
+                                AnimationCompletedAction?.Invoke();
                                 return;
                             }
                             else

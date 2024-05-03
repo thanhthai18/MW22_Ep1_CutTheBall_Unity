@@ -60,7 +60,7 @@ MonoBehaviour:
     spawnPointsTransform: []
   - spriteAnimationName: 1000_Explore
     state: 3
-    isLoop: 1
+    isLoop: 0
     haveEvent: 0
     frameTriggeredEvent: 0
     spawnPointsTransform: []

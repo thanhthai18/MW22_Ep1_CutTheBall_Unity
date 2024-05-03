@@ -40,8 +40,9 @@ namespace Runtime.Gameplay.Manager
         {
             if (!_ballConfigItemsDictionary.ContainsKey(entityId))
             {
-                var ballDataConfigItems = DataManager.Config.GetBallDataConfigItem();
-                _ballConfigItemsDictionary.TryAdd(entityId, ballDataConfigItems.First());
+                var ballDataConfigItems = await DataManager.Config.LoadEntityConfig(cancellationToken);
+
+                _ballConfigItemsDictionary.TryAdd(entityId, ballDataConfigItems.ballDataConfig.First());
             }
 
             var ballModelData = new EntityModelData(_ballConfigItemsDictionary[entityId]);
@@ -52,8 +53,8 @@ namespace Runtime.Gameplay.Manager
         {
             if (!_boomConfigItemsDictionary.ContainsKey(entityId))
             {
-                var boomDataConfigItems = DataManager.Config.GetBoomDataConfigItem();
-                _boomConfigItemsDictionary.TryAdd(entityId, boomDataConfigItems.First());
+                var boomDataConfigItems = await DataManager.Config.LoadEntityConfig(cancellationToken);
+                _boomConfigItemsDictionary.TryAdd(entityId, boomDataConfigItems.ballDataConfig.First());
             }
 
             var boomModelData = new EntityModelData(_boomConfigItemsDictionary[entityId]);
@@ -475,7 +476,6 @@ namespace Runtime.Gameplay.Manager
         //
         protected virtual async UniTask LoadConfig(CancellationToken cancellationToken)
         {
-            await DataManager.Config.LoadEntityConfig(cancellationToken);
             Messenger.Publish(new GameStateChangedMessage(GameStateEventType.DataLoaded));
             IsDataLoaded = true;
         }

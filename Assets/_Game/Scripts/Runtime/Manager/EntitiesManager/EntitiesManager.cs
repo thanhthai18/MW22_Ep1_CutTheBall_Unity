@@ -59,7 +59,7 @@ namespace Runtime.Gameplay.Manager
         public virtual async UniTask<BallModel> CreateBallByIdAsync(string ballId, Vector2 spawnPosition, CancellationToken cancellationToken)
         {
             var ballModelData = await GameplayDataManager.Instance.GetBallModelDataAsync(ballId, cancellationToken);
-            var ballModel = EntityModelFactory.GetEntityModel(EntityType.Ball, entityUIdCounter++, ballId, ballModelData) as BallModel;
+            var ballModel = new BallModel(entityUIdCounter++, ballId, ballModelData);
             var ballGameObject = await PoolManager.Instance.Get(ballId, cancellationToken: cancellationToken, false);
             ballGameObject.transform.SetParent(transform);
             ballGameObject.layer = Layer.BALL_LAYER;
@@ -72,7 +72,7 @@ namespace Runtime.Gameplay.Manager
         public virtual async UniTask<BoomModel> CreateBoomByIdAsync(string boomId, Vector2 spawnPosition, Vector2 desinationPos, CancellationToken cancellationToken)
         {
             var boomModelData = await GameplayDataManager.Instance.GetBoomModelDataAsync(boomId, cancellationToken);
-            var boomModel = EntityModelFactory.GetEntityModel(EntityType.Boom, entityUIdCounter++, boomId, boomModelData) as BoomModel;
+            var boomModel = new BoomModel(entityUIdCounter++, boomId, boomModelData);
             var boomGameObject = await PoolManager.Instance.Get(boomId, cancellationToken: cancellationToken, false);
             boomGameObject.transform.SetParent(transform);
             boomGameObject.layer = Layer.BOOM_LAYER;
@@ -85,7 +85,7 @@ namespace Runtime.Gameplay.Manager
         {
             var ballId = CurrentBallId;
             var ballModelData = await GameplayDataManager.Instance.GetBallModelDataAsync(ballId, cancellationToken);
-            var ballModel = EntityModelFactory.GetEntityModel(EntityType.Ball, entityUIdCounter++, ballId, ballModelData) as BallModel;
+            var ballModel = new BallModel(entityUIdCounter++, ballId, ballModelData);
             var ballGameObject = await PoolManager.Instance.Get(ballId, cancellationToken: cancellationToken, false);
             ballGameObject.transform.SetParent(transform);
             ballGameObject.layer = Layer.BALL_LAYER;
@@ -98,7 +98,7 @@ namespace Runtime.Gameplay.Manager
         {
             var boomId = CurrentBoomId;
             var boomModelData = await GameplayDataManager.Instance.GetBoomModelDataAsync(boomId, cancellationToken);
-            var boomModel = EntityModelFactory.GetEntityModel(EntityType.Boom, entityUIdCounter++, boomId, boomModelData) as BoomModel;
+            var boomModel = new BoomModel(entityUIdCounter++, boomId, boomModelData);
             var boomGameObject = await PoolManager.Instance.Get(boomId, cancellationToken: cancellationToken, false);
             boomGameObject.transform.SetParent(transform);
             boomGameObject.layer = Layer.BOOM_LAYER;
@@ -107,42 +107,6 @@ namespace Runtime.Gameplay.Manager
             return boomModel;
         }
         
-        // public virtual void HandleHeroDied(HeroDiedMessage heroDiedMessage, CancellationToken cancellationToken, out PlayResult playResult)
-        // {
-        //     CreateHeroTombAsync(heroDiedMessage.HeroModel.EntityId, heroDiedMessage.HeroModel.Position, null, cancellationToken).Forget();
-        //     var removedHeroModelTransform = HeroModelTransforms.FirstOrDefault(x => x.Model == heroDiedMessage.HeroModel);
-        //     HeroModelTransforms.Remove(removedHeroModelTransform);
-        //     if (heroDiedMessage.HeroModel.FollowingModel == null)
-        //     {
-        //         if (HeroModelTransforms.Count > 0)
-        //         {
-        //             var newFollowingModel = HeroModelTransforms[UnityRandom.Range(0, HeroModelTransforms.Count)].Model;
-        //             MainHeroModel = newFollowingModel;
-        //             newFollowingModel.SetFollowingModel(null);
-        //             foreach (var heroModelTransform in HeroModelTransforms)
-        //             {
-        //                 if (heroModelTransform.Model != MainHeroModel)
-        //                     heroModelTransform.Model.SetFollowingModel(MainHeroModel);
-        //             }
-        //             DiedHeroModels.Add(heroDiedMessage.HeroModel);
-        //             playResult = PlayResult.None;
-        //         }
-        //         else
-        //         {
-        //             DiedHeroModels.Clear();
-        //             MainHeroModel = null;
-        //             playResult = PlayResult.LostGame;
-        //         }
-        //         DataManager.Transitioned.SetLastHeroStandPosition(heroDiedMessage.HeroModel.Position);
-        //     }
-        //     else
-        //     {
-        //         DiedHeroModels.Add(heroDiedMessage.HeroModel);
-        //         playResult = PlayResult.None;
-        //     }
-        // }
-        //
-       
         protected virtual async UniTask BuildEntityGameObjectAsync(GameObject entityGameObject, 
                                                                    EntityModel entityModel, 
                                                                    Vector2 spawnPosition,

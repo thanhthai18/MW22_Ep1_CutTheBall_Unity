@@ -10,11 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 91b34629397c2594a97836c1187b917b, type: 3}
-  m_Name: 2000_Explore
+  m_Name: 1000_Explore
   m_EditorClassIdentifier: 
   fps: 60
-  totalDuration: 1
+  totalDuration: 15
   frames:
-  - {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-  framesDuration: 01000000
+  - {fileID: 21300000, guid: 4cbc4f6cfea93894dae4feb8c3216beb, type: 3}
+  - {fileID: 21300000, guid: 2ae5f8234b72f0e469dd929c7c6ec838, type: 3}
+  - {fileID: 21300000, guid: c64df0e87cf1f2e4993ccf96d3aaf0db, type: 3}
+  framesDuration: 050000000500000005000000
   useSpriteNamePostFixAsDuration: 0
